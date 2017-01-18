@@ -1,0 +1,6 @@
+CREATE TABLE [_FromClaude2] (
+  [ID] AUTOINCREMENT CONSTRAINT [ID] PRIMARY KEY  UNIQUE  NOT NULL ,
+  [Customer Name] VARCHAR (255),
+  [Salesperson] VARCHAR (255),
+  [AxisMISEmployeeID] LONG 
+)

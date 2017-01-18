@@ -1,0 +1,4 @@
+CREATE TABLE [locFictionalCompanies] (
+  [ID] AUTOINCREMENT CONSTRAINT [ID] PRIMARY KEY  UNIQUE  NOT NULL ,
+  [CompanyName] VARCHAR (25)
+)

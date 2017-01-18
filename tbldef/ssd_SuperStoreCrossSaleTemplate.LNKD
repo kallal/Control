@@ -1,0 +1,4 @@
+﻿ssd_SuperStoreCrossSaleTemplate
+ODBC;DRIVER=SQL Server;SERVER=SS_DIRECTOR\IWDBSQL;DATABASE=iWayDbSql;APP=SMARTSTREAM;WSID=Axis;Network=DBMSSOCN
+dbo.SuperStoreCrossSaleTemplate
+TemplateID;+CrossSaleID
