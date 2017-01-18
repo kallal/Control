@@ -8,6 +8,7 @@ Begin OutputColumns
     Expression ="dbo_ProjectComponentPricingDetail.ProjectComponentID"
     Expression ="dbo_ProjectComponentPricingDetail.*"
     Expression ="dbo_ProjectComponentPricingDetail.Cost"
+    Expression ="dbo_ProjectComponentPricingDetail.ChargeType"
 End
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
@@ -27,8 +28,10 @@ dbLongBinary "DOL" = Begin
     0x50ea0ab807000000e39a6717b14b5c4d9bb0cf22aa00ca46500072006f006a00 ,
     0x65006300740043006f006d0070006f006e0065006e0074004900440000000000 ,
     0x0000f588e5a81e2b2e4b91b64a931f52e66307000000e39a6717b14b5c4d9bb0 ,
-    0xcf22aa00ca4643006f0073007400000000000000000000000000000000000000 ,
-    0x000000000c000000050000000000000000000000000000000000
+    0xcf22aa00ca4643006f007300740000000000000098d9fc6426f2254fad53c380 ,
+    0xc3c6507507000000e39a6717b14b5c4d9bb0cf22aa00ca464300680061007200 ,
+    0x6700650054007900700065000000000000000000000000000000000000000000 ,
+    0x00000c000000050000000000000000000000000000000000
 End
 dbByte "PublishToWeb" ="1"
 dbByte "RecordsetType" ="0"
@@ -132,7 +135,7 @@ Begin
     Left =-1
     Top =-1
     Right =1529
-    Bottom =470
+    Bottom =453
     Left =0
     Top =0
     ColumnsShown =539
