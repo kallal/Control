@@ -1,7 +1,14 @@
-﻿dbMemo "SQL" ="SELECT dbo_ProjectComponentPricingDetail.ProjectComponentID, dbo_ProjectComponen"
-    "tPricingDetail.*\015\012FROM dbo_ProjectComponentPricingDetail\015\012WHERE (((d"
-    "bo_ProjectComponentPricingDetail.ProjectComponentID)=11935));\015\012"
-dbMemo "Connect" =""
+﻿Operation =1
+Option =0
+Where ="(((dbo_ProjectComponentPricingDetail.ProjectComponentID)=11935))"
+Begin InputTables
+    Name ="dbo_ProjectComponentPricingDetail"
+End
+Begin OutputColumns
+    Expression ="dbo_ProjectComponentPricingDetail.ProjectComponentID"
+    Expression ="dbo_ProjectComponentPricingDetail.*"
+    Expression ="dbo_ProjectComponentPricingDetail.Cost"
+End
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
 dbBoolean "OrderByOn" ="0"
@@ -13,16 +20,19 @@ End
 dbBoolean "FilterOnLoad" ="0"
 dbBoolean "OrderByOnLoad" ="-1"
 dbLongBinary "DOL" = Begin
-    0x0acc0e5500000000e39a6717b14b5c4d9bb0cf22aa00ca4600000000572951b6 ,
-    0x35a2e4400000000000000000640062006f005f00500072006f006a0065006300 ,
+    0x0acc0e5500000000e39a6717b14b5c4d9bb0cf22aa00ca46000000009b35644c ,
+    0x2de0e4400000000000000000640062006f005f00500072006f006a0065006300 ,
     0x740043006f006d0070006f006e0065006e007400500072006900630069006e00 ,
     0x6700440065007400610069006c0000000000000079d3b9e582d6d34581f5d7f9 ,
     0x50ea0ab807000000e39a6717b14b5c4d9bb0cf22aa00ca46500072006f006a00 ,
     0x65006300740043006f006d0070006f006e0065006e0074004900440000000000 ,
-    0x0000000000000000000000000000000000000c00000005000000000000000000 ,
-    0x0000000000000000
+    0x0000f588e5a81e2b2e4b91b64a931f52e66307000000e39a6717b14b5c4d9bb0 ,
+    0xcf22aa00ca4643006f0073007400000000000000000000000000000000000000 ,
+    0x000000000c000000050000000000000000000000000000000000
 End
 dbByte "PublishToWeb" ="1"
+dbByte "RecordsetType" ="0"
+dbBoolean "TotalsRow" ="0"
 Begin
     Begin
         dbText "Name" ="dbo_ProjectComponentPricingDetail.ProjectComponentID"
@@ -111,5 +121,28 @@ Begin
     Begin
         dbText "Name" ="dbo_ProjectComponentPricingDetail.PrintRunNum"
         dbLong "AggregateType" ="-1"
+    End
+End
+Begin
+    State =0
+    Left =0
+    Top =40
+    Right =1561
+    Bottom =876
+    Left =-1
+    Top =-1
+    Right =1529
+    Bottom =470
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =132
+        Top =45
+        Right =398
+        Bottom =282
+        Top =0
+        Name ="dbo_ProjectComponentPricingDetail"
+        Name =""
     End
 End
