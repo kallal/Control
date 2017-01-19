@@ -1,4 +1,0 @@
-CREATE TABLE [loc_EmailSignature] (
-  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL ,
-  [Signature] LONGBINARY 
-)

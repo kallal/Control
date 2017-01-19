@@ -1,0 +1,1887 @@
+﻿Version =20
+VersionRequired =20
+Checksum =918273032
+Begin Report
+    Modal = NotDefault
+    RecordSelectors = NotDefault
+    ControlBox = NotDefault
+    NavigationButtons = NotDefault
+    CloseButton = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    KeyPreview = NotDefault
+    ScrollBars =2
+    ViewsAllowed =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =19380
+    DatasheetFontHeight =11
+    ItemSuffix =245
+    Left =900
+    Top =2430
+    Right =20280
+    Bottom =11460
+    DatasheetGridlinesColor =16446942
+    RecSrcDt = Begin
+        0x09ff71c46ac1e440
+    End
+    GUID = Begin
+        0x72a93e7d645d444fac74c66d9b0c9983
+    End
+    NameMap = Begin
+        0x0acc0e5500000000e0644a061c4f00408bf31afbd2f3c0d5000000003ed9090e ,
+        0x4ed0e44000000000000000007100720079005200700074005700490050005f00 ,
+        0x4c00460046005f00530075006d006d00610072007900000000000000d443da2c ,
+        0xb4d2df44b858ba1a04d723370600000072a93e7d645d444fac74c66d9b0c9983 ,
+        0x440075006500440061007400650000000000000007f75cde63426349ad8d1d78 ,
+        0xcd17d8ad07000000e0644a061c4f00408bf31afbd2f3c0d55000720069006f00 ,
+        0x7200690074007900000000000000765d0599ba58cc4db230218755a382e70700 ,
+        0x0000e0644a061c4f00408bf31afbd2f3c0d543006f006d0070004e0061006d00 ,
+        0x650000000000000050776f48d5af6447b8458ccf361794cb07000000e0644a06 ,
+        0x1c4f00408bf31afbd2f3c0d544006f0063006b00650074004e0075006d000000 ,
+        0x00000000a0270a5ec56b094eb6bbfd51c898188407000000e0644a061c4f0040 ,
+        0x8bf31afbd2f3c0d5500072006f006f00660044006900730070006c0061007900 ,
+        0x000000000000b2c81fc7b5d981419119eb8176654e6107000000e0644a061c4f ,
+        0x00408bf31afbd2f3c0d5440075006500440061007400650000000000000047b1 ,
+        0xba89889f994aa5a5b0ab4f547da307000000e0644a061c4f00408bf31afbd2f3 ,
+        0xc0d54600690072006d00440075006500440061007400650000000000000093ba ,
+        0x397e75759745b39991abbd48941707000000e0644a061c4f00408bf31afbd2f3 ,
+        0xc0d56900730072007500730068000000000000002042568302f48b4d89eb4ba2 ,
+        0xabddca7307000000e0644a061c4f00408bf31afbd2f3c0d5500072006f006a00 ,
+        0x650063007400480065006100640065007200490044000000000000008265226c ,
+        0xe5165f4597f9cda188898d9607000000e0644a061c4f00408bf31afbd2f3c0d5 ,
+        0x43006f006e007400610063007400470065006e006500720061006c0049004400 ,
+        0x000000000000b7c36995fcfafa45ad69b32c6b3b9b9e07000000e0644a061c4f ,
+        0x00408bf31afbd2f3c0d5530074005000720069006e0074000000000000007857 ,
+        0xd2ada5ee1a42ae4659405dc8fd6b07000000e0644a061c4f00408bf31afbd2f3 ,
+        0xc0d565007800700065006300740065006400710074007900000000000000a21d ,
+        0xc4fed47c244fa08fb5209ebbfbc707000000e0644a061c4f00408bf31afbd2f3 ,
+        0xc0d563006f006d0070006f006e0065006e0074006e0061006d00650000000000 ,
+        0x000078fe3e064e1fef458d83017ec118ee5607000000e0644a061c4f00408bf3 ,
+        0x1afbd2f3c0d5640065006c00690076006500720079006300750074006f006600 ,
+        0x6600740069006d0065000000000000002850cf3013c64545b2ddc024aeba852c ,
+        0x0600000072a93e7d645d444fac74c66d9b0c9983440059004c00460046006900 ,
+        0x6e0069007300680000000000000034e96cce7623ef419098596b394b016e0700 ,
+        0x0000e0644a061c4f00408bf31afbd2f3c0d54d0048004c004600460069006e00 ,
+        0x690073006800000000000000fd0ed26d4a6bd649b28cc16ee730e06307000000 ,
+        0xe0644a061c4f00408bf31afbd2f3c0d5440059004c004600460069006e006900 ,
+        0x73006800000000000000949c2a952721f144b4935c50efed961207000000e064 ,
+        0x4a061c4f00408bf31afbd2f3c0d54d0069006e004f0066004800610073004300 ,
+        0x750074007400650072000000000000002e46c237e9be6e4387cbce3546addf39 ,
+        0x07000000e0644a061c4f00408bf31afbd2f3c0d54d0069006e004f0066004800 ,
+        0x6100730052006f006c006c00430075007400740065007200000000000000687b ,
+        0xe1562e9f584ebd8a431fb0dac79e07000000e0644a061c4f00408bf31afbd2f3 ,
+        0xc0d54d0069006e004f00660048006100730052006f0075007400650072000000 ,
+        0x00000000044d9065f3918f4b942d9ac7fd59c33f07000000e0644a061c4f0040 ,
+        0x8bf31afbd2f3c0d54d0069006e004f0066004800610073004c0061006d006900 ,
+        0x6e00610074006500000000000000314c0e06b55082439d6eae2c73a578ad0700 ,
+        0x0000e0644a061c4f00408bf31afbd2f3c0d54d0069006e004f00660048006100 ,
+        0x73004400720069006c006c00000000000000d2aad2db85aa99449b5345d33a2f ,
+        0x59cd07000000e0644a061c4f00408bf31afbd2f3c0d54d0069006e004f006600 ,
+        0x48006100730054006100700069006e006700000000000000091ea7bcfd0f734a ,
+        0xa9e7b617dad4399207000000e0644a061c4f00408bf31afbd2f3c0d54d006900 ,
+        0x6e004f0066004800610073004b0069007400740069006e006700000000000000 ,
+        0xae3f91e524a18d4e8b62378efec02ac107000000e0644a061c4f00408bf31afb ,
+        0xd2f3c0d54d0069006e004f0066004800610073005300650077006e0048006500 ,
+        0x6d00000000000000ba6e75b5383329479c9bda34a9984da407000000e0644a06 ,
+        0x1c4f00408bf31afbd2f3c0d54d0069006e004f0066004800610073004f007400 ,
+        0x6800650072005300720076000000000000001c9b84855b8f264abd34a504e56b ,
+        0x05af07000000e0644a061c4f00408bf31afbd2f3c0d5500072006f006a006500 ,
+        0x630074004e0061006d006500000000000000886ccda6f985cc45872036ea029f ,
+        0xbe7e07000000e0644a061c4f00408bf31afbd2f3c0d5500072006f006a006500 ,
+        0x6300740043006f006d0070006f006e0065006e00740049004400000000000000 ,
+        0x7e39c8b3041aae4a8a75ed3056d8757907000000e0644a061c4f00408bf31afb ,
+        0xd2f3c0d54c004600460069006e0069007300680049004400000000000000ebac ,
+        0x54d9610e344eaa51f5d51bf722e907000000e0644a061c4f00408bf31afbd2f3 ,
+        0xc0d56d0079005000720069006f00720069007400790000000000000000000000 ,
+        0x0000000000000000000000000c00000005000000000000000000000000000000 ,
+        0x0000
+    End
+    RecordSource ="qryRptWIP_LFF_Summary"
+    Caption ="Bindery Schedule"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000b44b0000a401000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    PrtDevMode = Begin
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x010403069c00e803039f000002000500ea0a6f08640001000700580202000100 ,
+        0xffff030000004c65747465720000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000010000000000000001000000 ,
+        0x0200000044010000ffffffff4749533400000000000000000000000044494e55 ,
+        0x22007001cc031c009462ef2a0000000000000000000000000000000000000000 ,
+        0x00000000000000000c0000000100000000000000000000000100000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000100000000000000000000000000000000000000 ,
+        0x00000000000000000000000000000000000000000000000070010000534d544a ,
+        0x00000000100060017b00460032003400320032003000310031002d0035003300 ,
+        0x460035002d0034003200390065002d0038003900450032002d00310037003500 ,
+        0x4300460037003200300041003900320030007d000000496e70757442696e0041 ,
+        0x75746f53656c65637400524553444c4c00556e69726573444c4c005061706572 ,
+        0x53697a65004c4554544552004f7269656e746174696f6e00504f525452414954 ,
+        0x004d6564696154797065004175746f005265736f6c7574696f6e003630304450 ,
+        0x4900506167654f75747075745175616c697479004e6f726d616c00436f6c6f72 ,
+        0x4d6f6465004d6f6e6f00446f63756d656e744e5570003100436f6c6c61746500 ,
+        0x4f4e004475706c6578004e4f4e45004f757470757442696e004175746f000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x00000000000000001c0000005634444d01000000000000000000000000000000 ,
+        0x00000000
+    End
+    PrtDevNames = Begin
+        0x08002c0055000100000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000005553423030320000000000
+    End
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    OrderByOnLoad =0
+    OrderByOnLoad =0
+    FitToPage =1
+    DisplayOnSharePointSite =1
+    AllowLayoutView =0
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    RibbonName ="MyReport"
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    PrtDevModeW = Begin
+        0x0000123900000000801f1e01f09b0f0100d8bb07a48d0f01c28912390000dd04 ,
+        0xdb692f775017dd0400000000b7672f7779b21b7e480000000000dd043c000000 ,
+        0x01040306dc00e803039f000002000500ea0a6f08640001000700580202000100 ,
+        0xffff030000004c00650074007400650072000000f6fcffff34140400801cde74 ,
+        0xec1346e100ff000034140400d0b90f010068e300808e0f017015e0745017dd04 ,
+        0x0068e300008e0000000000000000000000000000010000000000000001000000 ,
+        0x0200000044010000ffffffff4749533400000000000000000000000044494e55 ,
+        0x22007001cc031c009462ef2a0000000000000000000000000000000000000000 ,
+        0x00000000000000000c0000000100000000000000000000000100000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000100000000000000000000000000000000000000 ,
+        0x00000000000000000000000000000000000000000000000070010000534d544a ,
+        0x00000000100060017b00460032003400320032003000310031002d0035003300 ,
+        0x460035002d0034003200390065002d0038003900450032002d00310037003500 ,
+        0x4300460037003200300041003900320030007d000000496e70757442696e0041 ,
+        0x75746f53656c65637400524553444c4c00556e69726573444c4c005061706572 ,
+        0x53697a65004c4554544552004f7269656e746174696f6e00504f525452414954 ,
+        0x004d6564696154797065004175746f005265736f6c7574696f6e003630304450 ,
+        0x4900506167654f75747075745175616c697479004e6f726d616c00436f6c6f72 ,
+        0x4d6f6465004d6f6e6f00446f63756d656e744e5570003100436f6c6c61746500 ,
+        0x4f4e004475706c6578004e4f4e45004f757470757442696e004175746f000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x00000000000000001c0000005634444d01000000000000000000000000000000 ,
+        0x00000000
+    End
+    PrtDevNamesW = Begin
+        0x0400280051000100000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x000055005300420030003000320000000000000000000000
+    End
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Line
+            BorderLineStyle =0
+            BorderThemeColorIndex =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderColor =16777215
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin OptionButton
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupOn =6
+            ControlSource ="=[DueDate]"
+        End
+        Begin BreakLevel
+            ControlSource ="=[myPriority]"
+        End
+        Begin BreakLevel
+            ControlSource ="DueDate"
+        End
+        Begin FormHeader
+            Height =420
+            Name ="FormHeader"
+            GUID = Begin
+                0x53e648811d18084984c2fcc01fe1decf
+            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Label
+                    Width =8115
+                    Height =420
+                    FontSize =14
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="lblTitle"
+                    Caption ="LARGE FORMAT FINISHING SCHEDULE, Sorted by Due Date"
+                    GUID = Begin
+                        0xeb5969a8233aa1479afe1b26575bc0e1
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedWidth =8115
+                    LayoutCachedHeight =420
+                    ForeTint =100.0
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =2
+                    Left =16440
+                    Top =120
+                    Width =2880
+                    Height =285
+                    FontSize =10
+                    FontWeight =700
+                    BackColor =62207
+                    BorderColor =8355711
+                    ForeColor =2366701
+                    Name ="Label270"
+                    Caption ="DATE IS FIRM WHEN HIGHLIGHTED"
+                    GUID = Begin
+                        0x8440d55702bb03459fbe71ba5dea5a28
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =16440
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =19320
+                    LayoutCachedHeight =405
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+            End
+        End
+        Begin PageHeader
+            Height =0
+            Name ="PageHeaderSection"
+            GUID = Begin
+                0x88a85d3adf0a774f921862cc6a6573b3
+            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =360
+            Name ="GroupHeader0"
+            GUID = Begin
+                0x35832ef1cfdc0a47954ef981dc7e4720
+            End
+            AlternateBackColor =15921906
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Line
+                    BorderWidth =2
+                    Top =60
+                    Width =19380
+                    Name ="Line174"
+                    GUID = Begin
+                        0xdf335d8cb628bb41a48907f82fd6e944
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =19380
+                    LayoutCachedHeight =60
+                End
+                Begin TextBox
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Top =60
+                    Width =4320
+                    FontSize =9
+                    FontWeight =700
+                    BackColor =0
+                    ForeColor =16777215
+                    Name ="Text175"
+                    ControlSource ="=Nz([DueDate],\"UNKNOWN DUE DATE\")"
+                    Format ="Long Date"
+                    GUID = Begin
+                        0x8058f0a0fa1da644aa4c02176b8b9fc8
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =4320
+                    LayoutCachedHeight =300
+                    BackThemeColorIndex =0
+                    BorderThemeColorIndex =0
+                    BorderShade =100.0
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin Label
+                    TextAlign =2
+                    Left =14340
+                    Top =120
+                    Width =1125
+                    Height =240
+                    FontSize =9
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Label180"
+                    Caption ="PROOF APP'D"
+                    GUID = Begin
+                        0x51f57dee90867f4fa1d1fa713b942191
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =14340
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =15465
+                    LayoutCachedHeight =360
+                End
+                Begin Label
+                    TextAlign =2
+                    Left =15420
+                    Top =120
+                    Width =1140
+                    Height =240
+                    FontSize =9
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Label182"
+                    Caption ="START DATE"
+                    GUID = Begin
+                        0x0624dd39eb260d46835288d7540882ba
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =15420
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =16560
+                    LayoutCachedHeight =360
+                End
+                Begin Label
+                    TextAlign =2
+                    Left =17040
+                    Top =120
+                    Width =660
+                    Height =240
+                    FontSize =9
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Label186"
+                    Caption ="HRS"
+                    GUID = Begin
+                        0xb3d28860faf4bb4e885b9e4575a6059a
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =17040
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =17700
+                    LayoutCachedHeight =360
+                End
+                Begin Label
+                    TextAlign =2
+                    Left =17715
+                    Top =120
+                    Width =1665
+                    Height =240
+                    FontSize =9
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Label192"
+                    Caption ="DUE DATE"
+                    GUID = Begin
+                        0x890dedd9f5932d4381cabe65b933d89d
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =17715
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =19380
+                    LayoutCachedHeight =360
+                End
+                Begin Label
+                    TextAlign =2
+                    Left =13125
+                    Top =120
+                    Width =1245
+                    Height =240
+                    FontSize =9
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Label201"
+                    Caption ="PRINT STATUS"
+                    GUID = Begin
+                        0xc6274cb30091514a8bd2122bafb4910e
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =13125
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =14370
+                    LayoutCachedHeight =360
+                End
+                Begin Label
+                    TextAlign =2
+                    Left =16485
+                    Top =120
+                    Width =735
+                    Height =240
+                    FontSize =9
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Label226"
+                    Caption ="DAYS"
+                    GUID = Begin
+                        0x02df1eb02dbfc64faa12bacf16efaa0d
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =16485
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =17220
+                    LayoutCachedHeight =360
+                End
+                Begin Label
+                    FontUnderline = NotDefault
+                    TextAlign =2
+                    Left =11175
+                    Top =120
+                    Width =374
+                    Height =240
+                    FontSize =8
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Label233"
+                    Caption ="TAPE"
+                    GUID = Begin
+                        0xef78b24ec8bc7f49831aa4af53c1e79f
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =11175
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =11549
+                    LayoutCachedHeight =360
+                End
+                Begin Label
+                    FontUnderline = NotDefault
+                    TextAlign =2
+                    Left =11700
+                    Top =120
+                    Width =374
+                    Height =240
+                    FontSize =8
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Label234"
+                    Caption ="KIT"
+                    GUID = Begin
+                        0x43b318c81fe2874cbb0808fa2d658389
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =11700
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =12074
+                    LayoutCachedHeight =360
+                End
+                Begin Label
+                    FontUnderline = NotDefault
+                    TextAlign =2
+                    Left =12180
+                    Top =120
+                    Width =374
+                    Height =240
+                    FontSize =8
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Label235"
+                    Caption ="HEM"
+                    GUID = Begin
+                        0xe1c7f36466661240ae268ed4099661c9
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =12180
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =12554
+                    LayoutCachedHeight =360
+                End
+                Begin Label
+                    FontUnderline = NotDefault
+                    TextAlign =2
+                    Left =8400
+                    Top =120
+                    Width =555
+                    Height =225
+                    FontSize =8
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="lblSortTrim"
+                    Caption ="FL CUT"
+                    GUID = Begin
+                        0x43264c585857d446b0c1a7db439befde
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =8400
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =8955
+                    LayoutCachedHeight =345
+                End
+                Begin Label
+                    FontUnderline = NotDefault
+                    TextAlign =2
+                    Left =8940
+                    Top =120
+                    Width =555
+                    Height =225
+                    FontSize =8
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="lblSortPad"
+                    Caption ="RL CUT"
+                    GUID = Begin
+                        0x9dfdcd4c7bdd3a4db59fb4ef370de65e
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =8940
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =9495
+                    LayoutCachedHeight =345
+                End
+                Begin Label
+                    FontUnderline = NotDefault
+                    TextAlign =2
+                    Left =9495
+                    Top =120
+                    Width =540
+                    Height =225
+                    FontSize =8
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="lblSortDrill"
+                    Caption ="ROUTER"
+                    GUID = Begin
+                        0x8ffabc6ce19ebf4b81d8d1bd18a412d2
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =9495
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =10035
+                    LayoutCachedHeight =345
+                End
+                Begin Label
+                    FontUnderline = NotDefault
+                    TextAlign =2
+                    Left =10035
+                    Top =120
+                    Width =540
+                    Height =225
+                    FontSize =8
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="lblSortScore"
+                    Caption ="LAM"
+                    GUID = Begin
+                        0xde6ed2b5b815da47872b3c419c69c459
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =10035
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =10575
+                    LayoutCachedHeight =345
+                End
+                Begin Label
+                    FontUnderline = NotDefault
+                    TextAlign =2
+                    Left =10575
+                    Top =120
+                    Width =540
+                    Height =225
+                    FontSize =8
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="lblSortFold"
+                    Caption ="DRILL"
+                    GUID = Begin
+                        0xa6b82f00b79d5a409178baf6ff656cd8
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =10575
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =11115
+                    LayoutCachedHeight =345
+                End
+                Begin Label
+                    FontUnderline = NotDefault
+                    TextAlign =2
+                    Left =12540
+                    Top =120
+                    Width =599
+                    Height =240
+                    FontSize =8
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Label240"
+                    Caption ="OTHER"
+                    GUID = Begin
+                        0x0248dc41409c964f879b96f2e7604163
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =12540
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =13139
+                    LayoutCachedHeight =360
+                End
+            End
+        End
+        Begin Section
+            Height =240
+            Name ="Detail"
+            GUID = Begin
+                0x69d0517346053b4b9585313cbba9b093
+            End
+            AlternateBackColor =15921906
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =60
+                    Width =480
+                    FontSize =10
+                    FontWeight =700
+                    BorderColor =10921638
+                    ForeColor =2366701
+                    Name ="Priority"
+                    ControlSource ="Priority"
+                    AfterUpdate ="[Event Procedure]"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x4900d481fab9074a878d2a1652f078ba
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =60
+                    LayoutCachedWidth =540
+                    LayoutCachedHeight =240
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    IMESentenceMode =3
+                    Left =1320
+                    Width =2160
+                    ColumnWidth =4380
+                    FontSize =8
+                    TabIndex =2
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="CompName"
+                    ControlSource ="CompName"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x3f418c0625db9d40a2886cce6aab0816
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1320
+                    LayoutCachedWidth =3480
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =540
+                    Width =780
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =1
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="DocketNum"
+                    ControlSource ="DocketNum"
+                    OnClick ="[Event Procedure]"
+                    ConditionalFormat = Begin
+                        0x01000000f0000000030000000100000000000000000000001700000001010000 ,
+                        0x00000000d6dfec000100000000000000180000002f0000000101000000000000 ,
+                        0xadc0d900010000000000000030000000470000000101000000000000efd3d200 ,
+                        0x5b005200650070006f007200740043006f006c006f0072005d003d0031003500 ,
+                        0x350032003300370039003800000000005b005200650070006f00720074004300 ,
+                        0x6f006c006f0072005d003d003100320034003200380031003700340000000000 ,
+                        0x5b005200650070006f007200740043006f006c006f0072005d003d0031003300 ,
+                        0x38003100360038003100350000000000
+                    End
+                    GUID = Begin
+                        0x1fe93f0e40187a4da385def1e0e0fbfc
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =540
+                    LayoutCachedWidth =1320
+                    LayoutCachedHeight =240
+                    ConditionalFormat14 = Begin
+                        0x01000c00000001000000000000000101000000000000d6dfec00160000005b00 ,
+                        0x5200650070006f007200740043006f006c006f0072005d003d00310035003500 ,
+                        0x3200330037003900380000000000000000000000000000000000000000000001 ,
+                        0x000000000000000101000000000000adc0d900160000005b005200650070006f ,
+                        0x007200740043006f006c006f0072005d003d0031003200340032003800310037 ,
+                        0x0034000000000000000000000000000000000000000000000100000000000000 ,
+                        0x0101000000000000efd3d200160000005b005200650070006f00720074004300 ,
+                        0x6f006c006f0072005d003d003100330038003100360038003100350000000000 ,
+                        0x0000000000000000000000000000000000010000000000000001010000000000 ,
+                        0x00dfa7a500160000005b005200650070006f007200740043006f006c006f0072 ,
+                        0x005d003d00310030003800350036003400310035000000000000000000000000 ,
+                        0x0000000000000000000001000000000000000101000000000000e6edd7001600 ,
+                        0x00005b005200650070006f007200740043006f006c006f0072005d003d003100 ,
+                        0x3400310035003100310034003200000000000000000000000000000000000000 ,
+                        0x00000001000000000000000101000000000000cddcaf00160000005b00520065 ,
+                        0x0070006f007200740043006f006c006f0072005d003d00310031003500320035 ,
+                        0x0033003200350000000000000000000000000000000000000000000001000000 ,
+                        0x000000000101000000000000dfdbe700160000005b005200650070006f007200 ,
+                        0x740043006f006c006f0072005d003d0031003500310039003500310030003300 ,
+                        0x0000000000000000000000000000000000000000000100000000000000010100 ,
+                        0x0000000000bfb2cf00160000005b005200650070006f007200740043006f006c ,
+                        0x006f0072005d003d003100350035003200330037003900380000000000000000 ,
+                        0x000000000000000000000000000001000000000000000101000000000000d1ea ,
+                        0xf000160000005b005200650070006f007200740043006f006c006f0072005d00 ,
+                        0x3d00310035003700380038003700350033000000000000000000000000000000 ,
+                        0x0000000000000001000000000000000101000000000000a4d5e200160000005b ,
+                        0x005200650070006f007200740043006f006c006f0072005d003d003100340038 ,
+                        0x0036003500380032003800000000000000000000000000000000000000000000 ,
+                        0x01000000000000000101000000000000fce6d400160000005b00520065007000 ,
+                        0x6f007200740043006f006c006f0072005d003d00310033003900350032003700 ,
+                        0x3600340000000000000000000000000000000000000000000001000000000000 ,
+                        0x000101000000000000f9cdaa00160000005b005200650070006f007200740043 ,
+                        0x006f006c006f0072005d003d0031003100310039003300380034003900000000 ,
+                        0x000000000000000000000000000000000000
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    IMESentenceMode =3
+                    Left =5880
+                    Width =840
+                    TabIndex =3
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="MyIDSelected"
+                    GUID = Begin
+                        0x4d34cea2cecf194b86717d1441c0b32f
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =5880
+                    LayoutCachedWidth =6720
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =14340
+                    Width =1065
+                    FontSize =8
+                    TabIndex =4
+                    BorderColor =10921638
+                    Name ="txtProofApproval"
+                    ControlSource ="ProofDisplay"
+                    Format ="Medium Date"
+                    GUID = Begin
+                        0xb9e6aa2fb3208643969d2658c0805553
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =14340
+                    LayoutCachedWidth =15405
+                    LayoutCachedHeight =240
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =17700
+                    Width =900
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =5
+                    BackColor =15527148
+                    BorderColor =10921638
+                    ForeColor =6108695
+                    Name ="DueDate"
+                    ControlSource ="DueDate"
+                    Format ="mmm d"
+                    OnClick ="[Event Procedure]"
+                    ConditionalFormat = Begin
+                        0x0100000088000000010000000100000000000000000000001300000001010000 ,
+                        0xed1c2400fff20000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x5b004600690072006d0044007500650044006100740065005d003d0054007200 ,
+                        0x7500650000000000
+                    End
+                    GUID = Begin
+                        0xd443da2cb4d2df44b858ba1a04d72337
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =17700
+                    LayoutCachedWidth =18600
+                    LayoutCachedHeight =240
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    ConditionalFormat14 = Begin
+                        0x010001000000010000000000000001010000ed1c2400fff20000120000005b00 ,
+                        0x4600690072006d0044007500650044006100740065005d003d00540072007500 ,
+                        0x6500000000000000000000000000000000000000000000
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =18300
+                    Width =300
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =6
+                    BackColor =15527148
+                    BorderColor =15527148
+                    ForeColor =15527148
+                    Name ="txtRush"
+                    ControlSource ="=ChrW(8986)"
+                    ConditionalFormat = Begin
+                        0x010000007e000000010000000100000000000000000000000e00000001000000 ,
+                        0xba141900ffffff00000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x5b006900730072007500730068005d003d00540072007500650000000000
+                    End
+                    GUID = Begin
+                        0xe1cd1d40f7b51a41b9440b90dd5b20a4
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =18300
+                    LayoutCachedWidth =18600
+                    LayoutCachedHeight =240
+                    BackThemeColorIndex =-1
+                    BorderThemeColorIndex =-1
+                    BorderShade =100.0
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    ConditionalFormat14 = Begin
+                        0x010001000000010000000000000001000000ba141900ffffff000d0000005b00 ,
+                        0x6900730072007500730068005d003d0054007200750065000000000000000000 ,
+                        0x00000000000000000000000000
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    IMESentenceMode =3
+                    Left =3780
+                    Top =120
+                    Width =540
+                    Height =120
+                    ColumnWidth =2670
+                    TabIndex =7
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="ProjectHeaderID"
+                    ControlSource ="ProjectHeaderID"
+                    StatusBarText ="Link to dbo_ProjectHeader"
+                    GUID = Begin
+                        0x7f3ac4623b74964388b9232ded2ad929
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =3780
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =4320
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    IMESentenceMode =3
+                    Left =4800
+                    Top =60
+                    Width =420
+                    Height =120
+                    ColumnWidth =2160
+                    TabIndex =8
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="ContactGeneralID"
+                    ControlSource ="ContactGeneralID"
+                    StatusBarText ="Link to dbo_ContactGeneral"
+                    GUID = Begin
+                        0xe9059cd3e1595045b803bd18b2c9b656
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4800
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =5220
+                    LayoutCachedHeight =180
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =13140
+                    Width =1200
+                    FontSize =8
+                    TabIndex =9
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="StPrint"
+                    ControlSource ="StPrint"
+                    GUID = Begin
+                        0x8f8574435b6b794ab1e9fc86b1061775
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =13140
+                    LayoutCachedWidth =14340
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    FontUnderline = NotDefault
+                    IMESentenceMode =3
+                    Left =5520
+                    Width =2880
+                    FontSize =8
+                    TabIndex =10
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="ComponentName2"
+                    ControlSource ="=IIf(Nz([expectedqty],0)>0,[ExpectedQty] & \" x \",\"\") & [componentname]"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x7c42686893f44a4eb57b6f3211af0e5d
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =5520
+                    LayoutCachedWidth =8400
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =18600
+                    Width =780
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =11
+                    BackColor =15527148
+                    BorderColor =10921638
+                    ForeColor =6108695
+                    Name ="Text222"
+                    ControlSource ="deliverycutofftime"
+                    Format ="Medium Time"
+                    ConditionalFormat = Begin
+                        0x0100000088000000010000000100000000000000000000001300000001010000 ,
+                        0xed1c2400fff20000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x5b004600690072006d0044007500650044006100740065005d003d0054007200 ,
+                        0x7500650000000000
+                    End
+                    GUID = Begin
+                        0xf9a3edd4071e564d99041a23fe452c2c
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =18600
+                    LayoutCachedWidth =19380
+                    LayoutCachedHeight =240
+                    BackThemeColorIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    ConditionalFormat14 = Begin
+                        0x010001000000010000000000000001010000ed1c2400fff20000120000005b00 ,
+                        0x4600690072006d0044007500650044006100740065005d003d00540072007500 ,
+                        0x6500000000000000000000000000000000000000000000
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =15420
+                    Width =1155
+                    FontSize =8
+                    TabIndex =12
+                    BorderColor =10921638
+                    Name ="Text223"
+                    ControlSource ="=fncWorkday([DUEDATE],0-[DYLffinish])"
+                    Format ="Medium Date"
+                    GUID = Begin
+                        0xdec0ebd60a68e04e8e78b2263e5a3943
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =15420
+                    LayoutCachedWidth =16575
+                    LayoutCachedHeight =240
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    DecimalPlaces =1
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =17040
+                    Width =660
+                    FontSize =9
+                    TabIndex =13
+                    BorderColor =10921638
+                    Name ="MHLffFinish"
+                    ControlSource ="MHLFFinish"
+                    Format ="Fixed"
+                    GUID = Begin
+                        0x67ef32d8d78f2a4ba3a9134f6d11f22b
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =17040
+                    LayoutCachedWidth =17700
+                    LayoutCachedHeight =240
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    DecimalPlaces =0
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =16560
+                    Width =480
+                    FontSize =9
+                    TabIndex =17
+                    BorderColor =10921638
+                    Name ="DYLFFinish"
+                    ControlSource ="DYLFFinish"
+                    Format ="Fixed"
+                    GUID = Begin
+                        0x2850cf3013c64545b2ddc024aeba852c
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =16560
+                    LayoutCachedWidth =17040
+                    LayoutCachedHeight =240
+                    ForeTint =100.0
+                End
+                Begin CheckBox
+                    Locked = NotDefault
+                    Left =8595
+                    TabIndex =18
+                    BorderColor =10921638
+                    Name ="MinOfHasCutter"
+                    ControlSource ="MinOfHasCutter"
+                    GUID = Begin
+                        0xd0d9e0a346d39a499bdc098aa2f6cbad
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =8595
+                    LayoutCachedWidth =8855
+                    LayoutCachedHeight =240
+                End
+                Begin CheckBox
+                    Locked = NotDefault
+                    Left =9135
+                    TabIndex =19
+                    BorderColor =10921638
+                    Name ="MinOfHasRollCutter"
+                    ControlSource ="MinOfHasRollCutter"
+                    GUID = Begin
+                        0xb3509e8bb76e9a41bbf76b2404d6dbc7
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =9135
+                    LayoutCachedWidth =9395
+                    LayoutCachedHeight =240
+                End
+                Begin CheckBox
+                    Locked = NotDefault
+                    Left =9675
+                    TabIndex =20
+                    BorderColor =10921638
+                    Name ="MinOfHasRouter"
+                    ControlSource ="MinOfHasRouter"
+                    GUID = Begin
+                        0x8533b0c802ba7749a5bbc30dac21b881
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =9675
+                    LayoutCachedWidth =9935
+                    LayoutCachedHeight =240
+                End
+                Begin CheckBox
+                    Locked = NotDefault
+                    Left =10215
+                    TabIndex =21
+                    BorderColor =10921638
+                    Name ="MinOfHasLaminate"
+                    ControlSource ="MinOfHasLaminate"
+                    GUID = Begin
+                        0x603c4cf4e353754586d72417c6791405
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =10215
+                    LayoutCachedWidth =10475
+                    LayoutCachedHeight =240
+                End
+                Begin CheckBox
+                    Locked = NotDefault
+                    Left =10755
+                    TabIndex =22
+                    BorderColor =10921638
+                    Name ="MinOfHasDrill"
+                    ControlSource ="MinOfHasDrill"
+                    GUID = Begin
+                        0xcf50dbc0df34a1429d739b60c3c9e219
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =10755
+                    LayoutCachedWidth =11015
+                    LayoutCachedHeight =240
+                End
+                Begin CheckBox
+                    Left =11295
+                    TabIndex =14
+                    BorderColor =10921638
+                    Name ="MinOfHasTaping"
+                    ControlSource ="MinOfHasTaping"
+                    GUID = Begin
+                        0xc984f63cf8a6174c8ee3837941846170
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =11295
+                    LayoutCachedWidth =11555
+                    LayoutCachedHeight =240
+                End
+                Begin CheckBox
+                    Left =11820
+                    TabIndex =15
+                    BorderColor =10921638
+                    Name ="MinOfHasKitting"
+                    ControlSource ="MinOfHasKitting"
+                    GUID = Begin
+                        0x825e0d29bef7b949bb0ec86d90c002fb
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =11820
+                    LayoutCachedWidth =12080
+                    LayoutCachedHeight =240
+                End
+                Begin CheckBox
+                    Left =12300
+                    TabIndex =16
+                    BorderColor =10921638
+                    Name ="MinOfHasSewnHem"
+                    ControlSource ="MinOfHasSewnHem"
+                    GUID = Begin
+                        0x8be55c1bb2a9d74bac12047b8aba0dd8
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =12300
+                    LayoutCachedWidth =12560
+                    LayoutCachedHeight =240
+                End
+                Begin CheckBox
+                    Left =12780
+                    TabIndex =23
+                    BorderColor =10921638
+                    Name ="MinOfHasOtherSrv"
+                    ControlSource ="MinOfHasOtherSrv"
+                    GUID = Begin
+                        0x9386f6620aeab94e9d17e11c29b83512
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =12780
+                    LayoutCachedWidth =13040
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    IMESentenceMode =3
+                    Left =3480
+                    Width =2040
+                    FontSize =8
+                    TabIndex =24
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="ProjectNAme"
+                    ControlSource ="ProjectName"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x43f0fdfea1e3994192f1329f9151e9cc
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =3480
+                    LayoutCachedWidth =5520
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    IMESentenceMode =3
+                    Left =4500
+                    Top =60
+                    Width =840
+                    Height =180
+                    FontSize =8
+                    TabIndex =25
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="ProjectComponentID"
+                    ControlSource ="ProjectComponentID"
+                    GUID = Begin
+                        0x41a0bc22080ae148b8e72bafc46bdf62
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4500
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =5340
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    IMESentenceMode =3
+                    Left =2580
+                    Height =180
+                    TabIndex =26
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="LFFinishID"
+                    ControlSource ="LFFinishID"
+                    GUID = Begin
+                        0x0996c9f8662c5a419e7dc26edd51f01b
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2580
+                    LayoutCachedWidth =4020
+                    LayoutCachedHeight =180
+                End
+            End
+        End
+        Begin PageFooter
+            Height =375
+            Name ="PageFooterSection"
+            GUID = Begin
+                0x0ce215c2cc9ab44b85872d1b55f423dd
+            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    OldBorderStyle =0
+                    IMESentenceMode =3
+                    Top =60
+                    Width =11520
+                    Height =315
+                    FontSize =9
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Text46"
+                    ControlSource ="=\"Printed By \" & flocss(\"FullName\") & \" at \" & Now() & \" by \" & fAxisPro"
+                        "gramname()"
+                    GUID = Begin
+                        0xc8727445ccc15946bd769f57395c199a
+                    End
+                    GridlineColor =10921638
+                    ShowDatePicker =0
+
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =11520
+                    LayoutCachedHeight =375
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    OldBorderStyle =0
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =15600
+                    Top =60
+                    Width =3780
+                    Height =315
+                    FontSize =9
+                    TabIndex =1
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Text48"
+                    ControlSource ="=\"Page \" & [Page] & \" of \" & [Pages]"
+                    GUID = Begin
+                        0xbdb9ce9723214247bbf1bf5b61ff915f
+                    End
+                    GridlineColor =10921638
+                    ShowDatePicker =0
+
+                    LayoutCachedLeft =15600
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =19380
+                    LayoutCachedHeight =375
+                End
+                Begin Line
+                    BorderWidth =2
+                    Left =60
+                    Width =19320
+                    Name ="Line51"
+                    GUID = Begin
+                        0x56345b4d3df8e04f803063c7614c33a8
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =60
+                    LayoutCachedWidth =19380
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =14277081
+            Name ="FormFooter"
+            GUID = Begin
+                0xde8b4334372c5549984483dc6cde73cb
+            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            BackShade =85.0
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub chkShowOnlyReady_AfterUpdate()
+Call cmdSearch_Click
+
+End Sub
+
+Private Sub cmdClearPress_Click()
+'Me.txtPress = Null
+Call cmdSearch_Click
+
+Me.OrderBy = "DOCKETNUM"
+'Me.lblSortDocket.Caption = "DOCKET " & ChrW(9650)
+
+
+'Me.txtRightArrow.visible = False
+'Me.txtRightArrowGrey.visible = False
+DoCmd.GoToControl "txtPress"
+Me.Priority.visible = False
+'Me.lblSortPriority.visible = False
+
+
+End Sub
+
+
+
+Private Sub cmdKeypress_Click()
+Me!RightArrow = "==>"
+End Sub
+
+
+
+Private Sub cmdSearch_Click()
+
+myfilter = "1=1"
+
+MYORDERBY = ""
+
+'If Nz(Me.txtPress, "") <> "" Then
+' set filter to press
+'    myFilter = myFilter & " AND [Press] = " & Me.txtPress
+    
+'End If
+
+'If Me.chkShowOnlyReady = True Then
+'    myFilter = myFilter & " AND ([PROOFAPPROVEDDATE] <> null)  AND [readytoprint] = true"
+'End If
+
+'MsgBox myFilter
+
+Me.Filter = myfilter
+If Len(myfilter) > 0 Then
+    Me.FilterOn = True
+Else
+    Me.FilterOn = False
+End If
+
+
+Me.OrderBy = MYORDERBY
+Me.OrderByOn = True
+End Sub
+
+Private Sub Command102_KeyPress(KeyAscii As Integer)
+
+End Sub
+
+Private Sub CompName_Click()
+'GRAB Project ID
+tmpProjectID = Me.ProjectHeaderID
+
+'Pass control to OpenProject and skip all other code.
+Call OpenProject(tmpProjectID)
+Exit Sub
+
+
+tmpControlNum = 0
+tmpcontrolnumavail = 0
+
+
+tmpInvoiceNum = DLookup("[InvoiceNum]", "dbo_projectHeader", "[ID] = " & Me!ProjectHeaderID)
+tmpDocketNum = DLookup("[DocketNum]", "dbo_projectHeader", "[ID] = " & Me!ProjectHeaderID)
+tmpQuoteNum = DLookup("[QuoteNum]", "dbo_projectHeader", "[ID] = " & Me!ProjectHeaderID)
+tmpProjectName = DLookup("[ProjectName]", "dbo_projectHeader", "[ID] = " & Me!ProjectHeaderID)
+tmpCompName = DLookup("[CompName]", "dbo_contactgeneral", "[ID] = " & Me!ContactGeneralID)
+
+'FIND OUT IF project IS ALREADY OPEN - IF IT IS, KILL IT, so it will reappear at top.
+
+GoTo skip5layout:
+
+For i = 1 To 5
+    strcontrolname = "navProject" & Format(i, "00")
+    If Val(Forms!navmaster(strcontrolname).tag) = Val(tmpProjectID) Then
+        Forms!navmaster(strcontrolname).tag = ""
+        Forms!navmaster(strcontrolname).caption = Forms!navmaster(strcontrolname).name
+        Forms!navmaster(strcontrolname).visible = False
+        
+        
+        For j = i To 4 'if you delete one, suck them up from below
+        strcontrolname1 = "navProject" & Format(j, "00")
+        strcontrolname2 = "navProject" & Format(j + 1, "00")
+        
+        Forms!navmaster(strcontrolname1).visible = Forms!navmaster(strcontrolname2).visible
+        Forms!navmaster(strcontrolname1).tag = Forms!navmaster(strcontrolname2).tag
+        Forms!navmaster(strcontrolname1).caption = Forms!navmaster(strcontrolname2).caption
+        Forms!navmaster(strcontrolname1).NavigationWhereClause = Forms!navmaster(strcontrolname2).NavigationWhereClause
+        Next
+        
+
+    
+        
+    End If
+Next
+
+
+ ' bump everybody down one onscreen.
+
+    For i = 5 To 2 Step -1
+        strcontrolname1 = "navProject" & Format(i, "00")
+        strcontrolname2 = "navProject" & Format(i - 1, "00")
+        
+        Forms!navmaster(strcontrolname1).visible = Forms!navmaster(strcontrolname2).visible
+        Forms!navmaster(strcontrolname1).tag = Forms!navmaster(strcontrolname2).tag
+        Forms!navmaster(strcontrolname1).caption = Forms!navmaster(strcontrolname2).caption
+        Forms!navmaster(strcontrolname1).NavigationWhereClause = Forms!navmaster(strcontrolname2).NavigationWhereClause
+
+        
+    Next
+
+skip5layout:
+
+mytab = "" 'set up the tab information.
+If tmpInvoiceNum > 0 Then
+    mytab = "INV " & tmpInvoiceNum
+    Else
+        If tmpDocketNum > 0 Then
+            mytab = "DKT " & tmpDocketNum
+        Else
+            mytab = "EST " & tmpQuoteNum
+    End If
+End If
+mytab = mytab & vbCrLf
+mytab = mytab & Trim(Left(tmpCompName, 15)) & IIf(Len(tmpCompName) > 15, "...", "") & vbCrLf
+mytab = mytab & Trim(Left(tmpProjectName, 15)) & IIf(Len(tmpProjectName) > 15, "...", "")
+
+
+
+
+' go to the first tab and turn it on.
+
+tmpControlNum = 1
+strcontrolname = "navProject" & Format(tmpControlNum, "00")
+Forms!navmaster(strcontrolname).visible = True
+Forms!navmaster(strcontrolname).caption = mytab
+Forms!navmaster(strcontrolname).tag = tmpProjectID
+
+
+tmpWhereClause = "[id] = " & Val(tmpProjectID)
+myComponentID = "[ID] = " & Me.ProjectComponentID
+
+Forms!navmaster(strcontrolname).NavigationWhereClause = tmpWhereClause
+
+
+
+
+
+
+Forms!navmaster.SetFocus                'These two setfocus commands are NEEDED to browse properly
+Forms!navmaster.NavProject01.SetFocus
+'MsgBox tmpWhereClause
+'MsgBox myComponentID
+
+
+DoCmd.BrowseTo acBrowseToForm, "navProject", "navMaster.navSubform", tmpWhereClause
+
+
+        
+'then move to the component.
+DoCmd.BrowseTo acBrowseToForm, "frmProjectComponentHeader", "navMaster.navSubform>navProject.navProject", myComponentID
+        
+
+   
+End Sub
+
+Private Sub ComponentName_Click()
+Call SectionNametxt_Click
+
+End Sub
+
+Private Sub ComponentName2_Click()
+Call SectionNametxt_Click
+End Sub
+
+Private Sub DocketNum_Click()
+Call CompName_Click
+
+End Sub
+
+Private Sub Form_Close()
+'If Me.Dirty Then Me.Undo
+End Sub
+
+
+
+Private Sub Form_Load()
+Application.Echo False
+DoCmd.SetWarnings False
+
+
+Me.OrderBy = "MYPRESSDATE"
+'Me.lblSortPressDate.Caption = "PRESS DATE " & ChrW(9650)
+'Me.lblSortPriority.visible = False
+'Me.txtRightArrow.visible = False
+'Me.txtRightArrowGrey.visible = False
+
+
+Me.OrderByOn = True
+
+mymachineid = rsLocSS!tmpMachineID
+'If Nz(myMachineID, 0) > 0 Then
+'    Me.txtPress = myMachineID
+'    Call txtPress_AfterUpdate
+'End If
+
+Application.Echo True
+Call cmdSearch_Click
+
+End Sub
+
+
+
+Private Sub lblSortPressRun_Click()
+MsgBox "sort by PressRun"
+
+End Sub
+
+Private Sub PressDateExp_Click()
+'myOldID = Me.ID
+'DoCmd.OpenForm "frmChangePressDate", acNormal, , "[ID] = " & Me.ID, acFormEdit, acDialog
+
+'Me.Requery
+
+
+End Sub
+
+Private Sub DueDate_Click()
+DoCmd.OpenForm "frmProjectCriticalPath", acNormal, , "[id] = " & Me.ProjectHeaderID, acFormEdit, acDialog
+
+Me.Requery
+End Sub
+
+Private Sub Priority_AfterUpdate()
+
+
+
+
+myoldpriority = Me!Priority.OldValue
+myOldID = Me!ID
+
+mynewPriority = Me!Priority
+
+'MsgBox myoldpriority & " : " & mynewPriority
+'Me!Priority = myOldPriority ' reset the current priority back to the old number so it resorts properly
+
+Dim rs As Recordset
+
+'Set rs = Me.RecordsetClone
+
+With rs
+
+.MoveFirst
+Do Until .EOF 'First change the existing priorities larger than my new one - add one to each.
+    .Edit
+    If mynewPriority < myoldpriority Then
+        If !Priority >= mynewPriority And !ID <> myOldID Then
+            !Priority = !Priority + 1
+        End If
+        .Update
+        .MoveNext
+    Else
+        If !Priority <= mynewPriority And !ID <> myOldID Then
+            !Priority = !Priority - 1
+        End If
+        .Update
+        .MoveNext
+    End If
+    
+Loop
+
+End With
+
+
+Me.OrderBy = "Priority" 'put em back in the right order.
+Me.OrderByOn = True
+
+
+
+myPriority = 1
+
+'Set rs = Me.RecordsetClone
+
+With rs
+
+.MoveFirst
+Do Until .EOF 'Now reassign in numerical order to clean it up.
+    .Edit
+    !Priority = myPriority
+    myPriority = myPriority + 1
+    .Update
+    .MoveNext
+Loop
+
+End With
+
+Me.Recordset.FindFirst "[id] = " & myOldID
+
+
+
+End Sub
+
+Private Sub SectionName_Click()
+Call CompName_Click
+
+End Sub
+
+Private Sub SortBy_AfterUpdate()
+Call cmdSearch_Click
+
+End Sub
+
+
+
+Private Sub txtRightArrow_Click()
+'MyIDSelected = Me.ID
+
+End Sub
+
+Private Sub txtRightArrow_GotFocus()
+'Me.MyIDSelected = Me.ID
+
+
+End Sub
+
+
+Private Sub Priority_Click()
+'MsgBox "Change Priority on Dkt" & Me.DocketNum
+myResponse = ""
+myResponse = InputBox("Please Enter a Priority Number (1-5)", ProgramName)
+myResponse = Val(myResponse)
+
+If myResponse < 1 Or myResponse > 5 Then
+    myResponse = Null
+End If
+
+Dim rs As Recordset
+
+mysql = "Select * from dbo_ProjectComponentLFFinish WHERE [ID] = " & Me.LFFinishID
+
+Set rs = CurrentDb.OpenRecordset(mysql, dbOpenDynaset, dbSeeChanges)
+
+rs.MoveFirst
+
+rs.Edit
+rs!Priority = myResponse
+rs.Update
+rs.Close
+
+Me.Requery
+
+
+
+
+End Sub
+
+
+Private Sub SectionNametxt_Click()
+DoCmd.OpenForm "frmProjectComponentHeader", acViewNormal, , "[ID] = " & Me.ProjectComponentID
+
+DoCmd.BrowseTo acBrowseToForm, "frmProjectComponentLFFinish", "frmProjectComponentHeader.NavProjectComponentTask", "[ProjectComponentID] = " & Me.ProjectComponentID
+End Sub
+
+Private Sub ProjectName_Click()
+Call SectionNametxt_Click
+End Sub

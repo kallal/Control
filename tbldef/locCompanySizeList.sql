@@ -1,4 +1,0 @@
-CREATE TABLE [locCompanySizeList] (
-  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL ,
-  [Size] VARCHAR (255)
-)

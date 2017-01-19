@@ -1,4 +1,0 @@
-﻿ssd_prc_LineItemPrecentages
-ODBC;DRIVER=SQL Server;SERVER=SS_DIRECTOR\IWDBSQL;DATABASE=iWayDbSql;APP=SMARTSTREAM;WSID=Axis;Network=DBMSSOCN
-dbo.prc_LineItemPrecentages
-LineItemID

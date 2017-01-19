@@ -5,9 +5,12 @@ Begin InputTables
 End
 Begin OutputColumns
     Expression ="dbo_ProjectComponentHeader.ProjectHeaderID"
+    Expression ="dbo_ProjectComponentHeader.SortOrder"
 End
 Begin Groups
     Expression ="dbo_ProjectComponentHeader.ProjectHeaderID"
+    GroupLevel =0
+    Expression ="dbo_ProjectComponentHeader.SortOrder"
     GroupLevel =0
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -24,13 +27,15 @@ dbBoolean "OrderByOnLoad" ="-1"
 dbBoolean "TotalsRow" ="0"
 dbByte "PublishToWeb" ="1"
 dbLongBinary "DOL" = Begin
-    0x0acc0e55000000000e7a128852f41a47b128e4f3b41e4fb4000000001c04ba6d ,
-    0xec62e4400000000000000000640062006f005f00500072006f006a0065006300 ,
+    0x0acc0e5500000000d2d381ba93398a4283a6a9ed80a7b4be0000000096f8534c ,
+    0x2de0e4400000000000000000640062006f005f00500072006f006a0065006300 ,
     0x740043006f006d0070006f006e0065006e007400480065006100640065007200 ,
-    0x000000000000873fed1bdd4daf46b59105d9e5c28c31070000000e7a128852f4 ,
-    0x1a47b128e4f3b41e4fb4500072006f006a006500630074004800650061006400 ,
-    0x6500720049004400000000000000000000000000000000000000000000000c00 ,
-    0x0000050000000000000000000000000000000000
+    0x0000000000002042568302f48b4d89eb4ba2abddca7307000000d2d381ba9339 ,
+    0x8a4283a6a9ed80a7b4be500072006f006a006500630074004800650061006400 ,
+    0x650072004900440000000000000092f3a3fed2b0734280ec42fae4658f360700 ,
+    0x0000d2d381ba93398a4283a6a9ed80a7b4be53006f00720074004f0072006400 ,
+    0x65007200000000000000000000000000000000000000000000000c0000000500 ,
+    0x00000000000000000000000000000000
 End
 Begin
     Begin
@@ -38,7 +43,7 @@ Begin
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="dbo_ProjectComponentHeader.ComponentName"
+        dbText "Name" ="dbo_ProjectComponentHeader.SortOrder"
         dbLong "AggregateType" ="-1"
     End
 End
@@ -51,7 +56,7 @@ Begin
     Left =-1
     Top =-1
     Right =1461
-    Bottom =502
+    Bottom =468
     Left =0
     Top =0
     ColumnsShown =543

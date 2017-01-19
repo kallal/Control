@@ -1,4 +1,0 @@
-﻿dbo_T_OperatorHistory
-ODBC;DRIVER=SQL Server;SERVER=PC-EDM-0012\KOMORI_SQLSERVER;DATABASE=KOMORI;APP=KSTATION;WSID=Axis;Network=DBMSSOCN
-dbo.T_OperatorHistory
-OperatorID;+DeviceID;+StartDate

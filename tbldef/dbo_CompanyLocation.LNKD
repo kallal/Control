@@ -1,4 +1,0 @@
-﻿dbo_CompanyLocation
-ODBC;DRIVER=SQL Server;SERVER=ALBERTKALLAL-PC\SQLEXPRESS;DATABASE=AxisMIS;APP=AXIS;WSID=Axis;Network=DBMSSOCN
-dbo.dbo_CompanyLocation
-ID
