@@ -56,7 +56,7 @@ Begin
     Left =-1
     Top =-1
     Right =1535
-    Bottom =531
+    Bottom =514
     Left =0
     Top =0
     ColumnsShown =539

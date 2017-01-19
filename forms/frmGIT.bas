@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1009070000
+Checksum =1039762014
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -15,9 +15,9 @@ Begin Form
     Width =9246
     DatasheetFontHeight =11
     ItemSuffix =23
-    Left =105
+    Left =270
     Top =510
-    Right =9600
+    Right =9765
     Bottom =8460
     DatasheetGridlinesColor =16446942
     RecSrcDt = Begin
@@ -668,6 +668,7 @@ Private Sub cmdExportAll_Click()
       Exit Sub
    End If
      
+Stop
 
    Call ExportAllSource(True, Me.chkOnlyNew, _
         Me.chkQuery, _

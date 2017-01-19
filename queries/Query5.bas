@@ -6,11 +6,14 @@ End
 Begin OutputColumns
     Expression ="dbo_ProjectComponentHeader.ProjectHeaderID"
     Expression ="dbo_ProjectComponentHeader.SortOrder"
+    Expression ="dbo_ProjectComponentHeader.ShipFlag"
 End
 Begin Groups
     Expression ="dbo_ProjectComponentHeader.ProjectHeaderID"
     GroupLevel =0
     Expression ="dbo_ProjectComponentHeader.SortOrder"
+    GroupLevel =0
+    Expression ="dbo_ProjectComponentHeader.ShipFlag"
     GroupLevel =0
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -34,8 +37,10 @@ dbLongBinary "DOL" = Begin
     0x8a4283a6a9ed80a7b4be500072006f006a006500630074004800650061006400 ,
     0x650072004900440000000000000092f3a3fed2b0734280ec42fae4658f360700 ,
     0x0000d2d381ba93398a4283a6a9ed80a7b4be53006f00720074004f0072006400 ,
-    0x65007200000000000000000000000000000000000000000000000c0000000500 ,
-    0x00000000000000000000000000000000
+    0x65007200000000000000511c9c289c00f243a3ee9fac591d6ee207000000d2d3 ,
+    0x81ba93398a4283a6a9ed80a7b4be530068006900700046006c00610067000000 ,
+    0x00000000000000000000000000000000000000000c0000000500000000000000 ,
+    0x00000000000000000000
 End
 Begin
     Begin
@@ -46,17 +51,21 @@ Begin
         dbText "Name" ="dbo_ProjectComponentHeader.SortOrder"
         dbLong "AggregateType" ="-1"
     End
+    Begin
+        dbText "Name" ="dbo_ProjectComponentHeader.ShipFlag"
+        dbLong "AggregateType" ="-1"
+    End
 End
 Begin
     State =0
-    Left =114
-    Top =178
-    Right =1607
-    Bottom =980
+    Left =76
+    Top =128
+    Right =1453
+    Bottom =888
     Left =-1
     Top =-1
-    Right =1461
-    Bottom =468
+    Right =1345
+    Bottom =451
     Left =0
     Top =0
     ColumnsShown =543
