@@ -7,6 +7,7 @@ End
 Begin OutputColumns
     Expression ="dbo_ContactLocation.DeleteYN"
     Expression ="dbo_ContactLocation.LocationName"
+    Expression ="dbo_ContactLocation.PC"
 End
 Begin OrderBy
     Expression ="dbo_ContactLocation.DeleteYN"
@@ -32,8 +33,10 @@ dbLongBinary "DOL" = Begin
     0xb8fa78ab5f70a952070000006ecc18cd46f1e049a0ecf20645e8868144006500 ,
     0x6c0065007400650059004e00000000000000aaabb1b23bd392488260ff59a466 ,
     0xa242070000006ecc18cd46f1e049a0ecf20645e886814c006f00630061007400 ,
-    0x69006f006e004e0061006d006500000000000000000000000000000000000000 ,
-    0x000000000c000000050000000000000000000000000000000000
+    0x69006f006e004e0061006d00650000000000000039499532d1e09842a970f35d ,
+    0x35cecce6070000006ecc18cd46f1e049a0ecf20645e886815000430000000000 ,
+    0x0000000000000000000000000000000000000c00000005000000000000000000 ,
+    0x0000000000000000
 End
 Begin
     Begin
@@ -46,6 +49,10 @@ Begin
         dbBoolean "ColumnHidden" ="0"
         dbLong "AggregateType" ="-1"
     End
+    Begin
+        dbText "Name" ="dbo_ContactLocation.PC"
+        dbLong "AggregateType" ="-1"
+    End
 End
 Begin
     State =0
@@ -56,7 +63,7 @@ Begin
     Left =-1
     Top =-1
     Right =1535
-    Bottom =514
+    Bottom =497
     Left =0
     Top =0
     ColumnsShown =539
