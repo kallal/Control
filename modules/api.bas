@@ -1,7 +1,7 @@
 Option Compare Database
 Option Explicit
 
-' test1 Albert Kallal
+' test1 Albert Kallal @2:28 PM
 
 Type tagOPENFILENAME
     lStructSize As Long
