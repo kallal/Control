@@ -1,7 +1,7 @@
 Option Compare Database
 Option Explicit
 
-' test1 Albert
+' test1 Albert Kallal
 
 Type tagOPENFILENAME
     lStructSize As Long
