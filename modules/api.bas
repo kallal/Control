@@ -1,6 +1,7 @@
 Option Compare Database
 Option Explicit
 
+' Debug test test3 test5 test6
 
 Type tagOPENFILENAME
     lStructSize As Long
