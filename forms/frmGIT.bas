@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =1039762014
+Checksum =-538849355
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -14,11 +14,11 @@ Begin Form
     GridY =10
     Width =9246
     DatasheetFontHeight =11
-    ItemSuffix =23
+    ItemSuffix =28
     Left =270
     Top =510
     Right =9765
-    Bottom =8460
+    Bottom =8205
     DatasheetGridlinesColor =16446942
     RecSrcDt = Begin
         0x3d01d8d933e0e440
@@ -400,7 +400,7 @@ Begin Form
                     TabIndex =6
                     BorderColor =10921638
                     Name ="chkReports"
-                    DefaultValue ="False"
+                    DefaultValue ="True"
                     GUID = Begin
                         0x574b3326ab43194aafdcf25ddfc43781
                     End
@@ -571,7 +571,7 @@ Begin Form
                 Begin CheckBox
                     OverlapFlags =85
                     Left =390
-                    Top =4838
+                    Top =5273
                     TabIndex =10
                     BorderColor =10921638
                     Name ="chkReferences"
@@ -582,14 +582,14 @@ Begin Form
                     GridlineColor =10921638
 
                     LayoutCachedLeft =390
-                    LayoutCachedTop =4838
+                    LayoutCachedTop =5273
                     LayoutCachedWidth =650
-                    LayoutCachedHeight =5078
+                    LayoutCachedHeight =5513
                     Begin
                         Begin Label
                             OverlapFlags =247
                             Left =617
-                            Top =4815
+                            Top =5250
                             Width =1515
                             Height =315
                             BorderColor =8355711
@@ -601,22 +601,92 @@ Begin Form
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =617
-                            LayoutCachedTop =4815
+                            LayoutCachedTop =5250
                             LayoutCachedWidth =2132
-                            LayoutCachedHeight =5130
+                            LayoutCachedHeight =5565
                         End
                     End
                 End
                 Begin CheckBox
                     OverlapFlags =85
                     Left =403
-                    Top =4403
+                    Top =4838
                     TabIndex =11
                     BorderColor =10921638
                     Name ="chkRelationships"
                     DefaultValue ="False"
                     GUID = Begin
                         0x66b7b067e376e042a00d187121d23fff
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =403
+                    LayoutCachedTop =4838
+                    LayoutCachedWidth =663
+                    LayoutCachedHeight =5078
+                    Begin
+                        Begin Label
+                            OverlapFlags =247
+                            Left =630
+                            Top =4815
+                            Width =1335
+                            Height =315
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Label22"
+                            Caption ="Relationships"
+                            GUID = Begin
+                                0x994b75e4d285d24bb33bf87db7fcc822
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedLeft =630
+                            LayoutCachedTop =4815
+                            LayoutCachedWidth =1965
+                            LayoutCachedHeight =5130
+                        End
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =340
+                    Top =5782
+                    Width =1641
+                    Height =508
+                    TabIndex =12
+                    ForeColor =4210752
+                    Name ="cmdImport"
+                    Caption ="Import All (local)"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xf36bb5df1c93734499f38ab42c4c9e0c
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =340
+                    LayoutCachedTop =5782
+                    LayoutCachedWidth =1981
+                    LayoutCachedHeight =6290
+                    BackColor =14732154
+                    BorderColor =14732154
+                    HoverColor =15392166
+                    PressedColor =9402914
+                    HoverForeColor =4210752
+                    PressedForeColor =4210752
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                End
+                Begin CheckBox
+                    OverlapFlags =85
+                    Left =403
+                    Top =4403
+                    TabIndex =13
+                    BorderColor =10921638
+                    Name ="chkLiinkedTables"
+                    DefaultValue ="False"
+                    GUID = Begin
+                        0x0f09025e81c79146a537d492c33a6cc7
                     End
                     GridlineColor =10921638
 
@@ -633,10 +703,10 @@ Begin Form
                             Height =315
                             BorderColor =8355711
                             ForeColor =8355711
-                            Name ="Label22"
-                            Caption ="Relationships"
+                            Name ="Label27"
+                            Caption ="Linked Tables"
                             GUID = Begin
-                                0x994b75e4d285d24bb33bf87db7fcc822
+                                0xc95c39012313954189e070828ab5d29d
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =630
@@ -667,8 +737,6 @@ Private Sub cmdExportAll_Click()
    If MsgBox("Export all to local archive folder?", vbYesNoCancel + vbQuestion, "Export") <> vbYes Then
       Exit Sub
    End If
-     
-Stop
 
    Call ExportAllSource(True, Me.chkOnlyNew, _
         Me.chkQuery, _
@@ -684,6 +752,33 @@ Stop
    Me.LastExportTime = Now()
    Me.Dirty = False
    
+End Sub
+
+Private Sub cmdImport_Click()
+
+   If Me.Dirty = True Then
+      Me.Dirty = False
+   End If
+   
+   If MsgBox("Import all from local archive folder?", vbYesNoCancel + vbQuestion, "IMPORT!!") <> vbYes Then
+      Exit Sub
+   End If
+Stop
+   Call ImportAllSource(True, Me.chkOnlyNew, _
+        Me.chkQuery, _
+        Me.chkModules, _
+        Me.chkForms, _
+        Me.chkReports, _
+        Me.chkMacro, _
+        Me.chkReferences, _
+        Me.chkTables, _
+        Me.chkRelationships)
+   
+   Me.LastExportTime = Now()
+   Me.Dirty = False
+   
+
+
 End Sub
 
 Private Sub cmdSetNow_Click()
