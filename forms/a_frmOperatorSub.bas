@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =178690125
+Checksum =-927326013
 Begin Form
     RecordSelectors = NotDefault
     AutoCenter = NotDefault
@@ -137,6 +137,7 @@ Begin Form
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x000000000000000000000000000000000000000000000000
     End
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -319,7 +320,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =195
                     LayoutCachedTop =60
                     LayoutCachedWidth =975
@@ -348,7 +348,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1035
                     LayoutCachedTop =60
                     LayoutCachedWidth =2970
@@ -380,7 +379,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =3030
                     LayoutCachedTop =60
                     LayoutCachedWidth =5346
@@ -412,7 +410,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =5400
                     LayoutCachedTop =60
                     LayoutCachedWidth =7776

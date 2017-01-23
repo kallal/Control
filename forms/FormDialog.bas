@@ -1,6 +1,7 @@
 ﻿Version =20
 VersionRequired =20
-Checksum =187949114
+PublishOption =1
+Checksum =178845405
 Begin Form
     PopUp = NotDefault
     Modal = NotDefault
@@ -194,6 +195,7 @@ Begin Form
         0x00000000
     End
     NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -274,7 +276,6 @@ Begin Form
                         0xa4f614924326f34d82abd554a604bfbd
                     End
                     TextFormat =1
-
                     LayoutCachedLeft =1190
                     LayoutCachedTop =56
                     LayoutCachedWidth =4984
@@ -477,7 +478,6 @@ Begin Form
                         0x6638dc7bdd9b5dff3706f40fda0f5ab7fd5f072eb4288ce1eeb8000000004945 ,
                         0x4e44ae426082
                     End
-
                     LayoutCachedLeft =60
                     LayoutCachedTop =60
                     LayoutCachedWidth =1140
@@ -683,7 +683,6 @@ Begin Form
                         0x1d00ddbfbddf7ac0f07ddbddff770af0ffdf86b6ff03ecb2f6f1e07217a30000 ,
                         0x000049454e44ae426082
                     End
-
                     LayoutCachedLeft =60
                     LayoutCachedTop =60
                     LayoutCachedWidth =1140
@@ -846,7 +845,6 @@ Begin Form
                         0x7e4d3099c912087ecef0b0b40d8cd6179dba2c5589bcea3c77f0df145bfe0787 ,
                         0x0c3a2896b193f20000000049454e44ae426082
                     End
-
                     LayoutCachedLeft =60
                     LayoutCachedTop =60
                     LayoutCachedWidth =1140
@@ -986,7 +984,6 @@ Begin Form
                         0x9f5d7f5dbacda3a01a58a6128f2c784dc0180231360639769b03104cee0dcb2c ,
                         0xff136000747682c741d360190000000049454e44ae426082
                     End
-
                     LayoutCachedLeft =60
                     LayoutCachedTop =60
                     LayoutCachedWidth =1140
@@ -1044,7 +1041,6 @@ Begin Form
                         0x00000000c09880ffb09070ffb08870ff00000000000000000000000000000000 ,
                         0x0000000000000000
                     End
-
                     LayoutCachedWidth =6
                     LayoutCachedHeight =6
                     WebImagePaddingLeft =2
@@ -1067,7 +1063,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     VerticalAnchor =1
-
                     LayoutCachedLeft =1200
                     LayoutCachedTop =945
                     LayoutCachedWidth =1460
@@ -1163,7 +1158,6 @@ Begin Form
                         0x0000000000000000
                     End
                     BackStyle =0
-
                     LayoutCachedLeft =60
                     LayoutCachedTop =120
                     LayoutCachedWidth =390
@@ -1229,7 +1223,6 @@ Begin Form
                         0x0000000000000000
                     End
                     BackStyle =0
-
                     LayoutCachedLeft =379
                     LayoutCachedTop =124
                     LayoutCachedWidth =709
@@ -1260,7 +1253,6 @@ Begin Form
                     End
                     HorizontalAnchor =1
                     VerticalAnchor =1
-
                     LayoutCachedLeft =3798
                     LayoutCachedTop =113
                     LayoutCachedWidth =4932
@@ -1292,7 +1284,6 @@ Begin Form
                     ImageData = Begin
                         0x00000000
                     End
-
                     LayoutCachedLeft =2380
                     LayoutCachedTop =113
                     LayoutCachedWidth =3514
@@ -1325,7 +1316,6 @@ Begin Form
                     ImageData = Begin
                         0x00000000
                     End
-
                     LayoutCachedLeft =963
                     LayoutCachedTop =113
                     LayoutCachedWidth =2097
