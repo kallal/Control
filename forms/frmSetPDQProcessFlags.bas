@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-2104820339
+Checksum =-289141716
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -171,6 +171,7 @@ Begin Form
         0x0000000000000000
     End
     NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -284,7 +285,6 @@ Begin Form
                         0x62fb378421674142aac9f47b647662b0
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =12300
                     LayoutCachedTop =60
                     LayoutCachedWidth =13740
@@ -305,7 +305,6 @@ Begin Form
                         0x77834e09cd374441a21a265d10cc01aa
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =600
                     LayoutCachedTop =1020
                     LayoutCachedWidth =2040
@@ -327,7 +326,6 @@ Begin Form
                         0x4073d0a93f2ddf4a9af047f495c6979c
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2100
                     LayoutCachedTop =1020
                     LayoutCachedWidth =13920
@@ -349,7 +347,6 @@ Begin Form
                         0x7960d4958ace8e4494ca7382a0c6c07c
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8040
                     LayoutCachedTop =1620
                     LayoutCachedWidth =9480
@@ -371,7 +368,6 @@ Begin Form
                         0x535393af368ed74aa6d46f416f396a5b
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =12480
                     LayoutCachedTop =1620
                     LayoutCachedWidth =13920
@@ -392,7 +388,6 @@ Begin Form
                         0x2507b774e18d5b4394385f5a7c612b79
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2580
                     LayoutCachedTop =3120
                     LayoutCachedWidth =4020
@@ -414,7 +409,6 @@ Begin Form
                         0xe8e9b8e1b1fb4949aee271127aa46069
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =4140
                     LayoutCachedTop =3120
                     LayoutCachedWidth =5580
@@ -435,7 +429,6 @@ Begin Form
                         0x25a78f77f31dfa4db944540a887b867e
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =7560
                     LayoutCachedTop =3120
                     LayoutCachedWidth =9000
@@ -457,7 +450,6 @@ Begin Form
                         0x5ed0c3c96b7dbd4f9e2dfa8bd6805881
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =9000
                     LayoutCachedTop =3120
                     LayoutCachedWidth =10440
@@ -477,7 +469,6 @@ Begin Form
                         0x251a1999af18b043bce1920ad8d691ba
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =10860
                     LayoutCachedTop =2400
                     LayoutCachedWidth =13020
@@ -507,7 +498,6 @@ Begin Form
                         0x34b8df612a440e47979760cc791c8d58
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =120
                     LayoutCachedTop =2520
                     LayoutCachedWidth =2280
@@ -547,7 +537,6 @@ Begin Form
                         "more linking to identify exactly which press run, etc."
                     AfterUpdate ="[Event Procedure]"
                     GridlineColor =10921638
-
                     LayoutCachedLeft =600
                     LayoutCachedTop =1620
                     LayoutCachedWidth =5100
@@ -576,7 +565,6 @@ Begin Form
                     RowSourceType ="Field List"
                     StatusBarText ="Fieldname in the database above to be altered"
                     GridlineColor =10921638
-
                     LayoutCachedLeft =5220
                     LayoutCachedTop =1620
                     LayoutCachedWidth =7920
@@ -606,7 +594,6 @@ Begin Form
                     StatusBarText ="Second fieldname in database above to be altered (i.e. First one may select FOLD"
                         ", second one says GATE or whatever.)"
                     GridlineColor =10921638
-
                     LayoutCachedLeft =9720
                     LayoutCachedTop =1620
                     LayoutCachedWidth =12420
@@ -628,7 +615,6 @@ Begin Form
                         0xa696a009904483499a007c5e6c7a63df
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =5280
                     LayoutCachedTop =2070
                     LayoutCachedWidth =5540

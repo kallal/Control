@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1126730013
+Checksum =326842136
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -154,6 +154,7 @@ Begin Form
         0x00000000000000000000310030002e00350030002e003100300031002e003100 ,
         0x3100350000000000000000000000
     End
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -314,7 +315,6 @@ Begin Form
                         0xecb16d5047ed25499126bca44b9031d7
                     End
                     GridlineColor =10921638
-
                     LayoutCachedWidth =1440
                     LayoutCachedHeight =240
                     BackColor =14732154
@@ -356,7 +356,6 @@ Begin Form
                         0x25341fdad4a2f34bb51919a52ad95f20
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =4380
                     LayoutCachedWidth =4680
                     LayoutCachedHeight =180
@@ -380,7 +379,6 @@ Begin Form
                         0xcee2e72599d6dd4f8a58cc02400ade39
                     End
                     GridlineColor =10921638
-
                     LayoutCachedWidth =2400
                     LayoutCachedHeight =300
                 End
@@ -400,7 +398,6 @@ Begin Form
                         0x93fbb4c999ae3245ab5ca93a6356ac81
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =3660
                     LayoutCachedWidth =4140
                     LayoutCachedHeight =240
@@ -419,7 +416,6 @@ Begin Form
                         0x8a69dfccd1bda14aabd5023728716d70
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =4680
                     LayoutCachedWidth =5280
                     LayoutCachedHeight =300
@@ -453,7 +449,6 @@ Begin Form
                         0xd93cc50d09353f46a5c2312e5705d0ee
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2400
                     LayoutCachedWidth =4680
                     LayoutCachedHeight =300
@@ -483,7 +478,6 @@ Begin Form
                     BaseInfo ="\"qryCompanyEmployee\";\"dbo_CompanyEmployee\";\"\";\"ID\";\"FN] & \"\" \"\" & ["
                         "LN\";\"dbo_CompanyEmployee$PrimaryKey\""
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1740
                     LayoutCachedTop =120
                     LayoutCachedWidth =3000
@@ -507,7 +501,6 @@ Begin Form
                         0x97c2716e8d4bd1418580983c61e6d281
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =5340
                     LayoutCachedWidth =6240
                     LayoutCachedHeight =300

@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =2010657035
+Checksum =-199728529
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -43,6 +43,7 @@ Begin Form
     ForeThemeColorIndex =0
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -155,7 +156,6 @@ Begin Form
                     BaseInfo ="\"qryCompanyEmployee\";\"dbo_CompanyEmployee\";\"\";\"ID\";\"FN] & \"\" \"\" & ["
                         "LN\";\"dbo_CompanyEmployee$PrimaryKey\""
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2880
                     LayoutCachedTop =1320
                     LayoutCachedWidth =7200
@@ -204,7 +204,6 @@ Begin Form
                     BaseInfo ="\"qryCompanyEmployee\";\"dbo_CompanyEmployee\";\"\";\"ID\";\"FN] & \"\" \"\" & ["
                         "LN\";\"dbo_CompanyEmployee$PrimaryKey\""
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2880
                     LayoutCachedTop =2520
                     LayoutCachedWidth =7200
@@ -246,7 +245,6 @@ Begin Form
                         0xbc09e0da9135774e8481ac80c7cb0b6b
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =3000
                     LayoutCachedTop =3900
                     LayoutCachedWidth =5760

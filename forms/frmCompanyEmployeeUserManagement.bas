@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-496821257
+Checksum =-692841757
 Begin Form
     RecordSelectors = NotDefault
     AutoCenter = NotDefault
@@ -679,6 +679,7 @@ Begin Form
         0x7300650072004a0065007400500072006f004d00460050004d00320032003500 ,
         0x64006e000000
     End
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1

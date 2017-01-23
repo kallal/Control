@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =1982273264
+Checksum =1950851122
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -611,6 +611,7 @@ Begin Form
         0x64006e000000
     End
     NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -863,7 +864,6 @@ Begin Form
                         0x8dfdd3fb3e7dfd4183d628398f00051f
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =6600
                     LayoutCachedTop =420
                     LayoutCachedWidth =9480
@@ -886,7 +886,6 @@ Begin Form
                         0xbd9670a84e158f4e926af11a24d4c3c1
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =9480
                     LayoutCachedTop =420
                     LayoutCachedWidth =13140
@@ -909,7 +908,6 @@ Begin Form
                         0xbf52d0d321d12f43abeb19be07664ada
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =15420
                     LayoutCachedTop =420
                     LayoutCachedWidth =16860
@@ -932,7 +930,6 @@ Begin Form
                         0x2b35759b5c635045ad000f790209cdc3
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =17160
                     LayoutCachedTop =420
                     LayoutCachedWidth =18600
@@ -954,7 +951,6 @@ Begin Form
                         0x49a80f0882ca794eb3e76e244e601b46
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =5160
                     LayoutCachedTop =420
                     LayoutCachedWidth =6600
@@ -974,7 +970,6 @@ Begin Form
                         0x4a4744ab92ccc447a2e0c526ad1de788
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =120
                     LayoutCachedTop =900
                     LayoutCachedWidth =20340
@@ -994,7 +989,6 @@ Begin Form
                         0x6806b2451919c844b7c5d52faf8f9356
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =19080
                     LayoutCachedTop =180
                     LayoutCachedWidth =19800
@@ -1032,7 +1026,6 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     OnDblClick ="[Event Procedure]"
                     GridlineColor =10921638
-
                     LayoutCachedLeft =480
                     LayoutCachedTop =420
                     LayoutCachedWidth =3360
@@ -1086,7 +1079,6 @@ Begin Form
                     BaseInfo ="\"dbo_TaskCategory\";\"dbo_TaskCategory\";\"\";\"ID\";\"TaskCategory\";\"dbo_Tas"
                         "kCategory$PrimaryKey\""
                     GridlineColor =10921638
-
                     LayoutCachedLeft =3360
                     LayoutCachedTop =420
                     LayoutCachedWidth =5160
@@ -1120,7 +1112,6 @@ Begin Form
                     BaseInfo ="\"dbo_TaskList\";\"dbo_TaskList\";\"\";\"ID\";\"CategoryID\";\"dbo_TaskList$Prim"
                         "aryKey\""
                     GridlineColor =10921638
-
                     LayoutCachedLeft =13155
                     LayoutCachedTop =420
                     LayoutCachedWidth =15240

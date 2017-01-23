@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =1170309463
+Checksum =1889593246
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -148,6 +148,7 @@ Begin Form
         0x000000000000000000000000490050005f00310030002e00350030002e003100 ,
         0x300031002e00380035000000
     End
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -354,7 +355,6 @@ Begin Form
                     ColumnWidths ="0;1440"
                     StatusBarText ="Link to ContactGeneralID"
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2880
                     LayoutCachedWidth =5880
                     LayoutCachedHeight =315
@@ -377,7 +377,6 @@ Begin Form
                         0x1d6ce910683ef146af1c4597bb94fa6b
                     End
                     GridlineColor =10921638
-
                     LayoutCachedWidth =1440
                     LayoutCachedHeight =315
                 End
@@ -398,7 +397,6 @@ Begin Form
                         0x70883f86ad0f8b458d2d1bce67cbb703
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1440
                     LayoutCachedWidth =2880
                     LayoutCachedHeight =315
@@ -431,7 +429,6 @@ Begin Form
                         0x83adc400f69ae14397fe5de729ab103b
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =5040
                     LayoutCachedWidth =6180
                     LayoutCachedHeight =315
@@ -464,7 +461,6 @@ Begin Form
                         0x86012ec79e084c41b12ed77afb41afd0
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =4200
                     LayoutCachedWidth =4920
                     LayoutCachedHeight =240
@@ -501,7 +497,6 @@ Begin Form
                         0x8ca3306450807243ac726951497bd238
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =5022
                     LayoutCachedWidth =6162
                     LayoutCachedHeight =315

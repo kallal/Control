@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =705758112
+Checksum =-1840616771
 Begin Form
     RecordSelectors = NotDefault
     AutoCenter = NotDefault
@@ -194,6 +194,7 @@ Begin Form
         0x3100350000000000000000000000
     End
     NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -325,7 +326,6 @@ Begin Form
                         0xd0d02bf179bb9a4b842950573b6381b4
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =11340
                     LayoutCachedTop =240
                     LayoutCachedWidth =13620
@@ -367,7 +367,6 @@ Begin Form
                                 0x885432fe204c9c408dc9ea108bbf982c
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =11520
                             LayoutCachedTop =450
                             LayoutCachedWidth =11780
@@ -405,7 +404,6 @@ Begin Form
                                 0x5cb22bdcf4cc424488ef03eb88b5f6a5
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =12420
                             LayoutCachedTop =450
                             LayoutCachedWidth =12680
@@ -451,7 +449,6 @@ Begin Form
                         0xabed7264ed4be7499c5c3ef290b7d5f7
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =13980
                     LayoutCachedTop =240
                     LayoutCachedWidth =17820
@@ -493,7 +490,6 @@ Begin Form
                                 0x9780bb9dfaa82f458e950ff5848b3e79
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =14220
                             LayoutCachedTop =450
                             LayoutCachedWidth =14480
@@ -531,7 +527,6 @@ Begin Form
                                 0x4b374674e83a55438e310ad15c77d13d
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =15660
                             LayoutCachedTop =450
                             LayoutCachedWidth =15920
@@ -569,7 +564,6 @@ Begin Form
                                 0x1c0581f327989f409d09421f86dbdabd
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =17100
                             LayoutCachedTop =450
                             LayoutCachedWidth =17360
@@ -619,7 +613,6 @@ Begin Form
                         0x5347299892e22342b9ea92d31901b6ce
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1800
                     LayoutCachedTop =120
                     LayoutCachedWidth =5700
@@ -668,7 +661,6 @@ Begin Form
                         0xe28ff9438d836448abe0e3d2e92bb967
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1800
                     LayoutCachedTop =540
                     LayoutCachedWidth =5700
@@ -717,7 +709,6 @@ Begin Form
                     RowSource ="tblCboProjectNameContactName"
                     StatusBarText ="Which project we're working on."
                     GridlineColor =10921638
-
                     LayoutCachedLeft =6240
                     LayoutCachedTop =120
                     LayoutCachedWidth =7680
@@ -860,7 +851,6 @@ Begin Form
                         0xaedcfab17bb9094d8935677bb5fa3477
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =13860
                     LayoutCachedTop =60
                     LayoutCachedWidth =15300
@@ -956,7 +946,6 @@ Begin Form
                     BaseInfo ="\"dbo_ProjectComponentCategory\";\"dbo_ProjectComponentCategory\";\"\";\"ID\";\""
                         "CategoryName\";\"dbo_ProjectComponentCategory$PrimaryKey\""
                     GridlineColor =10921638
-
                     LayoutCachedLeft =9240
                     LayoutCachedWidth =11160
                     LayoutCachedHeight =300
@@ -988,7 +977,6 @@ Begin Form
                     ColumnWidths ="0;1440"
                     StatusBarText ="Which component we're working on."
                     GridlineColor =10921638
-
                     LayoutCachedLeft =60
                     LayoutCachedWidth =3240
                     LayoutCachedHeight =300
@@ -1020,7 +1008,6 @@ Begin Form
                     StatusBarText ="Who is doing the task"
                     DefaultValue ="1"
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2940
                     LayoutCachedWidth =4680
                     LayoutCachedHeight =300
@@ -1044,7 +1031,6 @@ Begin Form
                         0x8eee7638a380fc40aee8b8d599d4c816
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =16980
                     LayoutCachedTop =60
                     LayoutCachedWidth =18420
@@ -1072,7 +1058,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
-
                     LayoutCachedLeft =5700
                     LayoutCachedWidth =6540
                     LayoutCachedHeight =300
@@ -1099,7 +1084,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
-
                     LayoutCachedLeft =7560
                     LayoutCachedWidth =8400
                     LayoutCachedHeight =300
@@ -1126,7 +1110,6 @@ Begin Form
                         0xa71b275608c8004e9228b77558e8eeff
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8400
                     LayoutCachedWidth =9240
                     LayoutCachedHeight =300
@@ -1147,7 +1130,6 @@ Begin Form
                         0xe77fe94dfd3da74080db499d487a966b
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =18000
                     LayoutCachedWidth =18600
                     LayoutCachedHeight =300
@@ -1179,7 +1161,6 @@ Begin Form
                         0xe4241b8174b8944fad852cbc54abbe9a
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =17340
                     LayoutCachedWidth =17940
                     LayoutCachedHeight =300
@@ -1211,7 +1192,6 @@ Begin Form
                         0x7abd6ec673131746abe8e78c52d0b969
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2460
                     LayoutCachedWidth =2880
                     LayoutCachedHeight =240
@@ -1240,7 +1220,6 @@ Begin Form
                     ColumnWidths ="0;2160;360"
                     StatusBarText ="What the task was"
                     GridlineColor =10921638
-
                     LayoutCachedLeft =10860
                     LayoutCachedWidth =13080
                     LayoutCachedHeight =300
@@ -1267,7 +1246,6 @@ Begin Form
                         0x2b290c1a16d05a4d9697149482dedf23
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =12780
                     LayoutCachedWidth =18600
                     LayoutCachedHeight =300
@@ -1290,7 +1268,6 @@ Begin Form
                         0x569b6fed852a644a91362ae33c0dfb8a
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =4680
                     LayoutCachedWidth =5700
                     LayoutCachedHeight =300
@@ -1313,7 +1290,6 @@ Begin Form
                         0xa6dac1331f84c04b831258cf8de78c0a
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =6540
                     LayoutCachedWidth =7560
                     LayoutCachedHeight =300
@@ -1350,7 +1326,6 @@ Begin Form
                         0x1c6267bb60eca34fa6847303587389d7
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =16080
                     LayoutCachedWidth =17280
                     LayoutCachedHeight =300

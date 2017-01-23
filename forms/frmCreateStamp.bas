@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-904802701
+Checksum =-310009969
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -41,6 +41,7 @@ Begin Form
     ForeThemeColorIndex =0
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1

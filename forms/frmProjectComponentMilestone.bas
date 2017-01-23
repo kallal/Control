@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1872028797
+Checksum =1239479780
 Begin Form
     RecordSelectors = NotDefault
     MaxButton = NotDefault
@@ -70,6 +70,7 @@ Begin Form
     ForeThemeColorIndex =0
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -243,7 +244,6 @@ Begin Form
                         0x275ab0abbd040144969c9dedccc900df
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =7260
                     LayoutCachedWidth =7500
                     LayoutCachedHeight =315
@@ -268,7 +268,6 @@ Begin Form
                         0xc3d65ef12b7dc6409863025660a5a6dd
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =7620
                     LayoutCachedWidth =7980
                     LayoutCachedHeight =315
@@ -296,7 +295,6 @@ Begin Form
                     BaseInfo ="\"qryProjectComponentMilestoneType\";\"dbo_ProjectComponentMilestoneType\";\"\";"
                         "\"id\";\"MilestoneType\";\"dbo_ProjectComponentMilestoneType$PrimaryKey\""
                     GridlineColor =10921638
-
                     LayoutCachedWidth =1320
                     LayoutCachedHeight =315
                     ForeThemeColorIndex =0
@@ -321,7 +319,6 @@ Begin Form
                         0xd204180447b75f49a23337fcf0324bbf
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1320
                     LayoutCachedWidth =3540
                     LayoutCachedHeight =315
@@ -346,7 +343,6 @@ Begin Form
                         0x2b6d7f2bf6f2334fa7f20cd22f5ec0e6
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =3600
                     LayoutCachedWidth =3960
                     LayoutCachedHeight =315
@@ -370,7 +366,6 @@ Begin Form
                         0x5f6f97e3ad3af8429ab3ff5558993e83
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =4200
                     LayoutCachedWidth =5280
                     LayoutCachedHeight =315
@@ -409,7 +404,6 @@ Begin Form
                         0x5d0775568a7190468a1840a0b071a0ec
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =5640
                     LayoutCachedTop =60
                     LayoutCachedWidth =5900
@@ -436,7 +430,6 @@ Begin Form
                         0x8bce20cefe85f149a2fd14a8cf070b82
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =6060
                     LayoutCachedWidth =7140
                     LayoutCachedHeight =315

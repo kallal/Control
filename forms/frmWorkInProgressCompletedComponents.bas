@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1083696272
+Checksum =1310673607
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -216,6 +216,7 @@ Begin Form
         0x3700370034002e0030003000360034000000
     End
     NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -423,7 +424,6 @@ Begin Form
                         0xb09080ffb09080ffb09080ffb09080ffb09080ff000000000000000000000000 ,
                         0x0000000000000000
                     End
-
                     LayoutCachedLeft =19620
                     LayoutCachedTop =180
                     LayoutCachedWidth =20160
@@ -456,7 +456,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     FilterOnEmptyMaster =0
-
                     LayoutCachedLeft =60
                     LayoutCachedTop =840
                     LayoutCachedWidth =20220
@@ -481,7 +480,6 @@ Begin Form
                         0x7a99caef5f056f419f7ad69270ba5965
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =16500
                     LayoutCachedTop =240
                     LayoutCachedWidth =19320
@@ -519,7 +517,6 @@ Begin Form
                                 0xd7286f21bfb10b4c9b29a9fde431de5e
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =16560
                             LayoutCachedTop =330
                             LayoutCachedWidth =16820
@@ -558,7 +555,6 @@ Begin Form
                                 0x30d1bb3a1ec1774d83ca04af85412863
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =17940
                             LayoutCachedTop =330
                             LayoutCachedWidth =18200
@@ -606,7 +602,6 @@ Begin Form
                         0xe88311a7b1910941ab058ed539328243
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =4020
                     LayoutCachedTop =360
                     LayoutCachedWidth =7140
@@ -696,7 +691,6 @@ Begin Form
                         0x6b7fdbc810636b4fb1354a6ca3f0da0d
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =7140
                     LayoutCachedTop =360
                     LayoutCachedWidth =10200
@@ -726,7 +720,6 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     OnDblClick ="[Event Procedure]"
                     GridlineColor =10921638
-
                     LayoutCachedLeft =10200
                     LayoutCachedTop =360
                     LayoutCachedWidth =11940
@@ -781,7 +774,6 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     OnDblClick ="[Event Procedure]"
                     GridlineColor =10921638
-
                     LayoutCachedLeft =11955
                     LayoutCachedTop =360
                     LayoutCachedWidth =13575
@@ -851,7 +843,6 @@ Begin Form
                         0x86ed9b6444ecf84ba019d55d85d535b9
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1635
                     LayoutCachedTop =360
                     LayoutCachedWidth =2820
@@ -877,7 +868,6 @@ Begin Form
                         0x788679d7e051c24bbe90bb63ebea0ee8
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2820
                     LayoutCachedTop =360
                     LayoutCachedWidth =4020
@@ -920,7 +910,6 @@ Begin Form
                         0xaa3e54cf236d40458ee11cf286eae03b
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =13800
                     LayoutCachedTop =60
                     LayoutCachedWidth =14460
@@ -952,7 +941,6 @@ Begin Form
                         0x962ca64399241c4a83c17a966aa6eb80
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =11640
                     LayoutCachedTop =60
                     LayoutCachedWidth =12000
@@ -986,7 +974,6 @@ Begin Form
                         0x7fe17f9c9c9c734dafabde7e03b3c3ea
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =20340
                     LayoutCachedTop =240
                     LayoutCachedWidth =21120
@@ -1003,7 +990,6 @@ Begin Form
                                 0x296b882d9ddaf747bab914cf77b7d4b0
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =20400
                             LayoutCachedTop =330
                             LayoutCachedWidth =20660
@@ -1044,7 +1030,6 @@ Begin Form
                                 0x2ea757f7fb8fd14bac581f1a75fef06f
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =20400
                             LayoutCachedTop =690
                             LayoutCachedWidth =20660
@@ -1085,7 +1070,6 @@ Begin Form
                                 0x7d5e4d0606bc91409c987d44514b2834
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =20400
                             LayoutCachedTop =1035
                             LayoutCachedWidth =20660
@@ -1126,7 +1110,6 @@ Begin Form
                                 0xd39113a3b9347d409ee4f85efe685354
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =20400
                             LayoutCachedTop =1370
                             LayoutCachedWidth =20660
@@ -1167,7 +1150,6 @@ Begin Form
                                 0x50aa1c5ee2b9a54f9232de31e356b584
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =20400
                             LayoutCachedTop =1705
                             LayoutCachedWidth =20660
@@ -1208,7 +1190,6 @@ Begin Form
                                 0x1cf0691e65819148b389970d310aa0a9
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =20400
                             LayoutCachedTop =2040
                             LayoutCachedWidth =20660
@@ -1249,7 +1230,6 @@ Begin Form
                                 0x0c3e2f468cc5e44e91127cff28771735
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =20400
                             LayoutCachedTop =2375
                             LayoutCachedWidth =20660
@@ -1290,7 +1270,6 @@ Begin Form
                                 0x10faff0cabb055489a85d4a35a502414
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =20400
                             LayoutCachedTop =2710
                             LayoutCachedWidth =20660
@@ -1331,7 +1310,6 @@ Begin Form
                                 0xbf7f569788f18f4192f886373ee929f3
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =20400
                             LayoutCachedTop =3045
                             LayoutCachedWidth =20660
@@ -1372,7 +1350,6 @@ Begin Form
                                 0xeaf623d46cc4374f85571bc935ada43b
                             End
                             GridlineColor =10921638
-
                             LayoutCachedLeft =20400
                             LayoutCachedTop =3380
                             LayoutCachedWidth =20660

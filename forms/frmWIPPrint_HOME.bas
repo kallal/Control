@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =1597977070
+Checksum =-1427993375
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -142,6 +142,7 @@ Begin Form
         0x000000000000000000000000
     End
     NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -251,7 +252,6 @@ Begin Form
                     OnDblClick ="[Event Procedure]"
                     DefaultValue ="=[Forms]![frmLogin]![cboStationID].[column](5)"
                     GridlineColor =10921638
-
                     LayoutCachedLeft =13980
                     LayoutCachedTop =60
                     LayoutCachedWidth =18720
@@ -294,7 +294,6 @@ Begin Form
                         0xae5039aecee06e48bce676d2e8c49006
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =120
                     LayoutCachedTop =420
                     LayoutCachedWidth =19770
@@ -314,7 +313,6 @@ Begin Form
                         0x717765ac24f84a4fbbfd72725b053bc6
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8400
                     LayoutCachedTop =90
                     LayoutCachedWidth =8660
@@ -353,7 +351,6 @@ Begin Form
                         0xbac8b8d5c5825746b7502d66e582638c
                     End
                     GridlineColor =10921638
-
                     LayoutCachedWidth =1440
                     LayoutCachedHeight =360
                     BackColor =14732154
@@ -418,7 +415,6 @@ Begin Form
                         0xb09080ffb09080ffb09080ffb09080ffb09080ff000000000000000000000000 ,
                         0x0000000000000000
                     End
-
                     LayoutCachedLeft =19200
                     LayoutCachedTop =60
                     LayoutCachedWidth =19740

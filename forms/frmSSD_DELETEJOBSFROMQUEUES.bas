@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-884140405
+Checksum =-483792298
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -45,6 +45,7 @@ Begin Form
     ForeThemeColorIndex =0
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -103,7 +104,6 @@ Begin Form
                         0x06e8fc136f000c48b12764efc3e7de58
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2880
                     LayoutCachedTop =1380
                     LayoutCachedWidth =4320

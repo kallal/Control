@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =2064689127
+Checksum =-754390733
 Begin Form
     DividingLines = NotDefault
     OrderByOn = NotDefault
@@ -58,6 +58,7 @@ Begin Form
     ForeThemeColorIndex =0
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -218,7 +219,6 @@ Begin Form
                         0xc2c0f8a07fde804f86599257515c7bda
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =5880
                     LayoutCachedWidth =9780
                     LayoutCachedHeight =315
@@ -246,7 +246,6 @@ Begin Form
                     BaseInfo ="\"dbo_TaskCategory\";\"dbo_TaskCategory\";\"\";\"ID\";\"TaskCategory\";\"dbo_Tas"
                         "kCategory$PrimaryKey\""
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1560
                     LayoutCachedWidth =3540
                     LayoutCachedHeight =315
@@ -277,7 +276,6 @@ Begin Form
                     BaseInfo ="\"dbo_TaskCategory\";\"dbo_TaskCategory\";\"\";\"ID\";\"TaskCategory\";\"dbo_Tas"
                         "kCategory$PrimaryKey\""
                     GridlineColor =10921638
-
                     LayoutCachedLeft =3600
                     LayoutCachedWidth =5820
                     LayoutCachedHeight =315
@@ -298,7 +296,6 @@ Begin Form
                         0x66dbcfa55d1e29459c4a877da50709d8
                     End
                     GridlineColor =10921638
-
                     LayoutCachedWidth =1440
                     LayoutCachedHeight =315
                 End

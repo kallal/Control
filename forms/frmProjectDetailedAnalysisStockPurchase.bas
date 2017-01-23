@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1951549887
+Checksum =1330013238
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -265,6 +265,7 @@ Begin Form
         0x0000000054004800330041004a00370031003100470051003000350059005a00 ,
         0x000000000000000000000000000000000000
     End
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -537,7 +538,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
-
                     LayoutCachedLeft =8475
                     LayoutCachedWidth =9135
                     LayoutCachedHeight =240
@@ -561,7 +561,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
-
                     LayoutCachedLeft =9135
                     LayoutCachedWidth =9735
                     LayoutCachedHeight =240
@@ -583,7 +582,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
-
                     LayoutCachedLeft =2760
                     LayoutCachedWidth =3480
                     LayoutCachedHeight =240
@@ -607,7 +605,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
-
                     LayoutCachedLeft =7860
                     LayoutCachedWidth =8460
                     LayoutCachedHeight =240
@@ -627,7 +624,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
-
                     LayoutCachedWidth =2760
                     LayoutCachedHeight =240
                 End
@@ -650,7 +646,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
-
                     LayoutCachedLeft =4380
                     LayoutCachedWidth =5175
                     LayoutCachedHeight =240
@@ -669,7 +664,6 @@ Begin Form
                         0xc7487cfed588dc46834a085b9ae16c3f
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =5235
                     LayoutCachedTop =60
                     LayoutCachedWidth =5495
@@ -693,7 +687,6 @@ Begin Form
                         0xc3e73a43eb6fde42a16a5b48467feb8e
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =9735
                     LayoutCachedWidth =10380
                     LayoutCachedHeight =240
@@ -714,7 +707,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
-
                     LayoutCachedLeft =3480
                     LayoutCachedWidth =4380
                     LayoutCachedHeight =240
@@ -739,7 +731,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
-
                     LayoutCachedLeft =5415
                     LayoutCachedWidth =6195
                     LayoutCachedHeight =240
@@ -779,7 +770,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
-
                     LayoutCachedLeft =5031
                     LayoutCachedWidth =6216
                     LayoutCachedHeight =240
@@ -818,7 +808,6 @@ Begin Form
                         0x6e9c46ac858cce4f82fbb2433aaefd6b
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =780
                     LayoutCachedWidth =1440
                     LayoutCachedHeight =240
@@ -859,7 +848,6 @@ Begin Form
                         0xc08164755399454eb8e3f150c2862946
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2460
                     LayoutCachedWidth =3420
                     LayoutCachedHeight =240

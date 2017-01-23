@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =636991156
+Checksum =2045126289
 Begin Form
     RecordSelectors = NotDefault
     ControlBox = NotDefault
@@ -149,6 +149,7 @@ Begin Form
         0x310035000000000000000000000000000000000000000000000000000000
     End
     NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -263,7 +264,6 @@ Begin Form
                         0xe2712f106886964eb61f1b648b2d5f7e
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =120
                     LayoutCachedTop =120
                     LayoutCachedWidth =9840
@@ -285,7 +285,6 @@ Begin Form
                         0x8ef4d2ae797ffd4ab6fffb7226364fb1
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =17640
                     LayoutCachedTop =420
                     LayoutCachedWidth =19080
@@ -311,7 +310,6 @@ Begin Form
                     End
                     GridlineColor =10921638
                     TextFormat =1
-
                     LayoutCachedLeft =600
                     LayoutCachedTop =600
                     LayoutCachedWidth =19560
@@ -337,7 +335,6 @@ Begin Form
                         0xdfaab7dd4c26b145a110667357751cd5
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =60
                     LayoutCachedTop =10200
                     LayoutCachedWidth =20220
@@ -366,7 +363,6 @@ Begin Form
                         0xa71c265b028eaf478d83d3f3646107f7
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =10020
                     LayoutCachedWidth =19620
                     LayoutCachedHeight =315
@@ -387,7 +383,6 @@ Begin Form
                         0x14ded00383fa5a4ab8dd8bf070f322fa
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =240
                     LayoutCachedTop =6900
                     LayoutCachedWidth =10140
@@ -408,7 +403,6 @@ Begin Form
                         0x1b5f8017f82c614aa85f5cbf3f86303a
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =11160
                     LayoutCachedTop =6900
                     LayoutCachedWidth =21060
@@ -428,7 +422,6 @@ Begin Form
                         0xd9b9c1befd17ed478d6534240a12ebaf
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =60
                     LayoutCachedTop =1500
                     LayoutCachedWidth =21090

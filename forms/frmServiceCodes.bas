@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =1120401876
+Checksum =-1388004712
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -140,6 +140,7 @@ Begin Form
         0x0000000000000000000000000000000000000000000000000000
     End
     NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -230,7 +231,6 @@ Begin Form
                         0x1bb19956f3702d419e839ff5afa7eeb4
                     End
                     GridlineColor =10921638
-
                     LayoutCachedWidth =21180
                     LayoutCachedHeight =10440
                 End

@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1030358
+Checksum =-2111954929
 Begin Form
     Modal = NotDefault
     RecordSelectors = NotDefault
@@ -248,6 +248,7 @@ Begin Form
         0x000000000000
     End
     NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -381,7 +382,6 @@ Begin Form
                         0xd6c1b6b028b7df46ad58288ac4d9bc64
                     End
                     GridlineColor =10921638
-
                     LayoutCachedWidth =3240
                     LayoutCachedHeight =315
                     ForeTint =100.0
@@ -411,7 +411,6 @@ Begin Form
                         0xb1dea6be4fbef7428f6f42f6abf061b6
                     End
                     GridlineColor =10921638
-
                     LayoutCachedTop =360
                     LayoutCachedWidth =3240
                     LayoutCachedHeight =885
@@ -436,7 +435,6 @@ Begin Form
                         0x3748662a6e1adb428ac6426a4ca8ce7f
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =7365
                     LayoutCachedTop =240
                     LayoutCachedWidth =11520
@@ -485,7 +483,6 @@ Begin Form
                         0xeed4b3683a61bd45b193f64d73bd5c61
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =12840
                     LayoutCachedTop =240
                     LayoutCachedWidth =15720
@@ -538,7 +535,6 @@ Begin Form
                         0xc3083941544c954f8fc3759e43665d03
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =7170
                     LayoutCachedTop =1080
                     LayoutCachedWidth =9690
@@ -592,7 +588,6 @@ Begin Form
                         0xa04d554fa81f6b48a59497b6e3e6522b
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2550
                     LayoutCachedTop =1080
                     LayoutCachedWidth =5070
@@ -646,7 +641,6 @@ Begin Form
                         0xb560e0d0390e694f96c0cceca3bffc42
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =13140
                     LayoutCachedTop =1080
                     LayoutCachedWidth =15660
@@ -695,7 +689,6 @@ Begin Form
                         0xbdb30f6d47ac914e8400701fbfa3e305
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1080
                     LayoutCachedTop =1740
                     LayoutCachedWidth =3840
@@ -729,7 +722,6 @@ Begin Form
                         0x5268cc6f89b66940ad12992853b158d1
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =7500
                     LayoutCachedTop =1740
                     LayoutCachedWidth =10260
@@ -763,7 +755,6 @@ Begin Form
                         0xa8b7c90ff575dc4a9f24cadc5c1ee680
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =10380
                     LayoutCachedTop =1740
                     LayoutCachedWidth =13140
@@ -797,7 +788,6 @@ Begin Form
                         0x531c2faeea31774992d2177e10c6d9de
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =3960
                     LayoutCachedTop =1740
                     LayoutCachedWidth =6720
@@ -827,7 +817,6 @@ Begin Form
                         0x4621e2b06470fa4f80ae4b2b36bf8ae5
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =14220
                     LayoutCachedTop =1740
                     LayoutCachedWidth =15660
@@ -856,7 +845,6 @@ Begin Form
                         0xe1b9e216eb94184d94122949cec1990f
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =19500
                     LayoutCachedTop =1920
                     LayoutCachedWidth =20940
@@ -25452,7 +25440,6 @@ Begin Form
                         0xbaf75ef7eebdd7bdfbaf75ef7eebdd7bdfbaf75ef7eebdd7bdfbaf75ef7eebdd ,
                         0x7bdfbaf75ef7eebdd7bdfbaf75ffd9
                     End
-
                     LayoutCachedLeft =19440
                     LayoutCachedTop =360
                     LayoutCachedWidth =20910
@@ -25488,7 +25475,6 @@ Begin Form
                         0x71f2ed57342f0349b6c63c2e7e713eef
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =60
                     LayoutCachedWidth =11160
                     LayoutCachedHeight =11520
@@ -25506,7 +25492,6 @@ Begin Form
                         0x80ad6e81f1ccc941b2703d9e9c7a90d4
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =11280
                     LayoutCachedWidth =21030
                     LayoutCachedHeight =11520
@@ -25599,8 +25584,8 @@ mysql = "SELECT * from dbo_CompanyEmployeeCurrentStatus WHERE CompanyEmployeeID 
 Set MYRS_CS = CurrentDb.OpenRecordset(mysql, dbOpenDynaset, dbSeeChanges)
 
 MYRS_CS.Edit
-MYRS_CS!Break_end = Now()
-MYRS_CS!Break_Mins = DateDiff("n", MYRS_CS!Break_Start, MYRS_CS!Break_end)
+MYRS_CS!Break_End = Now()
+MYRS_CS!Break_Mins = DateDiff("n", MYRS_CS!Break_Start, MYRS_CS!Break_End)
 MYRS_CS!NumBreak = Nz(MYRS_CS!NumBreak, 0) + 1
 MYRS_CS!CurrentStatus = "LOGGED IN"
 MYRS_CS.Update
@@ -25733,7 +25718,7 @@ myrs_SH!NumBreak = MYRS_CS!NumBreak
 myrs_SH!Login_MachineID = MYRS_CS!Login_MachineID
 myrs_SH!CurrentStatus = MYRS_CS!CurrentStatus
 myrs_SH!Break_Start = MYRS_CS!Break_Start
-myrs_SH!Break_end = MYRS_CS!Break_end
+myrs_SH!Break_End = MYRS_CS!Break_End
 myrs_SH!Break_Mins = MYRS_CS!Break_Mins
 myrs_SH!Break_Time = MYRS_CS!Break_Time
 
@@ -25747,7 +25732,7 @@ MYRS_CS!Shift_End = Null
 MYRS_CS!NumBreak = Null
 MYRS_CS!Login_MachineID = Null
 MYRS_CS!Break_Start = Null
-MYRS_CS!Break_end = Null
+MYRS_CS!Break_End = Null
 MYRS_CS!Break_Mins = Null
 MYRS_CS!Break_Time = Null
 MYRS_CS.Update

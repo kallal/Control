@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =2091592404
+Checksum =-1380530588
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -354,6 +354,7 @@ Begin Form
         0x000000000000000043004e003000420051004100520031003500300000000000 ,
         0x0000000000000000000000000000
     End
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1

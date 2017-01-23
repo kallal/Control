@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =969390815
+Checksum =-1099624898
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -304,6 +304,7 @@ Begin Form
         0x0000000000000000000000004c005000540031003a000000
     End
     NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -500,7 +501,6 @@ Begin Form
                         0x1f78fce4295bcf9ff3e29f97dbfacfc8e27e7e20eaed2ccf80db06ec003e8c7a ,
                         0x3bcb2b60cbfef7ff8eff1b00cffe37389e6f030b0000000049454e44ae426082
                     End
-
                     LayoutCachedLeft =300
                     LayoutCachedTop =60
                     LayoutCachedWidth =990
@@ -576,7 +576,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =345
                     LayoutCachedWidth =6315
@@ -640,7 +639,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =885
                     LayoutCachedWidth =6315
@@ -710,7 +708,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =1425
                     LayoutCachedWidth =6315
@@ -777,7 +774,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =2415
                     LayoutCachedWidth =6315
@@ -845,7 +841,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =3180
                     LayoutCachedWidth =6315
@@ -912,7 +907,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =3720
                     LayoutCachedWidth =6315
@@ -979,7 +973,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =4260
                     LayoutCachedWidth =6315
@@ -1046,7 +1039,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =4800
                     LayoutCachedWidth =6315
@@ -1113,7 +1105,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =5340
                     LayoutCachedWidth =6315
@@ -1181,7 +1172,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =5880
                     LayoutCachedWidth =6315
@@ -1249,7 +1239,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =6420
                     LayoutCachedWidth =6315
@@ -1316,7 +1305,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =6960
                     LayoutCachedWidth =6315
@@ -1383,7 +1371,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =7500
                     LayoutCachedWidth =6315
@@ -1450,7 +1437,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =8040
                     LayoutCachedWidth =6315
@@ -1517,7 +1503,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1995
                     LayoutCachedTop =8580
                     LayoutCachedWidth =6315
@@ -1584,7 +1569,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8025
                     LayoutCachedTop =345
                     LayoutCachedWidth =12345
@@ -1617,7 +1601,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8025
                     LayoutCachedTop =885
                     LayoutCachedWidth =12345
@@ -1652,7 +1635,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8025
                     LayoutCachedTop =1425
                     LayoutCachedWidth =12345
@@ -1687,7 +1669,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8025
                     LayoutCachedTop =2415
                     LayoutCachedWidth =12345
@@ -1722,7 +1703,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8025
                     LayoutCachedTop =3180
                     LayoutCachedWidth =12345
@@ -1757,7 +1737,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8025
                     LayoutCachedTop =3720
                     LayoutCachedWidth =12345
@@ -1792,7 +1771,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8025
                     LayoutCachedTop =4260
                     LayoutCachedWidth =12345
@@ -1827,7 +1805,6 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8025
                     LayoutCachedTop =4800
                     LayoutCachedWidth =12345
