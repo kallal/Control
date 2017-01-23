@@ -26357,7 +26357,7 @@ Attribute VB_Exposed = False
 Option Compare Database
 
 Private Sub Command31_Click()
-MsgBox IIf(FormHasData([me].[frmProjectDetailedAnalysisKomori].[Form]) = True, Me.[frmProjectDetailedAnalysisKomori].[Form].[GrandTotal], 0)
+MsgBox IIf(FormHasData([Me].[frmProjectDetailedAnalysisKomori].[Form]) = True, Me.[frmProjectDetailedAnalysisKomori].[Form].[GrandTotal], 0)
 
 Stop
 End Sub

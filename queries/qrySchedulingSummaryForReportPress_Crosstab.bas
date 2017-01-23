@@ -42,6 +42,7 @@ End
 dbBinary "GUID" = Begin
     0xba4d1da72ce2b449aaacedb3331a9d1b
 End
+dbByte "PublishToWeb" ="1"
 Begin
     Begin
         dbText "Name" ="[ID]"
