@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-744179542
+Checksum =1071773583
 Begin Form
     AllowFilters = NotDefault
     RecordSelectors = NotDefault
@@ -156,6 +156,7 @@ Begin Form
         0x0000000000000000000000000000000000000000550053004200300030003100 ,
         0x00000000000000000000
     End
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin

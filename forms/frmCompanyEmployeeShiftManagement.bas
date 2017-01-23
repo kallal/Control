@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =1479443722
+Checksum =-918156316
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -699,6 +699,7 @@ Begin Form
         0x7300650072004a0065007400500072006f004d00460050004d00320032003500 ,
         0x64006e0000000000000000000000
     End
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin

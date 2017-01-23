@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1975842987
+Checksum =590512008
 Begin Form
     AutoCenter = NotDefault
     NavigationButtons = NotDefault
@@ -553,6 +553,7 @@ Begin Form
         0x000043004e004d0046004e0050005f0046003400380031003300390030004100 ,
         0x35003700420043000000
     End
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
