@@ -95,6 +95,7 @@ dbLongBinary "DOL" = Begin
     0xc2f985479f2f4ac4461792064900440000000000000000000000000000000000 ,
     0x0000000000000c000000050000000000000000000000000000000000
 End
+dbByte "PublishToWeb" ="1"
 Begin
     Begin
         dbText "Name" ="loc_GeneralOverhead.CompanyName"

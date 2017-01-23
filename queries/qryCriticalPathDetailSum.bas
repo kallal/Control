@@ -48,6 +48,7 @@ dbLongBinary "DOL" = Begin
     0x000000000000000000000000000000000000000000000c000000050000000000 ,
     0x000000000000000000000000
 End
+dbByte "PublishToWeb" ="1"
 Begin
     Begin
         dbText "Name" ="dbo_CriticalPath.ProjectHeaderID"

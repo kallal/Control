@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-2027503373
+Checksum =-766912381
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -10,8 +10,9 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =0
+    Width =4370
     DatasheetFontHeight =11
+    ItemSuffix =2
     Top =600
     Right =8655
     Bottom =6090
@@ -32,7 +33,7 @@ Begin Form
         0x010000006801000000000000a10700000100000001000000
     End
     PrtDevMode = Begin
-        0x005b7100845b7100ac5c710021860e30e0b10d42f8687100985c710070540030 ,
+        0x00546e00a8556e0076900030d9c8bd2cf4616e0094556e00d055f22f00000000 ,
         0x010401089c00d80403ef80070100010000000000640001000700580201000100 ,
         0x5802010000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000001000000 ,
@@ -79,7 +80,7 @@ Begin Form
     End
     PrtDevNames = Begin
         0x08001a002c000100000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000005553423030310000000000
+        0x00000000000000000000000055534230303100000000000000000000000000
     End
     OnLoad ="[Event Procedure]"
     AllowDatasheetView =0
@@ -99,12 +100,12 @@ Begin Form
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
     PrtDevModeW = Begin
-        0x00002000710072007900430062006f0043006f006e0074006100630074004700 ,
-        0x65006e006500720061006c0000000000d894720079d4643084e9023007000000 ,
+        0x00000000000000000000000080976f00a18b6e30ffffffff2718573060e25130 ,
+        0x3b4c683020e35130f90bbc2cd8986f0000500e0a000000002718573060e25130 ,
         0x01040108dc00d80403ef80070100010000000000640001000700580201000100 ,
-        0x5802010000000000489672007ea04f30681aa500f09672009fa04f3000000000 ,
-        0x6c9a7200000000000008b9090500000087022000710072007900430062006f00 ,
-        0x43006f006e000000000000000000000000000000000000000000000001000000 ,
+        0x580201000000000000500e0a00000000000000000000000000000000f0976f00 ,
+        0xa18b6e30ffffffff2718573060e251303b4c683020e35130890bbc2c48996f00 ,
+        0x00500e0a00000000000000000000000000000000000000000000000001000000 ,
         0x0200000001000000010000000000000000000000000000000000000001080000 ,
         0x4800500020004c0061007300650072004a006500740020005000310035003000 ,
         0x3500000000000000000000000000000000000000000000000000000000000000 ,
@@ -150,21 +151,54 @@ Begin Form
         0x0400160028000100000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000055005300420030003000310000000000 ,
-        0x000000000000
+        0x00000000000000000000000000000000000000000000
     End
     NoSaveCTIWhenDisabled =1
     Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
         Begin Section
-            Height =0
+            Height =2740
             Name ="Detail"
             GUID = Begin
                 0xb7aa3d94613b6f4cbbafca3eafb9c0f3
             End
-            AutoHeight =1
             AlternateBackColor =15921906
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
             BackThemeColorIndex =1
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =1322
+                    Top =732
+                    Width =570
+                    Height =285
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Label1"
+                    Caption ="Hello"
+                    GUID = Begin
+                        0xff4e7dfe72d07949ae4b8b4eeaea8cbd
+                    End
+                    GridlineColor =10921638
+                    LayoutCachedLeft =1322
+                    LayoutCachedTop =732
+                    LayoutCachedWidth =1892
+                    LayoutCachedHeight =1017
+                End
+            End
         End
     End
 End
