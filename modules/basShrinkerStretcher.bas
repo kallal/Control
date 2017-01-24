@@ -1803,8 +1803,8 @@ End Sub
 Sub SS_SetFontSize(frm As Form, ctl As control, Optional pblnChangeFonts As Boolean = True)
 '* Scale font for the passed control by using entries in the the Font Ratio (FR) array.
 Dim FRsub As Integer
-Dim T1 As String
-Dim T2 As String
+Dim t1 As String
+Dim t2 As String
 Dim newfontsize As Single
 
 On Error GoTo Err_SS_SetFontSize
@@ -1818,9 +1818,9 @@ On Error GoTo Err_SS_SetFontSize
 'End If
 
 '* Find entry corresponding to the current control in the FR array.
-T1 = frm.name
-T2 = ctl.name
-FRsub = SS_FindFRRow(T1, T2, FRsub)
+t1 = frm.name
+t2 = ctl.name
+FRsub = SS_FindFRRow(t1, t2, FRsub)
 '* Get fonts to jump down to smaller size a bit earlier
 '* This should minimize the problem of text getting "cut off" by control borders.
 'newfontsize = ctl.height * FR(FRsub).fontratio     <== old way
@@ -1882,7 +1882,7 @@ If newfontsize > 0.5 And newfontsize < 127.5 Then
 End If
 
 'If conDebugFont Then Debug.Print ctl.Name & ": old=" & oldfontsize & " new=" & newfontsize
-If conDebugFont Then Debug.Print "  t1=" & T1 & "  t2=" & T2 & "  " & FR(FRsub).ControlName & "  " & ctl.Height & "  " & FR(FRsub).FontRatio
+If conDebugFont Then Debug.Print "  t1=" & t1 & "  t2=" & t2 & "  " & FR(FRsub).ControlName & "  " & ctl.Height & "  " & FR(FRsub).FontRatio
 
 Exit_SS_SetFontSize:
     On Error GoTo 0
@@ -3262,7 +3262,7 @@ Sub SS_Rescale(frm As Form, _
     Dim iOrigWd As Integer
     Dim iOrigHt As Integer
     Dim ctlCurrSubform As control
-    Dim T1 As String
+    Dim t1 As String
     Dim newfontsize As Single
     Dim lNewWidth As Long
     Dim lNewHeight As Long
@@ -3599,9 +3599,9 @@ Else
     i = InStr(1, frm.tag, "SSInfo:")
     If i > 0 Then
         '* It is assumed that SSInfo: is on far right of tag string
-        T1 = Right(frm.tag, Len(frm.tag) - i + 1)
-        lOldWidth = CLng(SS_GetWordsBetween(T1, "fiw=", ","))
-        lOldHeight = CLng(SS_GetWordsBetween(T1, "fih=", ";"))
+        t1 = Right(frm.tag, Len(frm.tag) - i + 1)
+        lOldWidth = CLng(SS_GetWordsBetween(t1, "fiw=", ","))
+        lOldHeight = CLng(SS_GetWordsBetween(t1, "fih=", ";"))
     Else
         '* This may occur when there is no "SS_OnOpen Me" call in the form OnOpen event proc
         lOldWidth = frm.InsideWidth
@@ -3716,15 +3716,15 @@ Else
                             If TypeOf ctl Is ListBox Then
                                 If IsNull(ctl.ColumnWidths) Then
                                 Else
-                                    T1 = ctl.ColumnWidths
-                                    ctl.ColumnWidths = SS_ResizeColWd(T1, (dDSScaleFact - 1) * 100 * 100)
+                                    t1 = ctl.ColumnWidths
+                                    ctl.ColumnWidths = SS_ResizeColWd(t1, (dDSScaleFact - 1) * 100 * 100)
                                 End If
                             End If
                             If TypeOf ctl Is ComboBox Then
                                 If IsNull(ctl.ColumnWidths) Then
                                 Else
-                                    T1 = ctl.ColumnWidths
-                                    ctl.ColumnWidths = SS_ResizeColWd(T1, (dDSScaleFact - 1) * 100 * 100)
+                                    t1 = ctl.ColumnWidths
+                                    ctl.ColumnWidths = SS_ResizeColWd(t1, (dDSScaleFact - 1) * 100 * 100)
                                     ctl.ListWidth = ctl.ListWidth * dDSScaleFact    '* Can't do this in Access 2.0
                                 End If
                             End If
@@ -4719,7 +4719,7 @@ Function SS_ResizeControls(frm As Form, _
     Dim iLT As Integer
     Dim l As Long
     Dim Rtn As Integer
-    Dim T1 As String
+    Dim t1 As String
     Dim sFocusControl As String
     Dim SelStart As Long
     Dim SelLength As Long
@@ -5549,15 +5549,15 @@ For j = 0 To (frm.Count - 1)
         If TypeOf ctl Is ListBox Then
             If IsNull(ctl.ColumnWidths) Then
             Else
-                T1 = ctl.ColumnWidths
-                ctl.ColumnWidths = SS_ResizeColWd(T1, (WidthAdj - 1) * 100 * 100)
+                t1 = ctl.ColumnWidths
+                ctl.ColumnWidths = SS_ResizeColWd(t1, (WidthAdj - 1) * 100 * 100)
             End If
         End If
         If TypeOf ctl Is ComboBox Then
             If IsNull(ctl.ColumnWidths) Then
             Else
-                T1 = ctl.ColumnWidths
-                ctl.ColumnWidths = SS_ResizeColWd(T1, (WidthAdj - 1) * 100 * 100)
+                t1 = ctl.ColumnWidths
+                ctl.ColumnWidths = SS_ResizeColWd(t1, (WidthAdj - 1) * 100 * 100)
                 ctl.ListWidth = ctl.ListWidth * WidthAdj
             End If
         End If
@@ -6211,22 +6211,22 @@ For j = 0 To (frm.Count - 1)
         If TypeOf ctl Is ListBox Then
             If IsNull(ctl.ColumnWidths) Then
             Else
-                T1 = ctl.ColumnWidths
+                t1 = ctl.ColumnWidths
                 Marker = 281
                 If conDebugColumnWidths Then Debug.Print "frm=" & frm.name _
                     & " ctl=" & ctl.name _
                     & " colwd before=" & ctl.ColumnWidths _
-                    & " colwd after=" & SS_ResizeColWd(T1, (WidthAdj - 1) * 100 * 100)
-                ctl.ColumnWidths = SS_ResizeColWd(T1, (WidthAdj - 1) * 100 * 100)
+                    & " colwd after=" & SS_ResizeColWd(t1, (WidthAdj - 1) * 100 * 100)
+                ctl.ColumnWidths = SS_ResizeColWd(t1, (WidthAdj - 1) * 100 * 100)
             End If
         End If
         Marker = 282
         If TypeOf ctl Is ComboBox Then
             If IsNull(ctl.ColumnWidths) Then
             Else
-                T1 = ctl.ColumnWidths
+                t1 = ctl.ColumnWidths
                 Marker = 283
-                ctl.ColumnWidths = SS_ResizeColWd(T1, (WidthAdj - 1) * 100 * 100)
+                ctl.ColumnWidths = SS_ResizeColWd(t1, (WidthAdj - 1) * 100 * 100)
                 Marker = 284
                 ctl.ListWidth = ctl.ListWidth * WidthAdj
                 Marker = 285

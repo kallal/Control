@@ -1,6 +1,7 @@
 ﻿Version =20
 VersionRequired =20
-Checksum =1833882580
+PublishOption =1
+Checksum =1166267280
 Begin Report
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -400,6 +401,7 @@ Begin Report
         0x2e003100300039000000
     End
     NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -505,7 +507,6 @@ Begin Report
                         0x7c594f7bfdd8544baa4e2fabd7eefc8f
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =9840
                     LayoutCachedWidth =10740
                     LayoutCachedHeight =255
@@ -579,7 +580,6 @@ Begin Report
                         0xd4684b60c7ca0f469972efd6e2985e40
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8640
                     LayoutCachedTop =240
                     LayoutCachedWidth =10740
@@ -602,7 +602,6 @@ Begin Report
                         0xdb5b5255dc85ca42be08b1a5617752fa
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =6780
                     LayoutCachedTop =780
                     LayoutCachedWidth =8640
@@ -625,7 +624,6 @@ Begin Report
                         0xfa60c3bb5bdcb048a1870fc05b65329e
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8640
                     LayoutCachedTop =780
                     LayoutCachedWidth =10740
@@ -648,7 +646,6 @@ Begin Report
                         0x169ae8babc26644bb0eedbac55fef685
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2040
                     LayoutCachedTop =780
                     LayoutCachedWidth =3600
@@ -669,7 +666,6 @@ Begin Report
                         0x6ef33b6cba9cc34f904bb4451d6a4d2a
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =60
                     LayoutCachedTop =240
                     LayoutCachedWidth =1020
@@ -690,7 +686,6 @@ Begin Report
                         0x8d071335f880f34d9ecfe482679ba1fb
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =3600
                     LayoutCachedTop =780
                     LayoutCachedWidth =6660
@@ -717,7 +712,6 @@ Begin Report
                     End
                     GridlineColor =10921638
                     TextFormat =1
-
                     LayoutCachedLeft =1200
                     LayoutCachedTop =1080
                     LayoutCachedWidth =10740
@@ -759,7 +753,6 @@ Begin Report
                         0xc557c87aff762d4c9691fbc57dc034ea
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1020
                     LayoutCachedTop =240
                     LayoutCachedWidth =4380
@@ -966,7 +959,6 @@ Begin Report
                     ColumnWidths ="0;1440;0"
                     StatusBarText ="Link to ContactNameID"
                     GridlineColor =10921638
-
                     LayoutCachedLeft =60
                     LayoutCachedTop =780
                     LayoutCachedWidth =2040
@@ -996,7 +988,6 @@ Begin Report
                     ColumnWidths ="0;1440"
                     StatusBarText ="Link to ContactGeneralID"
                     GridlineColor =10921638
-
                     LayoutCachedLeft =4380
                     LayoutCachedTop =240
                     LayoutCachedWidth =6660
@@ -1027,7 +1018,6 @@ Begin Report
                     ColumnWidths ="0;1440"
                     StatusBarText ="Link to CompanyEmployeeID"
                     GridlineColor =10921638
-
                     LayoutCachedLeft =6780
                     LayoutCachedTop =240
                     LayoutCachedWidth =8640

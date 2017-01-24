@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =42614600
+Checksum =-1780110175
 Begin Report
     LayoutForPrint = NotDefault
     DividingLines = NotDefault
@@ -150,6 +150,7 @@ Begin Report
         0x00000000000000000000310030002e00350030002e003100300031002e003100 ,
         0x310035000000
     End
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -314,7 +315,6 @@ Begin Report
                         0xf3ad09a76c7b9e4a915c5902e5f773ba
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =4320
                     LayoutCachedWidth =5760
                     LayoutCachedHeight =315
@@ -333,7 +333,6 @@ Begin Report
                         0x72ffbcd217204340a36664e15bc64640
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =5760
                     LayoutCachedWidth =7200
                     LayoutCachedHeight =315
@@ -351,7 +350,6 @@ Begin Report
                         0x6e290c204272bb48a148dcb49fef7437
                     End
                     GridlineColor =10921638
-
                     LayoutCachedWidth =1440
                     LayoutCachedHeight =315
                 End
@@ -369,7 +367,6 @@ Begin Report
                         0x4074413cdd734d45aaa9ddad41ff267e
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1440
                     LayoutCachedWidth =2880
                     LayoutCachedHeight =315
@@ -388,7 +385,6 @@ Begin Report
                         0xc2183bd3c551c7448d13a6afe70d7949
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2880
                     LayoutCachedWidth =4320
                     LayoutCachedHeight =315

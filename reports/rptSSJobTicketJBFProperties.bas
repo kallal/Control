@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =722722064
+Checksum =577772108
 Begin Report
     LayoutForPrint = NotDefault
     DividingLines = NotDefault
@@ -149,6 +149,7 @@ Begin Report
         0x310035000000
     End
     NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -216,7 +217,6 @@ Begin Report
                     End
                     GridlineColor =10921638
                     ShowDatePicker =1
-
                     LayoutCachedWidth =1800
                     LayoutCachedHeight =240
                     BorderShade =100.0
@@ -237,7 +237,6 @@ Begin Report
                     End
                     GridlineColor =10921638
                     ShowDatePicker =1
-
                     LayoutCachedLeft =1800
                     LayoutCachedWidth =10080
                     LayoutCachedHeight =240
@@ -259,7 +258,6 @@ Begin Report
                         0xa6d1a91a3c35e4448e641f1aa67fbd34
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =2520
                     LayoutCachedWidth =3960
                     LayoutCachedHeight =180
@@ -280,7 +278,6 @@ Begin Report
                         0x4df3646c97fb1e41b6d70120f619d21a
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =3960
                     LayoutCachedWidth =5400
                     LayoutCachedHeight =180

@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-623931091
+Checksum =272910195
 Begin Report
     LayoutForPrint = NotDefault
     DividingLines = NotDefault
@@ -156,6 +156,7 @@ Begin Report
         0x310035000000
     End
     NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
     Begin
         Begin TextBox
             AddColon = NotDefault
@@ -209,7 +210,6 @@ Begin Report
                     End
                     GridlineColor =10921638
                     ShowDatePicker =1
-
                     LayoutCachedWidth =1440
                     LayoutCachedHeight =315
                 End
@@ -227,7 +227,6 @@ Begin Report
                     End
                     GridlineColor =10921638
                     ShowDatePicker =1
-
                     LayoutCachedLeft =1440
                     LayoutCachedWidth =2880
                     LayoutCachedHeight =315
@@ -246,7 +245,6 @@ Begin Report
                     End
                     GridlineColor =10921638
                     ShowDatePicker =1
-
                     LayoutCachedLeft =2880
                     LayoutCachedWidth =4320
                     LayoutCachedHeight =315
@@ -265,7 +263,6 @@ Begin Report
                     End
                     GridlineColor =10921638
                     ShowDatePicker =1
-
                     LayoutCachedLeft =4320
                     LayoutCachedWidth =5760
                     LayoutCachedHeight =315
@@ -284,7 +281,6 @@ Begin Report
                     End
                     GridlineColor =10921638
                     ShowDatePicker =1
-
                     LayoutCachedLeft =5760
                     LayoutCachedWidth =7200
                     LayoutCachedHeight =315
@@ -303,7 +299,6 @@ Begin Report
                     End
                     GridlineColor =10921638
                     ShowDatePicker =1
-
                     LayoutCachedLeft =7200
                     LayoutCachedWidth =8640
                     LayoutCachedHeight =315
@@ -322,7 +317,6 @@ Begin Report
                     End
                     GridlineColor =10921638
                     ShowDatePicker =1
-
                     LayoutCachedLeft =8640
                     LayoutCachedWidth =10080
                     LayoutCachedHeight =315
@@ -341,7 +335,6 @@ Begin Report
                     End
                     GridlineColor =10921638
                     ShowDatePicker =1
-
                     LayoutCachedLeft =10080
                     LayoutCachedWidth =11520
                     LayoutCachedHeight =315
