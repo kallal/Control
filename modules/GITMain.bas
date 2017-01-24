@@ -722,7 +722,7 @@ Public Sub ImportAllSource(bolMsg As Boolean, _
             bolEVBArefs As Boolean, _
             bolETable As Boolean, _
             bolERelationShips As Boolean)
- Stop
+
     Dim FSO             As Object
     Dim source_path     As String
     Dim obj_path        As String
@@ -810,6 +810,10 @@ Public Sub ImportAllSource(bolMsg As Boolean, _
                   bolImportFlag = False
                End If
             End If
+            If obj_name = "GuiProgress" Then
+               bolImportFlag = False
+            End If
+            
             
             pBar.TextMsg = obj_name
             pBar.IncOne
