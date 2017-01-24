@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-346096426
+Checksum =-2130369996
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -274,7 +274,6 @@ Begin Form
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x000000000000000000000000000000000000000000000000
     End
-    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -554,6 +553,7 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
+
                     LayoutCachedLeft =330
                     LayoutCachedTop =120
                     LayoutCachedWidth =3720
@@ -586,6 +586,7 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3780
                     LayoutCachedTop =120
                     LayoutCachedWidth =8100
@@ -623,6 +624,7 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
+
                     LayoutCachedLeft =8160
                     LayoutCachedTop =120
                     LayoutCachedWidth =12540
@@ -653,6 +655,7 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
+
                     LayoutCachedLeft =12600
                     LayoutCachedTop =120
                     LayoutCachedWidth =14295

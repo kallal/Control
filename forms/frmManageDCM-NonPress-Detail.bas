@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1661635159
+Checksum =1218023621
 Begin Form
     RecordSelectors = NotDefault
     MaxButton = NotDefault
@@ -179,7 +179,6 @@ Begin Form
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x000055005300420030003000320000000000000000000000
     End
-    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -449,6 +448,7 @@ Begin Form
                         0x8bff43ba37c3454784cd5855b2c77fe7
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =60
                     LayoutCachedWidth =3600
                     LayoutCachedHeight =315
@@ -468,6 +468,7 @@ Begin Form
                         0xe048456bfbf1cd4f9e702049b49bc689
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3660
                     LayoutCachedTop =60
                     LayoutCachedWidth =3920
@@ -497,6 +498,7 @@ Begin Form
                         0xafd2b2eb60931e4c9ce0df1eb6e0bb8b
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =10020
                     LayoutCachedWidth =11340
                     LayoutCachedHeight =315
@@ -531,6 +533,7 @@ Begin Form
                         0xfa604fd7cd2e5a47b380e447e3bccefa
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =14100
                     LayoutCachedWidth =15420
                     LayoutCachedHeight =315
@@ -573,6 +576,7 @@ Begin Form
                     BeforeUpdate ="[Event Procedure]"
                     AfterUpdate ="[Event Procedure]"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3960
                     LayoutCachedWidth =7260
                     LayoutCachedHeight =315
@@ -613,6 +617,7 @@ Begin Form
                     RowSourceType ="Field List"
                     StatusBarText ="Fieldname in the database above to be altered"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =7320
                     LayoutCachedWidth =10020
                     LayoutCachedHeight =315
@@ -654,6 +659,7 @@ Begin Form
                     StatusBarText ="Second fieldname in database above to be altered (i.e. First one may select FOLD"
                         ", second one says GATE or whatever.)"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =11400
                     LayoutCachedWidth =14100
                     LayoutCachedHeight =315
@@ -691,6 +697,7 @@ Begin Form
                         0x7ef708babfd3f142a81616a192d8a4a0
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =18180
                     LayoutCachedWidth =19500
                     LayoutCachedHeight =315
@@ -729,6 +736,7 @@ Begin Form
                     StatusBarText ="Second fieldname in database above to be altered (i.e. First one may select FOLD"
                         ", second one says GATE or whatever.)"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =15480
                     LayoutCachedWidth =18180
                     LayoutCachedHeight =315

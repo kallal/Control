@@ -1,15 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-<<<<<<< HEAD
-Checksum =1983804630
-=======
-<<<<<<< HEAD
 Checksum =-560829494
-=======
-Checksum =-1688049014
->>>>>>> origin/master
->>>>>>> origin/master
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -71,15 +63,6 @@ Begin Form
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
     NoSaveCTIWhenDisabled =1
-<<<<<<< HEAD
-=======
-    NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
-<<<<<<< HEAD
-    NoSaveCTIWhenDisabled =1
-=======
->>>>>>> origin/master
->>>>>>> origin/master
     Begin
         Begin Label
             BackStyle =0

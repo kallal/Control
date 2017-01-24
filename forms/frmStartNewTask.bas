@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =699053904
+Checksum =430251734
 Begin Form
     PopUp = NotDefault
     RecordSelectors = NotDefault
@@ -247,7 +247,6 @@ Begin Form
         0x32002e003100360038002e0031002e00310030000000
     End
     NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -358,6 +357,7 @@ Begin Form
                     StatusBarText ="What the task was"
                     ValidationRule ="Is Not Null"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2295
                     LayoutCachedTop =960
                     LayoutCachedWidth =5835
@@ -408,6 +408,7 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
+
                     LayoutCachedLeft =4095
                     LayoutCachedTop =1740
                     LayoutCachedWidth =5175
@@ -435,6 +436,7 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
+
                     LayoutCachedLeft =3015
                     LayoutCachedTop =1740
                     LayoutCachedWidth =4095
@@ -515,6 +517,7 @@ Begin Form
                         0x6f5a59ebfd7be44f8c5bbf7224d0dfa3
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1620
                     LayoutCachedTop =2460
                     LayoutCachedWidth =3060
@@ -544,6 +547,7 @@ Begin Form
                         0x29f60427184d2345b42fb18dce64aac4
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3300
                     LayoutCachedTop =2460
                     LayoutCachedWidth =4740
@@ -579,6 +583,7 @@ Begin Form
                         0x03eeb52250623a4b8becada95b0308dd
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1740
                     LayoutCachedTop =2160
                     LayoutCachedWidth =3060
@@ -602,6 +607,7 @@ Begin Form
                         0x544e4f5a46d94949be72223039acc252
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3060
                     LayoutCachedTop =2160
                     LayoutCachedWidth =4440
@@ -624,6 +630,7 @@ Begin Form
                         0x31886c0717a81e4f8e3bfdc5546c1dbe
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4440
                     LayoutCachedTop =2160
                     LayoutCachedWidth =5880
@@ -652,6 +659,7 @@ Begin Form
                         0x1839edab08620d41b2bb1c381b8bcb1d
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5760
                     LayoutCachedTop =60
                     LayoutCachedWidth =6180
@@ -678,6 +686,7 @@ Begin Form
                     StatusBarText ="What the task was"
                     ValidationRule ="Is Not Null"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2280
                     LayoutCachedTop =480
                     LayoutCachedWidth =5820
@@ -724,6 +733,7 @@ Begin Form
                         0xffb46ebf772c354cb6e24d8d3a8b9d47
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2160
                     LayoutCachedTop =3120
                     LayoutCachedWidth =3600

@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =879165410
+Checksum =-986504417
 Begin Form
     PopUp = NotDefault
     RecordSelectors = NotDefault
@@ -243,7 +243,6 @@ Begin Form
         0x650031006200650063003800380036003600330032002e003000300036006400 ,
         0x0000
     End
-    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label

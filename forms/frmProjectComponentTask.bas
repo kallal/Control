@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =766191401
+Checksum =433525640
 Begin Form
     RecordSelectors = NotDefault
     AutoCenter = NotDefault
@@ -647,7 +647,6 @@ Begin Form
         0x64006e000000
     End
     NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -780,6 +779,7 @@ Begin Form
                         0xd0d02bf179bb9a4b842950573b6381b4
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =9240
                     LayoutCachedTop =420
                     LayoutCachedWidth =11520
@@ -821,6 +821,7 @@ Begin Form
                                 0x885432fe204c9c408dc9ea108bbf982c
                             End
                             GridlineColor =10921638
+
                             LayoutCachedLeft =9420
                             LayoutCachedTop =630
                             LayoutCachedWidth =9680
@@ -858,6 +859,7 @@ Begin Form
                                 0x5cb22bdcf4cc424488ef03eb88b5f6a5
                             End
                             GridlineColor =10921638
+
                             LayoutCachedLeft =10320
                             LayoutCachedTop =630
                             LayoutCachedWidth =10580
@@ -903,6 +905,7 @@ Begin Form
                         0xabed7264ed4be7499c5c3ef290b7d5f7
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =13800
                     LayoutCachedTop =420
                     LayoutCachedWidth =17640
@@ -944,6 +947,7 @@ Begin Form
                                 0x9780bb9dfaa82f458e950ff5848b3e79
                             End
                             GridlineColor =10921638
+
                             LayoutCachedLeft =14040
                             LayoutCachedTop =630
                             LayoutCachedWidth =14300
@@ -981,6 +985,7 @@ Begin Form
                                 0x4b374674e83a55438e310ad15c77d13d
                             End
                             GridlineColor =10921638
+
                             LayoutCachedLeft =15480
                             LayoutCachedTop =630
                             LayoutCachedWidth =15740
@@ -1018,6 +1023,7 @@ Begin Form
                                 0x1c0581f327989f409d09421f86dbdabd
                             End
                             GridlineColor =10921638
+
                             LayoutCachedLeft =16920
                             LayoutCachedTop =630
                             LayoutCachedWidth =17180
@@ -1067,6 +1073,7 @@ Begin Form
                         0x5347299892e22342b9ea92d31901b6ce
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1800
                     LayoutCachedTop =120
                     LayoutCachedWidth =5700
@@ -1114,6 +1121,7 @@ Begin Form
                         0xe28ff9438d836448abe0e3d2e92bb967
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1800
                     LayoutCachedTop =540
                     LayoutCachedWidth =5700
@@ -1161,6 +1169,7 @@ Begin Form
                         0x8ad2c1746600cc47a8e090474181b751
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1800
                     LayoutCachedTop =960
                     LayoutCachedWidth =5700
@@ -1207,6 +1216,7 @@ Begin Form
                         0xe9f35ca350107444a7b7b9f7ee78c22c
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1800
                     LayoutCachedTop =1380
                     LayoutCachedWidth =5700
@@ -1344,6 +1354,7 @@ Begin Form
                         0x01945f46d794a2459b89eaa1508f6c34
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =8160
                     LayoutCachedTop =1350
                     LayoutCachedWidth =8420
@@ -1405,6 +1416,7 @@ Begin Form
                         0xaedcfab17bb9094d8935677bb5fa3477
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =13860
                     LayoutCachedTop =60
                     LayoutCachedWidth =15300
@@ -1481,6 +1493,7 @@ Begin Form
                         0x2cfb0587383b164280b725a494a358b0
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =15780
                     LayoutCachedTop =1260
                     LayoutCachedWidth =17580
@@ -1515,6 +1528,7 @@ Begin Form
                         0x2b74d25ef4b125448b8d787313fd8787
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =6360
                     LayoutCachedTop =840
                     LayoutCachedWidth =7800
@@ -1540,6 +1554,7 @@ Begin Form
                         0x7dee8dfd7a9d0b4885c0581cc1f33ed6
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =6360
                     LayoutCachedTop =540
                     LayoutCachedWidth =7800
@@ -1566,6 +1581,7 @@ Begin Form
                         0x36603a2eb52052428720decb04491d31
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =6360
                     LayoutCachedTop =180
                     LayoutCachedWidth =8760
@@ -1607,6 +1623,7 @@ Begin Form
                     StatusBarText ="Who is doing the task"
                     DefaultValue ="1"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3180
                     LayoutCachedWidth =4920
                     LayoutCachedHeight =300
@@ -1630,6 +1647,7 @@ Begin Form
                         0x8eee7638a380fc40aee8b8d599d4c816
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =15975
                     LayoutCachedTop =60
                     LayoutCachedWidth =17415
@@ -1658,6 +1676,7 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
+
                     LayoutCachedLeft =6000
                     LayoutCachedWidth =7080
                     LayoutCachedHeight =300
@@ -1684,6 +1703,7 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
+
                     LayoutCachedLeft =8220
                     LayoutCachedWidth =9300
                     LayoutCachedHeight =300
@@ -1711,6 +1731,7 @@ Begin Form
                         0xa71b275608c8004e9228b77558e8eeff
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =9435
                     LayoutCachedWidth =10695
                     LayoutCachedHeight =300
@@ -1733,6 +1754,7 @@ Begin Form
                         0x2b290c1a16d05a4d9697149482dedf23
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =10695
                     LayoutCachedWidth =18075
                     LayoutCachedHeight =300
@@ -1752,6 +1774,7 @@ Begin Form
                         0xe77fe94dfd3da74080db499d487a966b
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =18120
                     LayoutCachedWidth =18720
                     LayoutCachedHeight =300
@@ -1786,6 +1809,7 @@ Begin Form
                     ColumnWidths ="0;2520;360"
                     StatusBarText ="What the task was"
                     GridlineColor =10921638
+
                     LayoutCachedWidth =3180
                     LayoutCachedHeight =300
                     ForeThemeColorIndex =0
@@ -1815,6 +1839,7 @@ Begin Form
                         0x088b78f3876b2543b4e34f6960a1cf94
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =7140
                     LayoutCachedWidth =8220
                     LayoutCachedHeight =300
@@ -1841,6 +1866,7 @@ Begin Form
                         0x4f3275abb0e19f4fb5f2508ac70325a2
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4920
                     LayoutCachedWidth =6000
                     LayoutCachedHeight =300
@@ -1878,6 +1904,7 @@ Begin Form
                         0x1c6267bb60eca34fa6847303587389d7
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =14460
                     LayoutCachedWidth =15660
                     LayoutCachedHeight =300

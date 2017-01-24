@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =1289322100
+Checksum =1132480257
 Begin Form
     Modal = NotDefault
     RecordSelectors = NotDefault
@@ -210,7 +210,6 @@ Begin Form
         0x00000000000000000000
     End
     NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -370,6 +369,7 @@ Begin Form
                         0x1c9aae71d83cba43ad8ac884eb0773c1
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =420
                     LayoutCachedTop =9480
                     LayoutCachedWidth =1860
@@ -416,6 +416,7 @@ Begin Form
                         0x32c34ac3aee0cc4b854f177f9068f1ea
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =540
                     LayoutCachedTop =3300
                     LayoutCachedWidth =8400
@@ -463,6 +464,7 @@ Begin Form
                         0x625f98ef45e8eb48b1ce1b2c67f43954
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2040
                     LayoutCachedTop =9480
                     LayoutCachedWidth =4260
@@ -511,6 +513,7 @@ Begin Form
                         0x94a9bf1cfea646439e75807737b1dc53
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =6900
                     LayoutCachedTop =2400
                     LayoutCachedWidth =8460
@@ -558,6 +561,7 @@ Begin Form
                         0x1881e5cd154cfd478d1385eb5b869e1a
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2040
                     LayoutCachedTop =9180
                     LayoutCachedWidth =4260
@@ -599,6 +603,7 @@ Begin Form
                         0xd7bf98b2b77bff42a2251850b9b1a1ec
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =780
                     LayoutCachedTop =5670
                     LayoutCachedWidth =1040
@@ -644,6 +649,7 @@ Begin Form
                         0x4d940bdbf397454ebff457bbda1d7a68
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =6240
                     LayoutCachedTop =5640
                     LayoutCachedWidth =7800
@@ -673,6 +679,7 @@ Begin Form
                     BaseInfo ="\"qryMtCboEmployee\";\"dbo_CompanyEmployee\";\"\";\"ID\";\"Trim([FN]) & \"\" \"\""
                         " & Trim([LN])\";\"dbo_CompanyEmployee$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1620
                     LayoutCachedTop =180
                     LayoutCachedWidth =5160
@@ -726,6 +733,7 @@ Begin Form
                         0x44613e0689755c49ad88588de8a585dc
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =540
                     LayoutCachedTop =7140
                     LayoutCachedWidth =8400
@@ -770,6 +778,7 @@ Begin Form
                         0x6931e41272ca0f489990b54c0600ba2f
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2700
                     LayoutCachedTop =6300
                     LayoutCachedWidth =8400
@@ -810,6 +819,7 @@ Begin Form
                         0x30571c37af4eca408f24eaaf8afd5ee0
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3120
                     LayoutCachedTop =8700
                     LayoutCachedWidth =5820
@@ -850,6 +860,7 @@ Begin Form
                     BaseInfo ="\"qryMtCboEmployee\";\"dbo_CompanyEmployee\";\"\";\"ID\";\"Trim([FN]) & \"\" \"\""
                         " & Trim([LN])\";\"dbo_CompanyEmployee$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4800
                     LayoutCachedTop =9180
                     LayoutCachedWidth =7800
@@ -907,6 +918,7 @@ Begin Form
                     BaseInfo ="\"qryMtCboEmployee\";\"dbo_CompanyEmployee\";\"\";\"ID\";\"Trim([FN]) & \"\" \"\""
                         " & Trim([LN])\";\"dbo_CompanyEmployee$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4800
                     LayoutCachedTop =9480
                     LayoutCachedWidth =7800
@@ -953,6 +965,7 @@ Begin Form
                         0xfe2caafb3423f844bcb9e40defdbc31a
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5640
                     LayoutCachedTop =1320
                     LayoutCachedWidth =8762
@@ -991,6 +1004,7 @@ Begin Form
                                 0x24ebebdba7b3da41b5988cdad5b3a8cb
                             End
                             GridlineColor =10921638
+
                             LayoutCachedLeft =5940
                             LayoutCachedTop =1800
                             LayoutCachedWidth =6200
@@ -1033,6 +1047,7 @@ Begin Form
                                 0x16d57e62dccf24489e85e49d1b4f0d3f
                             End
                             GridlineColor =10921638
+
                             LayoutCachedLeft =6540
                             LayoutCachedTop =1800
                             LayoutCachedWidth =6800
@@ -1075,6 +1090,7 @@ Begin Form
                                 0x4bd966133359fb418d255aa92e28f951
                             End
                             GridlineColor =10921638
+
                             LayoutCachedLeft =7140
                             LayoutCachedTop =1800
                             LayoutCachedWidth =7400
@@ -1117,6 +1133,7 @@ Begin Form
                                 0xe31e7702e7210042aef78bf28bb504d3
                             End
                             GridlineColor =10921638
+
                             LayoutCachedLeft =7740
                             LayoutCachedTop =1800
                             LayoutCachedWidth =8000
@@ -1159,6 +1176,7 @@ Begin Form
                                 0x0f47f68bd9b68d4991d30bccaa56b02c
                             End
                             GridlineColor =10921638
+
                             LayoutCachedLeft =8340
                             LayoutCachedTop =1800
                             LayoutCachedWidth =8600
@@ -1218,6 +1236,7 @@ Begin Form
                     BaseInfo ="\"dbo_ToDoGroup\";\"dbo_ToDoGroup\";\"\";\"ID\";\"ToDoGroupName\";\"dbo_ToDoGrou"
                         "p$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1620
                     LayoutCachedTop =540
                     LayoutCachedWidth =5160
@@ -1282,6 +1301,7 @@ Begin Form
                     BaseInfo ="\"qryProjectHeader\";\"dbo_ProjectHeader\";\"\";\"ID\";\"ProjectName\";\"dbo_Pro"
                         "jectHeader$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5400
                     LayoutCachedTop =2820
                     LayoutCachedWidth =8460
@@ -1341,6 +1361,7 @@ Begin Form
                     BaseInfo ="\"qryProjectComponentHeader\";\"dbo_ProjectComponentHeader\";\"dbo_ProjectHeader"
                         "\";\"dbo_ContactGeneral\";\"\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5400
                     LayoutCachedTop =3120
                     LayoutCachedWidth =8460
@@ -1386,6 +1407,7 @@ Begin Form
                         0x38d2d65d5ceb914a8a99eba45289390b
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =7320
                     LayoutCachedTop =8820
                     LayoutCachedWidth =8760
@@ -1416,6 +1438,7 @@ Begin Form
                         0x0771eef572e9db4ebd6dd205ecc775ee
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =6660
                     LayoutCachedTop =120
                     LayoutCachedWidth =8760
@@ -1459,6 +1482,7 @@ Begin Form
                     BaseInfo ="\"qryContactFullName\";\"dbo_ContactName\";\"\";\"ID\";\"Trim([fn]) & \"\" \"\" "
                         "& Trim([ln])\";\"dbo_ContactName$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2100
                     LayoutCachedTop =1440
                     LayoutCachedWidth =5160
@@ -1517,6 +1541,7 @@ Begin Form
                     BaseInfo ="\"qryCboContactGeneral\";\"dbo_ContactGeneral\";\"\";\"ID\";\"CompName\";\"dbo_C"
                         "ontactGeneral$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2100
                     LayoutCachedTop =1080
                     LayoutCachedWidth =5160
@@ -1593,6 +1618,7 @@ Begin Form
                         0x48529edf0be07e429977a003bb4cb4c8
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2100
                     LayoutCachedTop =1920
                     LayoutCachedWidth =5160
@@ -1643,6 +1669,7 @@ Begin Form
                         0x55c08582ef9ef64c86dded62e4c48fae
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2100
                     LayoutCachedTop =2340
                     LayoutCachedWidth =5160

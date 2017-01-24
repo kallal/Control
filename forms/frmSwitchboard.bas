@@ -1,7 +1,6 @@
 ﻿Version =20
 VersionRequired =20
-PublishOption =1
-Checksum =-2073787246
+Checksum =160353141
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -38,7 +37,6 @@ Begin Form
     DatasheetAlternateBackColor =16053492
     DatasheetGridlinesColor12 =15062992
     FitToScreen =1
-    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -80,6 +78,7 @@ Begin Form
                     GUID = Begin
                         0xd7a6a1a22dd4c54fba423d28f85d3c55
                     End
+
                     LayoutCachedLeft =5040
                     LayoutCachedWidth =7380
                     LayoutCachedHeight =1380
@@ -102,6 +101,7 @@ Begin Form
                     ImageData = Begin
                         0x00000000
                     End
+
                     LayoutCachedLeft =1380
                     LayoutCachedWidth =4020
                     LayoutCachedHeight =1380
@@ -124,6 +124,7 @@ Begin Form
                     ImageData = Begin
                         0x00000000
                     End
+
                     LayoutCachedLeft =8940
                     LayoutCachedWidth =11700
                     LayoutCachedHeight =1380
@@ -147,6 +148,7 @@ Begin Form
                     ImageData = Begin
                         0x00000000
                     End
+
                     LayoutCachedLeft =12960
                     LayoutCachedTop =5760
                     LayoutCachedWidth =16680
@@ -234,6 +236,7 @@ Begin Form
                     ImageData = Begin
                         0x00000000
                     End
+
                     LayoutCachedLeft =13260
                     LayoutCachedWidth =15900
                     LayoutCachedHeight =1380
@@ -449,6 +452,7 @@ Begin Form
                     ImageData = Begin
                         0x00000000
                     End
+
                     LayoutCachedLeft =1440
                     LayoutCachedTop =5760
                     LayoutCachedWidth =5160
@@ -712,6 +716,7 @@ Begin Form
                     GUID = Begin
                         0xf8172c9004639e41b2eba7501f07fcd1
                     End
+
                     LayoutCachedLeft =14400
                     LayoutCachedTop =8640
                     LayoutCachedWidth =17280

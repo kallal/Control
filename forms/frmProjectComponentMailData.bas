@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =1347782290
+Checksum =-1676833480
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -686,7 +686,6 @@ Begin Form
         0x64006e000000
     End
     NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -826,6 +825,7 @@ Begin Form
                         0x5d3feb14ac793e4994732c902c3a98bd
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =16680
                     LayoutCachedTop =4620
                     LayoutCachedWidth =17100
@@ -854,6 +854,7 @@ Begin Form
                         0xb46f1045fb18ad4ea10705a459454169
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =17160
                     LayoutCachedTop =4620
                     LayoutCachedWidth =17640
@@ -883,6 +884,7 @@ Begin Form
                     StatusBarText ="Type of mailing"
                     GridlineColor =10921638
                     AllowValueListEdits =0
+
                     LayoutCachedLeft =1440
                     LayoutCachedTop =120
                     LayoutCachedWidth =3780
@@ -924,6 +926,7 @@ Begin Form
                         0x3b231cff6cc8ec408f97857432e0f402
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =300
                     LayoutCachedTop =3990
                     LayoutCachedWidth =560
@@ -973,6 +976,7 @@ Begin Form
                     StatusBarText ="Where does the FSA Listings come from"
                     GridlineColor =10921638
                     AllowValueListEdits =0
+
                     LayoutCachedLeft =5580
                     LayoutCachedTop =600
                     LayoutCachedWidth =8460
@@ -1018,6 +1022,7 @@ Begin Form
                         0xc3c8030c14017342adf39548316459c8
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =11400
                     LayoutCachedTop =480
                     LayoutCachedWidth =12960
@@ -1064,6 +1069,7 @@ Begin Form
                         0x6a65d873136fdf49a7235a1890abed07
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =15720
                     LayoutCachedTop =1680
                     LayoutCachedWidth =17580
@@ -1114,6 +1120,7 @@ Begin Form
                     StatusBarText ="Criteria for Merge / Purge"
                     GridlineColor =10921638
                     AllowValueListEdits =0
+
                     LayoutCachedLeft =11400
                     LayoutCachedTop =840
                     LayoutCachedWidth =12960
@@ -1160,6 +1167,7 @@ Begin Form
                         0x6fe758c45409c54fa642dfa0c3d5b4e2
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =11400
                     LayoutCachedTop =1260
                     LayoutCachedWidth =12960
@@ -1206,6 +1214,7 @@ Begin Form
                         0x910ddc5f156801479d61d51074c4ea1e
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =15720
                     LayoutCachedTop =2040
                     LayoutCachedWidth =17580
@@ -1256,6 +1265,7 @@ Begin Form
                     StatusBarText ="Criteria for Kill List"
                     GridlineColor =10921638
                     AllowValueListEdits =0
+
                     LayoutCachedLeft =11400
                     LayoutCachedTop =1620
                     LayoutCachedWidth =12960
@@ -1306,6 +1316,7 @@ Begin Form
                     StatusBarText ="CMA Do Not Mail required"
                     GridlineColor =10921638
                     AllowValueListEdits =0
+
                     LayoutCachedLeft =11400
                     LayoutCachedTop =2760
                     LayoutCachedWidth =12960
@@ -1358,6 +1369,7 @@ Begin Form
                     StatusBarText ="National Change of Address"
                     GridlineColor =10921638
                     AllowValueListEdits =0
+
                     LayoutCachedLeft =11400
                     LayoutCachedTop =2400
                     LayoutCachedWidth =12960
@@ -1408,6 +1420,7 @@ Begin Form
                     StatusBarText ="Customized Gift Matrix"
                     GridlineColor =10921638
                     AllowValueListEdits =0
+
                     LayoutCachedLeft =11400
                     LayoutCachedTop =3180
                     LayoutCachedWidth =12960
@@ -1455,6 +1468,7 @@ Begin Form
                         0x3db9c88fdc881d419e17f5b6d2eba385
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =11400
                     LayoutCachedTop =3540
                     LayoutCachedWidth =12960
@@ -1505,6 +1519,7 @@ Begin Form
                     StatusBarText ="Address Verification and Correction"
                     GridlineColor =10921638
                     AllowValueListEdits =0
+
                     LayoutCachedLeft =11400
                     LayoutCachedTop =2040
                     LayoutCachedWidth =12960
@@ -1553,6 +1568,7 @@ Begin Form
                         0xe3be4d3d38d226439de778023ad7eb9e
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =120
                     LayoutCachedTop =840
                     LayoutCachedWidth =3780
@@ -1600,6 +1616,7 @@ Begin Form
                         0xd9d24eb635047b49a9e079700d722a07
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =13620
                     LayoutCachedTop =2760
                     LayoutCachedWidth =17700
@@ -1649,6 +1666,7 @@ Begin Form
                     StatusBarText ="How should our data tech output the file"
                     GridlineColor =10921638
                     AllowValueListEdits =0
+
                     LayoutCachedLeft =11400
                     LayoutCachedTop =3900
                     LayoutCachedWidth =12960
@@ -1699,6 +1717,7 @@ Begin Form
                     StatusBarText ="Do we need to send the final mailing file back to the client"
                     GridlineColor =10921638
                     AllowValueListEdits =0
+
                     LayoutCachedLeft =11400
                     LayoutCachedTop =4260
                     LayoutCachedWidth =12960
@@ -1755,6 +1774,7 @@ Begin Form
                     BaseInfo ="\"qryCboContactCPAccount\";\"dbo_ContactCPAccount\";\"\";\"ID\";\"CPAcctName\";\""
                         "dbo_ContactCPAccount$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1680
                     LayoutCachedTop =2760
                     LayoutCachedWidth =3840
@@ -1783,6 +1803,7 @@ Begin Form
                         0x1307c2aeb1471a48accea7d09bcb0439
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1680
                     LayoutCachedTop =3120
                     LayoutCachedWidth =3840
@@ -1808,6 +1829,7 @@ Begin Form
                         0xcf1ecbd0e552f24281001a8575595883
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1680
                     LayoutCachedTop =3480
                     LayoutCachedWidth =3840
@@ -1896,6 +1918,7 @@ Begin Form
                         0x898281845c4faf49b5564fb70ba5e5b1
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5580
                     LayoutCachedTop =1140
                     LayoutCachedWidth =8460
@@ -1989,6 +2012,7 @@ Begin Form
                     BaseInfo ="\"qryMtCboEmployee\";\"dbo_CompanyEmployee\";\"\";\"ID\";\"Trim([FN]) & \"\" \"\""
                         " & Trim([LN])\";\"dbo_CompanyEmployee$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1680
                     LayoutCachedTop =4380
                     LayoutCachedWidth =3840
@@ -2105,6 +2129,7 @@ Begin Form
                         0x0f3db1d0ebd5ef4a86388ed610a5115a
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =14700
                     LayoutCachedTop =360
                     LayoutCachedWidth =16680
@@ -2143,6 +2168,7 @@ Begin Form
                     BeforeUpdate ="[Event Procedure]"
                     AfterUpdate ="[Event Procedure]"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =15540
                     LayoutCachedTop =60
                     LayoutCachedWidth =17640
@@ -2187,6 +2213,7 @@ Begin Form
                         0xe7ec484793d5d446bf1f44a643f20f71
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =16740
                     LayoutCachedTop =360
                     LayoutCachedWidth =17640
@@ -2223,6 +2250,7 @@ Begin Form
                         0x186abc0270d54543b4d4cb6fdf9f7a1c
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =16620
                     LayoutCachedTop =1140
                     LayoutCachedWidth =17640
@@ -2295,6 +2323,7 @@ Begin Form
                         0x1d12251751c869459f1bf356db19889c
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =15600
                     LayoutCachedTop =1140
                     LayoutCachedWidth =16620
@@ -2372,6 +2401,7 @@ Begin Form
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
                         0x0000000000000000
                     End
+
                     LayoutCachedLeft =13680
                     LayoutCachedTop =960
                     LayoutCachedWidth =14040
@@ -2401,6 +2431,7 @@ Begin Form
                         0xa6475d6389dd4447b34bf37cc32f5f8b
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =13380
                     LayoutCachedTop =120
                     LayoutCachedWidth =14340

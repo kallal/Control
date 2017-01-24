@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1659946336
+Checksum =-979384923
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -40,7 +40,6 @@ Begin Form
     ForeThemeColorIndex =0
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
-    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin TextBox
@@ -90,6 +89,7 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
+
                     LayoutCachedWidth =2760
                     LayoutCachedHeight =420
                 End
@@ -114,6 +114,7 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
+
                     LayoutCachedTop =420
                     LayoutCachedWidth =2760
                     LayoutCachedHeight =840
@@ -138,6 +139,7 @@ Begin Form
                     End
                     GridlineColor =10921638
                     ShowDatePicker =0
+
                     LayoutCachedTop =780
                     LayoutCachedWidth =2760
                     LayoutCachedHeight =1080

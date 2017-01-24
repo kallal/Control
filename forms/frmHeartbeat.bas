@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =142182079
+Checksum =2010043094
 Begin Form
     RecordSelectors = NotDefault
     ControlBox = NotDefault
@@ -750,7 +750,6 @@ Begin Form
         0x0000
     End
     NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -819,6 +818,7 @@ Begin Form
                         0x93fb077237f4c249b302ec265c6c75f7
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2460
                     LayoutCachedTop =4680
                     LayoutCachedWidth =6180

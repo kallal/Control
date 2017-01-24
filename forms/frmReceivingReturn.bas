@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =1706580503
+Checksum =943427504
 Begin Form
     RecordSelectors = NotDefault
     MaxButton = NotDefault
@@ -54,7 +54,6 @@ Begin Form
     ForeThemeColorIndex =0
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
-    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -176,6 +175,7 @@ Begin Form
                         0xb5dfd885338fc4439354a58313d2461a
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =120
                     LayoutCachedTop =1020
                     LayoutCachedWidth =20760
@@ -202,6 +202,7 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     OnDblClick ="[Event Procedure]"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4020
                     LayoutCachedTop =420
                     LayoutCachedWidth =7680
@@ -247,6 +248,7 @@ Begin Form
                         0xa312ea6d6370d140aaf8ebd4afba68d7
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1620
                     LayoutCachedTop =420
                     LayoutCachedWidth =2880
@@ -289,6 +291,7 @@ Begin Form
                         0x89d55d81750f064ba8adb9cc5049f697
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =18660
                     LayoutCachedTop =300
                     LayoutCachedWidth =20400
@@ -343,6 +346,7 @@ Begin Form
                         0x5c2afe15d5132144850bd243a147e753
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =13440
                     LayoutCachedTop =300
                     LayoutCachedWidth =18480
@@ -385,6 +389,7 @@ Begin Form
                         0x6f058a18a87a874b8c83560d39c8556c
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =7800
                     LayoutCachedTop =420
                     LayoutCachedWidth =9240
@@ -420,6 +425,7 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     DefaultValue ="\"RECEIVED\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1380
                     LayoutCachedTop =60
                     LayoutCachedWidth =4800

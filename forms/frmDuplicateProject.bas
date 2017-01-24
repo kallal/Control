@@ -1,15 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-<<<<<<< HEAD
-Checksum =1475942241
-=======
-<<<<<<< HEAD
 Checksum =-1140059406
-=======
-Checksum =-1021545548
->>>>>>> origin/master
->>>>>>> origin/master
 Begin Form
     Modal = NotDefault
     RecordSelectors = NotDefault
@@ -226,15 +218,6 @@ Begin Form
         0x3700370034002e0030003000360034000000
     End
     NoSaveCTIWhenDisabled =1
-<<<<<<< HEAD
-=======
-    NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
-<<<<<<< HEAD
-    NoSaveCTIWhenDisabled =1
-=======
->>>>>>> origin/master
->>>>>>> origin/master
     Begin
         Begin Label
             BackStyle =0

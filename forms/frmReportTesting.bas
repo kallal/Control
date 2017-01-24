@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-300011523
+Checksum =-178018311
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -258,7 +258,6 @@ Begin Form
         0x0000000000000000000000004c005000540031003a000000
     End
     NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -336,6 +335,7 @@ Begin Form
                         0x515fc3cfe48ce3448e453b141bbff1a3
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =170
                     LayoutCachedTop =2154
                     LayoutCachedWidth =9467
@@ -377,6 +377,7 @@ Begin Form
                         0x1e140541a7114a42ad705d452bfe4a44
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1190
                     LayoutCachedTop =283
                     LayoutCachedWidth =2437

@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =1905562514
+Checksum =740506792
 Begin Form
     NavigationButtons = NotDefault
     DividingLines = NotDefault
@@ -86,7 +86,6 @@ Begin Form
     ForeThemeColorIndex =0
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
-    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -395,6 +394,7 @@ Begin Form
                         0xf86bde82dba4e14daa3cae1dcb84f01d
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =17400
                     LayoutCachedWidth =18000
                     LayoutCachedHeight =315
@@ -414,6 +414,7 @@ Begin Form
                         0x03dc28c5f60fb946889843aef4a06018
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5520
                     LayoutCachedWidth =6660
                     LayoutCachedHeight =315
@@ -434,6 +435,7 @@ Begin Form
                         0x5a464988308a20478d429f765df6788c
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =6660
                     LayoutCachedWidth =7800
                     LayoutCachedHeight =315
@@ -453,6 +455,7 @@ Begin Form
                         0xc8d223d9fc2a0c4c84ccfca7224acce4
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =7800
                     LayoutCachedWidth =8940
                     LayoutCachedHeight =315
@@ -472,6 +475,7 @@ Begin Form
                         0x0242e1b8fd82be469dce26fa4cbd2924
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =8940
                     LayoutCachedWidth =10080
                     LayoutCachedHeight =315
@@ -490,6 +494,7 @@ Begin Form
                         0xdb349b6eeffe9f4097c657d7401c9f2e
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =11520
                     LayoutCachedWidth =12960
                     LayoutCachedHeight =315
@@ -511,6 +516,7 @@ Begin Form
                         0xe9d251c7972b414691884001bcee507d
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =15840
                     LayoutCachedWidth =17280
                     LayoutCachedHeight =315
@@ -530,6 +536,7 @@ Begin Form
                         0x42766cec8249434bb917150109918466
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3780
                     LayoutCachedWidth =5520
                     LayoutCachedHeight =315
@@ -550,6 +557,7 @@ Begin Form
                         0x66ff6742820def48837d5e825b9d9ddf
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =10080
                     LayoutCachedWidth =11520
                     LayoutCachedHeight =315
@@ -570,6 +578,7 @@ Begin Form
                         0x8133ee2b3703884a9c70b91540460463
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =12960
                     LayoutCachedWidth =14400
                     LayoutCachedHeight =315
@@ -595,6 +604,7 @@ Begin Form
                     BaseInfo ="\"dbo_TaskCategory\";\"dbo_TaskCategory\";\"\";\"ID\";\"TaskCategory\";\"dbo_Tas"
                         "kCategory$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedWidth =1440
                     LayoutCachedHeight =315
                     ForeThemeColorIndex =0
@@ -621,6 +631,7 @@ Begin Form
                     RowSource ="SELECT * FROM dbo_Machine WHERE [DepartmentID] = 3; "
                     ColumnWidths ="0;0;0;0;0;1440"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1440
                     LayoutCachedWidth =3780
                     LayoutCachedHeight =315
@@ -647,6 +658,7 @@ Begin Form
                     RowSource ="qryEmployeePlantOnly"
                     ColumnWidths ="0;1440"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =14400
                     LayoutCachedWidth =15840
                     LayoutCachedHeight =315
@@ -682,6 +694,7 @@ Begin Form
                         0x4afc6b845b207243ac73fd0a028fa5f7
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =10080
                     LayoutCachedTop =60
                     LayoutCachedWidth =11520
@@ -704,6 +717,7 @@ Begin Form
                         0x1050f774722c1e48a149d41344a3afc3
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =12960
                     LayoutCachedTop =60
                     LayoutCachedWidth =14400

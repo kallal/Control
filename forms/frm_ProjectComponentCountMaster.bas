@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =527255196
+Checksum =1254676651
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -76,7 +76,6 @@ Begin Form
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
     NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -127,6 +126,7 @@ Begin Form
                         0x285712f320bb6f4a90d49c435ad5a604
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =120
                     LayoutCachedTop =480
                     LayoutCachedWidth =19680
@@ -174,6 +174,7 @@ Begin Form
                         0xb64c8b8f1f537a439dbe1a850e05604d
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =120
                     LayoutCachedTop =4320
                     LayoutCachedWidth =19680
@@ -221,6 +222,7 @@ Begin Form
                         0x9935e633f9cbda4a934b37f3f9507e94
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =120
                     LayoutCachedTop =6300
                     LayoutCachedWidth =19680

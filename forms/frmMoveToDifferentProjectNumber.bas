@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-376332285
+Checksum =-181402566
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -73,7 +73,6 @@ Begin Form
     ForeThemeColorIndex =0
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
-    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -162,6 +161,7 @@ Begin Form
                         0xbb7936d64f13384491003981f6d3b247
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1920
                     LayoutCachedTop =180
                     LayoutCachedWidth =4260
@@ -203,6 +203,7 @@ Begin Form
                         0xfc173565c570a2409ebe7160d6dca94f
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =6360
                     LayoutCachedTop =180
                     LayoutCachedWidth =8640
@@ -244,6 +245,7 @@ Begin Form
                         0x4eeaedc4bacd6c44ad075e76b16f9087
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2880
                     LayoutCachedTop =1680
                     LayoutCachedWidth =5760
@@ -285,6 +287,7 @@ Begin Form
                         0x6b30ba013e141040a8db9cff435e5989
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2880
                     LayoutCachedTop =2160
                     LayoutCachedWidth =5760
@@ -317,6 +320,7 @@ Begin Form
                         0x023b80c9ad5d9b40a8fcf0f7ea566abf
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4200
                     LayoutCachedTop =3600
                     LayoutCachedWidth =5640

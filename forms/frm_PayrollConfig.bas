@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-344069287
+Checksum =-6637887
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -55,7 +55,6 @@ Begin Form
     ForeThemeColorIndex =0
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
-    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -132,6 +131,7 @@ Begin Form
                         0x22737ab3ca35d04bb8b200982de467ab
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4980
                     LayoutCachedTop =2100
                     LayoutCachedWidth =8100
@@ -173,6 +173,7 @@ Begin Form
                         0x0349be21ee29c34994f5a6e704834de6
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =10020
                     LayoutCachedTop =120
                     LayoutCachedWidth =11460
@@ -221,6 +222,7 @@ Begin Form
                         ";\"Monthly\""
                     ColumnWidths ="0;1440"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3660
                     LayoutCachedTop =1260
                     LayoutCachedWidth =8100

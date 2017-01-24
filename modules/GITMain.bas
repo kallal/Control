@@ -428,9 +428,15 @@ Public Sub ExportAllSource(bolMsg As Boolean, _
             ExportObject acQuery, qry.name, obj_path & qry.name & ".bas", UsingUcs2
             obj_count = obj_count + 1
         End If
+         If strDateStamps <> "" Then strDateStamps = strDateStamps & vbCrLf
+         strDateStamps = strDateStamps & qry.name & "," & Format(qry.LastUpdated, "MM/DD/YYYY HH:NN:SS AM/PM")
+    
     Next
     'Debug.Print PadRight("Sanitizing...", 15);
     'SanitizeTextFiles obj_path, "bas"
+    
+    Call WriteModList(strDateStamps, obj_path)
+    
     Debug.Print "[" & obj_count & "]"
 
 skipquery:

@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1437837873
+Checksum =-469165055
 Begin Form
     RecordSelectors = NotDefault
     ControlBox = NotDefault
@@ -241,7 +241,6 @@ Begin Form
         0x00000000000000000000000000000000000000000000
     End
     NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -329,6 +328,7 @@ Begin Form
                         0x627139860df8744a96215a4eb6c2ef7d
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4425
                     LayoutCachedTop =1860
                     LayoutCachedWidth =10965
@@ -378,6 +378,7 @@ Begin Form
                         0xe719f714101762468974a850e5768aec
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4440
                     LayoutCachedTop =2640
                     LayoutCachedWidth =7320
@@ -450,6 +451,7 @@ Begin Form
                         0x0982bb4bdec3fa48b1c0eeccc7108106
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =480
                     LayoutCachedTop =6000
                     LayoutCachedWidth =3240
@@ -480,6 +482,7 @@ Begin Form
                         0x2022271c5999254ba9b5d93f1a95f6a2
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =10620
                     LayoutCachedTop =7320
                     LayoutCachedWidth =12540
@@ -513,6 +516,7 @@ Begin Form
                         0xcff81c81afa57e4683f2cceb1a5c6829
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =6780
                     LayoutCachedTop =6000
                     LayoutCachedWidth =9540
@@ -546,6 +550,7 @@ Begin Form
                         0xca0f1599d98fa04395dcee7c6884118a
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =9660
                     LayoutCachedTop =6000
                     LayoutCachedWidth =12420
@@ -583,6 +588,7 @@ Begin Form
                         0x0561c17304290f45ab66470a40d2554c
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5040
                     LayoutCachedTop =4200
                     LayoutCachedWidth =8880
@@ -638,6 +644,7 @@ Begin Form
                         0x7be3fd1d26c41b4e87fe0573f6bcb9d2
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5040
                     LayoutCachedTop =3660
                     LayoutCachedWidth =8880
@@ -689,6 +696,7 @@ Begin Form
                         0xa08749acd9530e4990d1f9cdb0aa2869
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3360
                     LayoutCachedTop =6000
                     LayoutCachedWidth =6120
@@ -726,6 +734,7 @@ Begin Form
                         0x5154a0925124f642b8981fd67f5dda7f
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5040
                     LayoutCachedTop =4740
                     LayoutCachedWidth =8880
@@ -782,6 +791,7 @@ Begin Form
                         0xce2be0530d07a84a976e0dc845c5cac6
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =120
                     LayoutCachedTop =120
                     LayoutCachedWidth =3360
@@ -813,6 +823,7 @@ Begin Form
                         0xaa10085fe8c31d48a429ec412385595e
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =120
                     LayoutCachedTop =480
                     LayoutCachedWidth =3360
@@ -857,8 +868,8 @@ mysql = "SELECT * from dbo_CompanyEmployeeCurrentStatus WHERE CompanyEmployeeID 
 Set MYRS_CS = CurrentDb.OpenRecordset(mysql, dbOpenDynaset, dbSeeChanges)
 
 MYRS_CS.Edit
-MYRS_CS!Break_End = Now()
-MYRS_CS!Break_Mins = DateDiff("n", MYRS_CS!Break_Start, MYRS_CS!Break_End)
+MYRS_CS!Break_end = Now()
+MYRS_CS!Break_Mins = DateDiff("n", MYRS_CS!Break_Start, MYRS_CS!Break_end)
 MYRS_CS!NumBreak = Nz(MYRS_CS!NumBreak, 0) + 1
 MYRS_CS!CurrentStatus = "LOGGED IN"
 MYRS_CS.Update
@@ -961,7 +972,7 @@ myrs_SH!NumBreak = MYRS_CS!NumBreak
 myrs_SH!Login_MachineID = MYRS_CS!Login_MachineID
 myrs_SH!CurrentStatus = MYRS_CS!CurrentStatus
 myrs_SH!Break_Start = MYRS_CS!Break_Start
-myrs_SH!Break_End = MYRS_CS!Break_End
+myrs_SH!Break_end = MYRS_CS!Break_end
 myrs_SH!Break_Mins = MYRS_CS!Break_Mins
 myrs_SH!Break_Time = MYRS_CS!Break_Time
 
@@ -975,7 +986,7 @@ MYRS_CS!Shift_End = Null
 MYRS_CS!NumBreak = Null
 MYRS_CS!Login_MachineID = Null
 MYRS_CS!Break_Start = Null
-MYRS_CS!Break_End = Null
+MYRS_CS!Break_end = Null
 MYRS_CS!Break_Mins = Null
 MYRS_CS!Break_Time = Null
 MYRS_CS.Update

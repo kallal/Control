@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-106950365
+Checksum =1002157803
 Begin Form
     RecordSelectors = NotDefault
     ControlBox = NotDefault
@@ -171,7 +171,6 @@ Begin Form
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x000000000000
     End
-    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -416,6 +415,7 @@ Begin Form
                         0xf52542963113294f8575b99e991c0ee7
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1440
                     LayoutCachedWidth =5280
                     LayoutCachedHeight =240
@@ -439,6 +439,7 @@ Begin Form
                         0xc6af57aed2d32243a8c4ca1f82712f4a
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5280
                     LayoutCachedWidth =7020
                     LayoutCachedHeight =240
@@ -458,6 +459,7 @@ Begin Form
                         0xa66d5f301177ac4087bd7c89157c2fd8
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =8580
                     LayoutCachedWidth =9120
                     LayoutCachedHeight =240
@@ -492,6 +494,7 @@ Begin Form
                         0xe1d6781561ed1e4db4847a60a4130de5
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =7020
                     LayoutCachedWidth =7800
                     LayoutCachedHeight =240
@@ -517,6 +520,7 @@ Begin Form
                         0x2e732d92627f0741bb529d3ac938ed66
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =7800
                     LayoutCachedWidth =8520
                     LayoutCachedHeight =240
@@ -538,6 +542,7 @@ Begin Form
                         0x4fc4075581034d46b6756e82fb80607c
                     End
                     GridlineColor =10921638
+
                     LayoutCachedWidth =1440
                     LayoutCachedHeight =240
                 End

@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1705448748
+Checksum =-1802999282
 Begin Form
     RecordSelectors = NotDefault
     ControlBox = NotDefault
@@ -89,7 +89,6 @@ Begin Form
     ForeThemeColorIndex =0
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
-    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -376,6 +375,7 @@ Begin Form
                     BaseInfo ="\"qryMtCboEmployee\";\"dbo_CompanyEmployee\";\"\";\"ID\";\"Trim([FN]) & \"\" \"\""
                         " & Trim([LN])\";\"dbo_CompanyEmployee$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2880
                     LayoutCachedWidth =4620
                     LayoutCachedHeight =300
@@ -408,6 +408,7 @@ Begin Form
                     BaseInfo ="\"qryMtCboEmployee\";\"dbo_CompanyEmployee\";\"\";\"ID\";\"Trim([FN]) & \"\" \"\""
                         " & Trim([LN])\";\"dbo_CompanyEmployee$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4320
                     LayoutCachedWidth =6060
                     LayoutCachedHeight =300
@@ -434,6 +435,7 @@ Begin Form
                         0x532bd90bb902d0428b71ab1df83a61a1
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1440
                     LayoutCachedWidth =2880
                     LayoutCachedHeight =300
@@ -455,6 +457,7 @@ Begin Form
                         0x2917425f48bafb4aa9500ac39aaf03f8
                     End
                     GridlineColor =10921638
+
                     LayoutCachedWidth =1440
                     LayoutCachedHeight =300
                 End
@@ -475,6 +478,7 @@ Begin Form
                         0x6d942cb628d4bd409673b67a1d3db755
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =14760
                     LayoutCachedWidth =15000
                     LayoutCachedHeight =300
@@ -505,6 +509,7 @@ Begin Form
                     BaseInfo ="\"dbo_ToDoGroup\";\"dbo_ToDoGroup\";\"\";\"ID\";\"ToDoGroupName\";\"dbo_ToDoGrou"
                         "p$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5760
                     LayoutCachedWidth =7500
                     LayoutCachedHeight =300
@@ -541,6 +546,7 @@ Begin Form
                     BaseInfo ="\"qryProjectHeader\";\"dbo_ProjectHeader\";\"\";\"ID\";\"ProjectName\";\"dbo_Pro"
                         "jectHeader$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =7200
                     LayoutCachedWidth =9000
                     LayoutCachedHeight =300
@@ -574,6 +580,7 @@ Begin Form
                     BaseInfo ="\"qryProjectComponentHeader\";\"dbo_ProjectComponentHeader\";\"dbo_ProjectHeader"
                         "\";\"dbo_ContactGeneral\";\"\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =8640
                     LayoutCachedWidth =10440
                     LayoutCachedHeight =300
@@ -607,6 +614,7 @@ Begin Form
                     BaseInfo ="\"qryCboContactGeneral\";\"dbo_ContactGeneral\";\"\";\"ID\";\"CompName\";\"dbo_C"
                         "ontactGeneral$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =10080
                     LayoutCachedWidth =11880
                     LayoutCachedHeight =300
@@ -640,6 +648,7 @@ Begin Form
                     BaseInfo ="\"qryContactFullName\";\"dbo_ContactName\";\"\";\"ID\";\"Trim([fn]) & \"\" \"\" "
                         "& Trim([ln])\";\"dbo_ContactName$PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =11520
                     LayoutCachedWidth =13260
                     LayoutCachedHeight =300
@@ -666,6 +675,7 @@ Begin Form
                         0xf19907bd55162b4298b49bb323f8d527
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =12960
                     LayoutCachedWidth =18720
                     LayoutCachedHeight =300

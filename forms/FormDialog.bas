@@ -1,15 +1,6 @@
 ﻿Version =20
 VersionRequired =20
-<<<<<<< HEAD
 Checksum =187949114
-=======
-PublishOption =1
-<<<<<<< HEAD
-Checksum =878663315
-=======
-Checksum =829975233
->>>>>>> origin/master
->>>>>>> origin/master
 Begin Form
     PopUp = NotDefault
     Modal = NotDefault
@@ -203,15 +194,6 @@ Begin Form
         0x00000000
     End
     NoSaveCTIWhenDisabled =1
-<<<<<<< HEAD
-=======
-    NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
-<<<<<<< HEAD
-    NoSaveCTIWhenDisabled =1
-=======
->>>>>>> origin/master
->>>>>>> origin/master
     Begin
         Begin Label
             BackStyle =0
