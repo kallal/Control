@@ -1,7 +1,11 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
+<<<<<<< HEAD
 Checksum =1086830651
+=======
+Checksum =590512008
+>>>>>>> origin/master
 Begin Form
     AutoCenter = NotDefault
     NavigationButtons = NotDefault
@@ -554,6 +558,11 @@ Begin Form
         0x35003700420043000000
     End
     NoSaveCTIWhenDisabled =1
+<<<<<<< HEAD
+=======
+    NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
+>>>>>>> origin/master
     Begin
         Begin Label
             BackStyle =0

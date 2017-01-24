@@ -1,7 +1,11 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
+<<<<<<< HEAD
 Checksum =338693627
+=======
+Checksum =815123525
+>>>>>>> origin/master
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -90,6 +94,11 @@ Begin Form
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
     NoSaveCTIWhenDisabled =1
+<<<<<<< HEAD
+=======
+    NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
+>>>>>>> origin/master
     Begin
         Begin Label
             BackStyle =0

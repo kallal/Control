@@ -1,7 +1,11 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
+<<<<<<< HEAD
 Checksum =1444018553
+=======
+Checksum =2091592404
+>>>>>>> origin/master
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -355,6 +359,11 @@ Begin Form
         0x0000000000000000000000000000
     End
     NoSaveCTIWhenDisabled =1
+<<<<<<< HEAD
+=======
+    NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
+>>>>>>> origin/master
     Begin
         Begin Label
             BackStyle =0

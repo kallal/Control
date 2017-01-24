@@ -1,7 +1,11 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
+<<<<<<< HEAD
 Checksum =-1644963771
+=======
+Checksum =1564566204
+>>>>>>> origin/master
 Begin Form
     RecordSelectors = NotDefault
     MaxButton = NotDefault
@@ -249,6 +253,11 @@ Begin Form
         0x00000000000000000000
     End
     NoSaveCTIWhenDisabled =1
+<<<<<<< HEAD
+=======
+    NoSaveCTIWhenDisabled =1
+    NoSaveCTIWhenDisabled =1
+>>>>>>> origin/master
     Begin
         Begin Label
             BackStyle =0
