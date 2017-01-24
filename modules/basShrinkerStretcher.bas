@@ -683,7 +683,7 @@ Function SS_ProcUncommentedTextExists(mdl As Module, sProcName As String, sTextT
 Dim lng As Long
 Dim ipos As Integer
 Dim sLines As String
-Dim sLine As String
+Dim sline As String
 Dim iRtn As Integer
 On Error Resume Next
 iRtn = False
@@ -712,12 +712,12 @@ For lng = mdl.ProcStartLine(sProcName, 0) To (mdl.ProcStartLine(sProcName, 0) + 
         End If
         GoTo Exit_Section
     End If
-    sLine = mdl.Lines(lng, 1)
+    sline = mdl.Lines(lng, 1)
     
-    ipos = InStr(1, sLine, sTextToFind)
+    ipos = InStr(1, sline, sTextToFind)
     If ipos > 0 Then
         'Check to see if this line is a comment
-        If InStr(1, Mid(sLine, 1, ipos), "'") Then
+        If InStr(1, Mid(sline, 1, ipos), "'") Then
             '* It's a comment
         Else
             iRtn = True

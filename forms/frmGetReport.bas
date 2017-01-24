@@ -1,7 +1,15 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
+<<<<<<< HEAD
 Checksum =1520590992
+=======
+<<<<<<< HEAD
+Checksum =-1544108046
+=======
+Checksum =1429681983
+>>>>>>> origin/master
+>>>>>>> origin/master
 Begin Form
     AutoResize = NotDefault
     RecordSelectors = NotDefault
@@ -264,9 +272,15 @@ Begin Form
         0x0000000000000000000000004c005000540031003a000000
     End
     NoSaveCTIWhenDisabled =1
+<<<<<<< HEAD
+=======
     NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
+<<<<<<< HEAD
     NoSaveCTIWhenDisabled =1
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
     Begin
         Begin Label
             BackStyle =0
@@ -394,6 +408,7 @@ Begin Form
                         0xc6a122461133f241a678c993ac42f16d
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1024
                     LayoutCachedTop =127
                     LayoutCachedWidth =5965
@@ -441,6 +456,7 @@ Begin Form
                     End
                     GridlineColor =10921638
                     AllowValueListEdits =0
+
                     LayoutCachedLeft =169
                     LayoutCachedTop =1077
                     LayoutCachedWidth =5972
@@ -459,6 +475,7 @@ Begin Form
                         0x82411a319c716c448c6dc9e4df57529b
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =226
                     LayoutCachedTop =602
                     LayoutCachedWidth =486
@@ -510,6 +527,7 @@ Begin Form
                         0xe3a02ff604ab0e4f9d93f6c9400b8a69
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4260
                     LayoutCachedTop =67
                     LayoutCachedWidth =5961
@@ -549,6 +567,7 @@ Begin Form
                         0x1aa426b470c48d4e81f1feaa36cea6c4
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2040
                     LayoutCachedTop =60
                     LayoutCachedWidth =3741

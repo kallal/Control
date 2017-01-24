@@ -1,7 +1,15 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
+<<<<<<< HEAD
 Checksum =-491458621
+=======
+<<<<<<< HEAD
+Checksum =-1086111346
+=======
+Checksum =-81717081
+>>>>>>> origin/master
+>>>>>>> origin/master
 Begin Form
     RecordSelectors = NotDefault
     MaxButton = NotDefault
@@ -152,9 +160,15 @@ Begin Form
         0x0000550053004200300030003200000000000000000000000000000000000000
     End
     NoSaveCTIWhenDisabled =1
+<<<<<<< HEAD
+=======
     NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
+<<<<<<< HEAD
     NoSaveCTIWhenDisabled =1
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
     Begin
         Begin Label
             BackStyle =0
@@ -285,6 +299,7 @@ Begin Form
                         0x9c0e2e984464af419efbac70a43a3845
                     End
                     GridlineColor =10921638
+
                     LayoutCachedWidth =7920
                     LayoutCachedHeight =5760
                     TabIndex =4
@@ -303,6 +318,7 @@ Begin Form
                         0xdf765eb58ae5894b85096cb01b22f0a6
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1920
                     LayoutCachedTop =5040
                     LayoutCachedWidth =6182
@@ -345,6 +361,7 @@ Begin Form
                                 0x0cb54a80d8c48640b778a7ccfc5e6a15
                             End
                             GridlineColor =10921638
+
                             LayoutCachedLeft =2100
                             LayoutCachedTop =5248
                             LayoutCachedWidth =2360
@@ -386,6 +403,7 @@ Begin Form
                                 0xdd51da0a33e2b547802025a8b3ec6890
                             End
                             GridlineColor =10921638
+
                             LayoutCachedLeft =3420
                             LayoutCachedTop =5248
                             LayoutCachedWidth =3680
@@ -427,6 +445,7 @@ Begin Form
                                 0x849b27c71bd3e549ba2572d77ec26294
                             End
                             GridlineColor =10921638
+
                             LayoutCachedLeft =4560
                             LayoutCachedTop =5248
                             LayoutCachedWidth =4820
@@ -478,6 +497,7 @@ Begin Form
                     ColumnWidths ="0;1440;0"
                     AfterUpdate ="[Event Procedure]"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4740
                     LayoutCachedTop =1500
                     LayoutCachedWidth =7740
@@ -522,6 +542,7 @@ Begin Form
                         0xd8c71d796cc9744095bce8d5b7092fa6
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4560
                     LayoutCachedTop =3900
                     LayoutCachedWidth =7680
@@ -588,6 +609,7 @@ Begin Form
                         0xee402c26e6908d44b6d7292710558490
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4740
                     LayoutCachedTop =2340
                     LayoutCachedWidth =7740

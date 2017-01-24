@@ -1,7 +1,15 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
+<<<<<<< HEAD
 Checksum =-937029717
+=======
+<<<<<<< HEAD
+Checksum =-335932216
+=======
+Checksum =-1939152039
+>>>>>>> origin/master
+>>>>>>> origin/master
 Begin Form
     RecordSelectors = NotDefault
     MaxButton = NotDefault
@@ -242,9 +250,15 @@ Begin Form
         0x000000000000
     End
     NoSaveCTIWhenDisabled =1
+<<<<<<< HEAD
+=======
     NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
+<<<<<<< HEAD
     NoSaveCTIWhenDisabled =1
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
     Begin
         Begin Label
             BackStyle =0
@@ -377,6 +391,7 @@ Begin Form
                         0x6f3a3495658b3f43a9b8eb4c788fe9e2
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =60
                     LayoutCachedTop =8100
                     LayoutCachedWidth =4260
@@ -428,6 +443,7 @@ Begin Form
                         0x43610316609bf7408f2f3daf947033d6
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =60
                     LayoutCachedWidth =4380
                     LayoutCachedHeight =7980

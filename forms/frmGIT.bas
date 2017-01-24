@@ -1,7 +1,11 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
+<<<<<<< HEAD
 Checksum =78808600
+=======
+Checksum =-790974848
+>>>>>>> origin/master
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -17,14 +21,14 @@ Begin Form
     ItemSuffix =30
     Left =270
     Top =510
-    Right =9765
+    Right =9510
     Bottom =8205
     DatasheetGridlinesColor =16446942
     RecSrcDt = Begin
         0x3d01d8d933e0e440
     End
     GUID = Begin
-        0xe9c03e56d8579b47a8ceb378b13d54de
+        0xf9dde74c435a634ea6c342c5351f9fa3
     End
     NameMap = Begin
         0x0acc0e55000000009a0a46b4eaa0c342b90db909d44172c700000000d8a0cded ,
@@ -42,10 +46,17 @@ Begin Form
         0x010000006801000000000000a10700000100000001000000
     End
     PrtDevMode = Begin
+<<<<<<< HEAD
         0x0000ff0a00000000000000000000000000000000000000000000000014512f00 ,
         0x010464009c004c0b035f810001000100ea0a6f08000001000f00580202000100 ,
         0x0000030000004c6574746572000000002c4f2f00ab12f75f80f9780200000000 ,
         0x1a18f75fc0b10000000000000000000000000000000000000000000002000000 ,
+=======
+        0x0053d200804bd20014720a30ffffffff2ce0003025caf773dcdbe140385ad200 ,
+        0x010464009c004c0b035f810001000100ea0a6f08000001000f00580202000100 ,
+        0x0000030000004c6574746572000000003cd0f773bcdbe14044f20f30385ad200 ,
+        0x10f20f3050530000000000000000000000000000000000000000000002000000 ,
+>>>>>>> origin/master
         0x0000000000000000000000000000000000000000000000000000000001000000 ,
         0x3c003c00e803e803070000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -142,7 +153,11 @@ Begin Form
     PrtDevNames = Begin
         0x080026003a000100000000000000000000000000000000000000000000000000 ,
         0x00000000000000000000000000000000000000000000000000004c5054313a00 ,
+<<<<<<< HEAD
         0x00000000
+=======
+        0x000000000000000000000000
+>>>>>>> origin/master
     End
     FilterOnLoad =0
     ShowPageMargins =0
@@ -157,12 +172,21 @@ Begin Form
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
     PrtDevModeW = Begin
+<<<<<<< HEAD
         0x0000bd2fb2b5b28f748e300000985904000000002718c32f60e2bd2f3b4cd42f ,
         0x20e3bd2fd2b5b28f948e30000098590400000000000000000000000000000000 ,
         0x01046400dc004c0b035f810001000100ea0a6f08000001000f00580202000100 ,
         0x0000030000004c0065007400740065007200000002b5b28fe48e300000985904 ,
         0x000000002718c32f60e2bd2f3b4cd42f20e3bd2f22b5b28f048f300000985904 ,
         0x0000000000000000000000000000000000000000000000000000000002000000 ,
+=======
+        0x0000000001000000110400009c9b071019e1f82fa452b6089c9b071001000000 ,
+        0x9052b60807000000e453b6089c9b0710ec88d30050750430e453b60820000000 ,
+        0x01046400dc004c0b035f810001000100ea0a6f08000001000f00580202000100 ,
+        0x0000030000004c0065007400740065007200000000000000000000002c89d300 ,
+        0x97cab62f9c9b07105c9907105489d30052cbb62f5c9907108cccd30000000000 ,
+        0x4218000002010000000000000000000000000000000000000000000002000000 ,
+>>>>>>> origin/master
         0x0000000000000000000000000000000000000000000000000000000001000000 ,
         0x3c003c00e803e803070000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -260,7 +284,12 @@ Begin Form
         0x0400220036000100000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
+<<<<<<< HEAD
         0x0000000000000000000000004c005000540031003a0000000000000000000000
+=======
+        0x0000000000000000000000004c005000540031003a0000000000000000000000 ,
+        0x00000000000000000000000000000000
+>>>>>>> origin/master
     End
     NoSaveCTIWhenDisabled =1
     Begin
@@ -337,7 +366,7 @@ Begin Form
             Height =7710
             Name ="Detail"
             GUID = Begin
-                0x494acbb078fb7f49b3647bde58b46862
+                0x8e114effec286142b8e72e2b6cff4f64
             End
             AlternateBackColor =15921906
             AlternateBackThemeColorIndex =1
@@ -355,7 +384,7 @@ Begin Form
                     Caption ="ExportAll (local)"
                     OnClick ="[Event Procedure]"
                     GUID = Begin
-                        0x845948a8ad9b8445874d87c89b350545
+                        0xdd5e13fd4b1d2445b0dab53d727092b9
                     End
                     GridlineColor =10921638
 
@@ -387,7 +416,7 @@ Begin Form
                     Caption ="Set last Update time = now"
                     OnClick ="[Event Procedure]"
                     GUID = Begin
-                        0x588b4fb66de7f24ea576f70cdf8b20ec
+                        0x8db83f2218084a4f8ee495b7578d615e
                     End
                     GridlineColor =10921638
                     ImageData = Begin
@@ -459,7 +488,7 @@ Begin Form
                     ControlSource ="LastExportTime"
                     Format ="General Date"
                     GUID = Begin
-                        0x123cb0ee4e7d26429f3ed985f4965376
+                        0xdc10dce514ccea4ab6b2f786c93ff6d2
                     End
                     GridlineColor =10921638
 
@@ -479,7 +508,7 @@ Begin Form
                             Name ="Label2"
                             Caption ="LastExportTime"
                             GUID = Begin
-                                0x9c84ecae52b63a4a92f78d10ccc62db1
+                                0x6271d08b08fc454aa02e459e99d81399
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =2324
@@ -498,7 +527,7 @@ Begin Form
                     Name ="chkOnlyNew"
                     DefaultValue ="True"
                     GUID = Begin
-                        0x36ebddca2efc0240bd64eed461232a2e
+                        0x57224b2b50220346acfdf638e058fb3a
                     End
                     GridlineColor =10921638
 
@@ -518,7 +547,7 @@ Begin Form
                             Name ="Label4"
                             Caption ="Export objects only modifed after export time"
                             GUID = Begin
-                                0x5b20cf459fd4384bb833ff279840c63c
+                                0x3b6b48f6cfd77146aad0b16ea034af2f
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =2550
@@ -537,7 +566,7 @@ Begin Form
                     Name ="chkModules"
                     DefaultValue ="True"
                     GUID = Begin
-                        0xed7ff2b6bfdf03479cd2b8c4cfb1f5b4
+                        0xc9565603d5ebd644a7d2482006233d0c
                     End
                     GridlineColor =10921638
 
@@ -557,7 +586,7 @@ Begin Form
                             Name ="Label6"
                             Caption ="Modules"
                             GUID = Begin
-                                0x134fdb2d6a064f479ddd2b8c51c05e8f
+                                0x5ebffeb88456fa4ebe51fa74fa1902b0
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =628
@@ -576,7 +605,7 @@ Begin Form
                     Name ="chkForms"
                     DefaultValue ="True"
                     GUID = Begin
-                        0xf37e67df5f4ede4184763674cd48f36d
+                        0xf1cdb9399abbc946b4bfe3415ee1c18d
                     End
                     GridlineColor =10921638
 
@@ -596,7 +625,7 @@ Begin Form
                             Name ="lblforms"
                             Caption ="Forms"
                             GUID = Begin
-                                0xceeb2204dd379943986ec0ab796bad18
+                                0xcc2d801e8e633344b1eb320df2595300
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =628
@@ -615,7 +644,7 @@ Begin Form
                     Name ="chkReports"
                     DefaultValue ="True"
                     GUID = Begin
-                        0x574b3326ab43194aafdcf25ddfc43781
+                        0xe84f79a32773a247aeb48bddfde43634
                     End
                     GridlineColor =10921638
 
@@ -635,7 +664,7 @@ Begin Form
                             Name ="Label11"
                             Caption ="Reports"
                             GUID = Begin
-                                0xda7cbe3b2c1c79428fda0ad8622e11b8
+                                0x7a0e3e0db628064ead8651a94d0e95b7
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =635
@@ -654,7 +683,7 @@ Begin Form
                     Name ="chkMacro"
                     DefaultValue ="False"
                     GUID = Begin
-                        0x671a8feb8f742f4dbd2dc8658e3261ab
+                        0x8ed0865eabbc6c418df176214f5b4ae3
                     End
                     GridlineColor =10921638
 
@@ -674,7 +703,7 @@ Begin Form
                             Name ="Label12"
                             Caption ="Macros"
                             GUID = Begin
-                                0x6340a9ecc416a2478951877e7540c6f7
+                                0x7ec923a974e84b46bc264a5a72287478
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =635
@@ -693,7 +722,7 @@ Begin Form
                     Name ="chkTables"
                     DefaultValue ="False"
                     GUID = Begin
-                        0x8b243b1001b82942a61ea36ced431b93
+                        0x34c4c0970b84bb4191085d5fda958e4a
                     End
                     GridlineColor =10921638
 
@@ -713,7 +742,7 @@ Begin Form
                             Name ="Label15"
                             Caption ="Tables"
                             GUID = Begin
-                                0xed045c4bb378a742af71807684edde4e
+                                0x7751beb819e4064ba39cee762c9bbb6d
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =635
@@ -732,7 +761,7 @@ Begin Form
                     Name ="chkQuery"
                     DefaultValue ="True"
                     GUID = Begin
-                        0x34b1096d22683b4b8be37c755ef188bd
+                        0x7ae1f77df12cb1458cf7848cf27613ac
                     End
                     GridlineColor =10921638
 
@@ -752,7 +781,7 @@ Begin Form
                             Name ="Label17"
                             Caption ="Queries"
                             GUID = Begin
-                                0x4e9d014cac8ce24bb206836dab872c48
+                                0x65c6e6e9bf336b408bfd5641760f4adb
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =628
@@ -773,7 +802,7 @@ Begin Form
                     Name ="Label18"
                     Caption ="Export Objects"
                     GUID = Begin
-                        0xffb0a5f17642c14e8ee700c2be903987
+                        0xbbdcc86704fcce478f05971257078e07
                     End
                     GridlineColor =10921638
                     LayoutCachedLeft =400
@@ -790,7 +819,7 @@ Begin Form
                     Name ="chkReferences"
                     DefaultValue ="False"
                     GUID = Begin
-                        0x04b79fc7907e284eaff7f953507d1f61
+                        0x3b0e87b39e5796459dcbe938c7a004bd
                     End
                     GridlineColor =10921638
 
@@ -810,7 +839,7 @@ Begin Form
                             Name ="Label20"
                             Caption ="VBA references"
                             GUID = Begin
-                                0xd10e73c9ea5b2249a9aa9b9167b52721
+                                0xe7b453eed237204da62237bf1d765ac1
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =617
@@ -829,7 +858,7 @@ Begin Form
                     Name ="chkRelationships"
                     DefaultValue ="False"
                     GUID = Begin
-                        0x66b7b067e376e042a00d187121d23fff
+                        0x54bbb319d11a3c45848db1937952e878
                     End
                     GridlineColor =10921638
 
@@ -849,7 +878,7 @@ Begin Form
                             Name ="Label22"
                             Caption ="Relationships"
                             GUID = Begin
-                                0x994b75e4d285d24bb33bf87db7fcc822
+                                0x0c25fee935141a41a726eb314e1c212b
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =630
@@ -871,7 +900,7 @@ Begin Form
                     Caption ="Import All (local)"
                     OnClick ="[Event Procedure]"
                     GUID = Begin
-                        0xf36bb5df1c93734499f38ab42c4c9e0c
+                        0xd07947d664e9694e8aef47c9283a8f86
                     End
                     GridlineColor =10921638
 
@@ -899,7 +928,7 @@ Begin Form
                     Name ="chkLiinkedTables"
                     DefaultValue ="False"
                     GUID = Begin
-                        0x0f09025e81c79146a537d492c33a6cc7
+                        0x7e40eca664279b4fbaea77aa6f7ddd1d
                     End
                     GridlineColor =10921638
 
@@ -919,7 +948,7 @@ Begin Form
                             Name ="Label27"
                             Caption ="Linked Tables"
                             GUID = Begin
-                                0xc95c39012313954189e070828ab5d29d
+                                0x310c97819dd82943bc90a8ea14922edc
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =630
@@ -938,7 +967,7 @@ Begin Form
                     Name ="chkImportAll"
                     DefaultValue ="True"
                     GUID = Begin
-                        0xff76ec7b0478ea4f98558070d9449672
+                        0x564e9c47eabdbb4894ab9c04b40d7258
                     End
                     GridlineColor =10921638
 
@@ -958,7 +987,7 @@ Begin Form
                             Name ="Label29"
                             Caption ="Import only new objects (uncheck = Rebuild all)"
                             GUID = Begin
-                                0x16b1687738475d478267317f18bd68ae
+                                0x3727ff67f876fe46b0a863d210f7b7f7
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =2490
@@ -1027,8 +1056,8 @@ Private Sub cmdImport_Click()
         Me.chkTables, _
         Me.chkRelationships)
    
-   Me.LastExportTime = Now()
-   Me.Dirty = False
+   'Me.LastExportTime = Now()
+   'Me.Dirty = False
    
 
 
