@@ -67,7 +67,7 @@ frmEstimateManagementBackup,04-22-2014 09:20:26 AM
 frmExternalSystems,04-22-2014 09:20:18 AM
 frmGetPassword,07-16-2016 04:37:40 PM
 frmGetReport,01-04-2017 03:44:09 PM
-frmGIT,01-23-2017 02:48:37 PM
+frmGIT,01-23-2017 03:41:36 PM
 frmGLAccounts,07-15-2016 02:14:24 PM
 frmHeartbeat,07-20-2015 05:00:50 PM
 frmHelpText,04-22-2014 09:20:31 AM
@@ -255,7 +255,6 @@ frmWorkInProgressReadyToShip,09-12-2016 10:05:12 AM
 frmWorkInProgressShipping,04-22-2014 09:20:24 AM
 frmWorkInProgressWaitingForArtwork,09-13-2016 09:09:05 AM
 frnReportPrinter,12-14-2016 02:50:01 PM
-GuiProgress,10-27-2015 11:23:00 AM
 GUISliderControl,01-17-2017 01:38:10 PM
 loc_EmailSignature,02-03-2015 03:37:41 PM
 locFrmManageAcccounts,04-22-2014 09:20:35 AM

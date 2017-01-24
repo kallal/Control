@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =1646995427
+Checksum =821890406
 Begin Report
     LayoutForPrint = NotDefault
     Modal = NotDefault
@@ -167,7 +167,6 @@ Begin Report
         0x310035000000
     End
     NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -249,6 +248,7 @@ Begin Report
                         0xf26a3d297b4af54eb34ea3c26b77aee3
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =240
                     LayoutCachedWidth =2640
                     LayoutCachedHeight =315
@@ -272,6 +272,7 @@ Begin Report
                         0xdfeb322421bacf46858aabd5aa0bfb1b
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2700
                     LayoutCachedWidth =6720
                     LayoutCachedHeight =315
@@ -296,6 +297,7 @@ Begin Report
                         0x21cbf9d3c3a81d42b09271eff057cf30
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2700
                     LayoutCachedTop =240
                     LayoutCachedWidth =6720
@@ -320,6 +322,7 @@ Begin Report
                         0xbc664f6744df0f44996dfb4dfab5483a
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =2700
                     LayoutCachedTop =480
                     LayoutCachedWidth =4140
@@ -345,6 +348,7 @@ Begin Report
                         0x30a7adf9684f3e4b929f7ead4738e234
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4140
                     LayoutCachedTop =480
                     LayoutCachedWidth =4680
@@ -370,6 +374,7 @@ Begin Report
                         0x650909889498a643b9fa9f7173136a2d
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4680
                     LayoutCachedTop =480
                     LayoutCachedWidth =5580
@@ -393,6 +398,7 @@ Begin Report
                         0xd8df70a85b0b6a4086a5a99e003d2a4b
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =7680
                     LayoutCachedWidth =9120
                     LayoutCachedHeight =315
@@ -438,6 +444,7 @@ Begin Report
                         0x14f3fa1cad419d4db725520e4b3336ec
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =7680
                     LayoutCachedTop =240
                     LayoutCachedWidth =9120
@@ -486,6 +493,7 @@ Begin Report
                         0xa41abba1fc2bc44c9dca993144147dac
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =7680
                     LayoutCachedTop =480
                     LayoutCachedWidth =9120
@@ -527,6 +535,7 @@ Begin Report
                         0x34617bda63b17148a8fe68c7902c19ea
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =9300
                     LayoutCachedTop =330
                     LayoutCachedWidth =9560
@@ -574,6 +583,7 @@ Begin Report
                         0x7e46348ec9734e42b475664358ae722d
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5580
                     LayoutCachedTop =480
                     LayoutCachedWidth =6720
@@ -599,6 +609,7 @@ Begin Report
                         0x38ff5a88c5d431418985142928b3b52a
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =8700
                     LayoutCachedTop =120
                     LayoutCachedWidth =9000
@@ -616,6 +627,7 @@ Begin Report
                         0x51d323a995e513439c5c848ccc543675
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =9300
                     LayoutCachedTop =90
                     LayoutCachedWidth =9560
@@ -663,6 +675,7 @@ Begin Report
                         0xdc5b28107a759844b2da53be3b887941
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =360
                     LayoutCachedTop =360
                     LayoutCachedWidth =1080

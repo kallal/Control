@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =1948838652
+Checksum =-799225119
 Begin Report
     LayoutForPrint = NotDefault
     Modal = NotDefault
@@ -151,7 +151,6 @@ Begin Report
         0x310035000000
     End
     NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -226,6 +225,7 @@ Begin Report
                         0xf4abef4c6e95c3409080a3110f9857e6
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =120
                     LayoutCachedTop =120
                     LayoutCachedWidth =8880
@@ -252,6 +252,7 @@ Begin Report
                     End
                     GridlineColor =10921638
                     TextFormat =1
+
                     LayoutCachedLeft =120
                     LayoutCachedTop =720
                     LayoutCachedWidth =8880
@@ -288,6 +289,7 @@ Begin Report
                         0x4fde279c9dc4f842834f84e70b2b9749
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4860
                     LayoutCachedTop =120
                     LayoutCachedWidth =9180

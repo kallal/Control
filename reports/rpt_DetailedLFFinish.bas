@@ -1,7 +1,6 @@
 ﻿Version =20
 VersionRequired =20
-PublishOption =1
-Checksum =-1186767456
+Checksum =2069530987
 Begin Report
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -407,7 +406,6 @@ Begin Report
         0x2e003100300039000000
     End
     NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -557,6 +555,7 @@ Begin Report
                         0xaf58518e8e4c3d43b3fdfaf9ea01d644
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =9840
                     LayoutCachedWidth =10740
                     LayoutCachedHeight =255
@@ -631,6 +630,7 @@ Begin Report
                         0x5fd6f8e787b2f543a46f33e503c6cbb9
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =480
                     LayoutCachedTop =1980
                     LayoutCachedWidth =10440
@@ -668,6 +668,7 @@ Begin Report
                         0xffa1c0680a71fb4b9ed7e976e8eb6fd1
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =300
                     LayoutCachedTop =420
                     LayoutCachedWidth =560
@@ -709,6 +710,7 @@ Begin Report
                         0x6438a6bb54c0004e98fa264c24361b0d
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5940
                     LayoutCachedTop =1380
                     LayoutCachedWidth =7320
@@ -725,6 +727,7 @@ Begin Report
                         0xe2aee245df9a8a4395a41d5dc79166f1
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =300
                     LayoutCachedTop =1470
                     LayoutCachedWidth =560
@@ -762,6 +765,7 @@ Begin Report
                         0xed0b0bffbaf4f149b67416837dd1f443
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4080
                     LayoutCachedTop =90
                     LayoutCachedWidth =4340
@@ -828,6 +832,7 @@ Begin Report
                     RowSource ="1;Trim to Size;2;Profile (Contour);3;Kiss Cut"
                     ColumnWidths ="0;1440"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1680
                     LayoutCachedTop =360
                     LayoutCachedWidth =3840
@@ -875,6 +880,7 @@ Begin Report
                         0xfee7b4f29454794f96e7f5bc28066437
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1680
                     LayoutCachedTop =60
                     LayoutCachedWidth =3840
@@ -916,6 +922,7 @@ Begin Report
                         0xdcc051bc18eb244c8882f11ab8270a94
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =300
                     LayoutCachedTop =660
                     LayoutCachedWidth =560
@@ -965,6 +972,7 @@ Begin Report
                     RowSource ="1;Top Corners;2;All Corners;3;All Sides;Max 2'"
                     ColumnWidths ="0;1440"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1680
                     LayoutCachedTop =600
                     LayoutCachedWidth =3840
@@ -981,6 +989,7 @@ Begin Report
                         0x38e5d931e305bb45b8adc5e7dc9deb5e
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =300
                     LayoutCachedTop =900
                     LayoutCachedWidth =560
@@ -1030,6 +1039,7 @@ Begin Report
                     RowSource ="1;Gloss;2;Matte;3;2-Sided;4;Dry Erase"
                     ColumnWidths ="0;1440"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1680
                     LayoutCachedTop =840
                     LayoutCachedWidth =3840
@@ -1046,6 +1056,7 @@ Begin Report
                         0x1938ced11165a548ae98a5244cc86d3f
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =300
                     LayoutCachedTop =1140
                     LayoutCachedWidth =560
@@ -1095,6 +1106,7 @@ Begin Report
                     RowSource ="1;Tape Hem;2;Outsource"
                     ColumnWidths ="0;1440"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1680
                     LayoutCachedTop =1080
                     LayoutCachedWidth =3840
@@ -1111,6 +1123,7 @@ Begin Report
                         0x0e4524371dd8ee45be16c7b903b4cf5f
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4800
                     LayoutCachedTop =390
                     LayoutCachedWidth =5060
@@ -1160,6 +1173,7 @@ Begin Report
                     RowSource ="1;Econo;2;Standard;3;Premium"
                     ColumnWidths ="0;1440"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =5700
                     LayoutCachedTop =60
                     LayoutCachedWidth =7560
@@ -1178,6 +1192,7 @@ Begin Report
                     End
                     UnicodeAccessKey =32
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4080
                     LayoutCachedTop =690
                     LayoutCachedWidth =4340
@@ -1215,6 +1230,7 @@ Begin Report
                         0xbd2f1cd45db70e4894f3a13c3ae5119a
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4500
                     LayoutCachedTop =990
                     LayoutCachedWidth =4760
@@ -1258,6 +1274,7 @@ Begin Report
                         0x7e101eacf932cf47b2e93ee8511e2666
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =7980
                     LayoutCachedTop =300
                     LayoutCachedWidth =10740
