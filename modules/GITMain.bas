@@ -360,6 +360,11 @@ Public Sub ExportAllSource(bolMsg As Boolean, _
     Dim dtLastExport    As Date
     Dim bolExportFlag   As Boolean
     
+    Dim strDateStamps   As String         ' list of objects we write out
+'    Dim colDateStamps   As Collection     ' list of objects read in
+    
+    
+    
     If bolOnlyNew = True Then
        dtLastExport = DLookup("LastExportTime", "tblGIT", "id = 1")
        Debug.Print "last exp = " & dtLastExport
@@ -396,6 +401,7 @@ Public Sub ExportAllSource(bolMsg As Boolean, _
        pBar.Pmax = db.QueryDefs.Count
     End If
     
+    strDateStamps = ""
     
     For Each qry In db.QueryDefs
        
@@ -444,6 +450,7 @@ skipquery:
         obj_count = 0
         
         Debug.Print PadRight("Exporting " & obj_type_label & "...", 24);
+        
         Dim bolExportYes As Boolean
         bolExportYes = False
         
@@ -466,7 +473,9 @@ skipquery:
             pBar.PValue = 0
             pBar.Pmax = db.Containers(obj_type_name).Documents.Count
         End If
-       
+        
+        ' setup datestamp file
+        strDateStamps = ""
        
          For Each doc In db.Containers(obj_type_name).Documents
              DoEvents
@@ -492,8 +501,9 @@ skipquery:
                   Case "modules": dtObjectDate = CurrentProject.AllModules(doc.name).DateModified
                End Select
 
-
-
+               If strDateStamps <> "" Then strDateStamps = strDateStamps & vbCrLf
+               strDateStamps = strDateStamps & doc.name & "," & Format(dtObjectDate, "MM/DD/YYYY HH:NN:SS AM/PM")
+                
                 bolExportFlag = True
                 If bolOnlyNew = True Then
                    If dtLastExport > dtObjectDate Then
@@ -522,6 +532,12 @@ skipquery:
             'SanitizeTextFiles obj_path, "bas"
         End If
         Debug.Print "[" & obj_count & "]"
+                
+        If bolExportYes = True Then
+         ' write out the modified file list
+         Call WriteModList(strDateStamps, obj_path)
+        End If
+        
     Next
     
     If bolEVBArefs = True Then ExportReferences source_path
@@ -637,6 +653,54 @@ past1:
     Debug.Print "Done."
 End Sub
 
+Sub WriteModList(strModList As String, strFilePath As String)
+
+   Dim intF       As Integer
+   Dim strF       As String
+   
+   strF = strFilePath & "modlist.txt"
+   intF = FreeFile
+   Open strF For Output As #intF
+   Print #intF, strModList
+   Close #intF
+   
+   
+End Sub
+
+Function ReadModList(strFilePath As String) As Collection
+
+   Dim intF       As Integer
+   Dim strF       As String
+   
+   Dim sline      As String
+   Dim dtTime     As Date
+   Dim sDoc       As String
+   
+   Set ReadModList = New Collection
+   
+   intF = FreeFile
+   strF = strFilePath & "modlist.txt"
+   
+   Open strF For Input As #intF
+   Do While EOF(intF) = False
+      Line Input #intF, sline
+      sDoc = Split(sline, ",")(0)
+      dtTime = Format(Split(sline, ",")(1), "MM/DD/YYYY HH:NN:SS AM/PM")
+      ReadModList.Add dtTime, sDoc
+   Loop
+   Close #intF
+
+End Function
+
+Function LastModFromList(colMod As Collection, strDoc As String) As Date
+
+   LastModFromList = 0
+   On Error Resume Next
+   
+   LastModFromList = colMod(strDoc)
+   
+End Function
+
 
 ' Main entry point for IMPORT. Import all forms, reports, queries,
 ' macros, modules, and lookup tables from `source` folder under the
@@ -652,7 +716,7 @@ Public Sub ImportAllSource(bolMsg As Boolean, _
             bolEVBArefs As Boolean, _
             bolETable As Boolean, _
             bolERelationShips As Boolean)
-    
+ Stop
     Dim FSO             As Object
     Dim source_path     As String
     Dim obj_path        As String
@@ -672,10 +736,14 @@ Public Sub ImportAllSource(bolMsg As Boolean, _
     Dim db              As DAO.Database
     Dim bolImportFlag   As Boolean
     Set db = CurrentDb
+    
+    Dim colTimeStamps   As Collection
+    
 
     Set FSO = CreateObject("Scripting.FileSystemObject")
 
     CloseFormsReports
+    
     'InitUsingUcs2
 
     strFolder = CurrentProject.name
@@ -692,7 +760,6 @@ Public Sub ImportAllSource(bolMsg As Boolean, _
         Exit Sub
     End If
 
-    Debug.Print
     
     If bolEVBArefs = True Then
       If Not ImportReferences(source_path) Then
@@ -713,6 +780,9 @@ Public Sub ImportAllSource(bolMsg As Boolean, _
     obj_path = source_path & "queries\"
     FileName = Dir$(obj_path & "*.bas")
     
+    Set colTimeStamps = ReadModList(obj_path)
+    
+    
     Dim tempFilePath As String
     tempFilePath = TempFile()
     
@@ -722,12 +792,13 @@ Public Sub ImportAllSource(bolMsg As Boolean, _
         Do Until Len(FileName) = 0
             obj_name = Mid$(FileName, 1, InStrRev(FileName, ".") - 1)
                         
-                        
             bolImportFlag = True
                         
             If bolOnlyNew = True Then
                ' only import files modifed later then object date
-               If FileDateTime(obj_path & FileName) > db.QueryDefs(obj_name).LastUpdated Then
+               
+               'If FileDateTime(obj_path & FileName) > db.QueryDefs(obj_name).LastUpdated Then
+               If LastModFromList(colTimeStamps, obj_name) > db.QueryDefs(obj_name).LastUpdated Then
                   bolImportFlag = True
                Else
                   bolImportFlag = False
@@ -865,15 +936,21 @@ skiptables:
            Case "modules": bolExportYes = bolEModule: intDocs = CurrentProject.AllModules.Count
        End Select
        
+              
+       FileName = ""
+       If bolExportYes = True Then
+          FileName = Dir$(obj_path & "*.bas")
+       End If
        
-            
-       FileName = Dir$(obj_path & "*.bas")
+       
        If (Len(FileName) > 0) And (bolExportYes = True) Then
-       
+          
           pBar.ShowProgress
           pBar.PCaption = "Export " & obj_type_label
           pBar.PValue = 0
           pBar.Pmax = intDocs
+       
+          Set colTimeStamps = ReadModList(obj_path)
        
           Debug.Print PadRight("Importing " & obj_type_label & "...", 24);
           obj_count = 0
@@ -894,7 +971,8 @@ skiptables:
                      Case "modules": dtObjectDate = CurrentProject.AllModules(obj_name).DateCreated
                   End Select
                   
-                  If FileDateTime(obj_path & FileName) > dtObjectDate Then
+                  'If FileDateTime(obj_path & FileName) > dtObjectDate Then
+                  If LastModFromList(colTimeStamps, obj_name) > dtObjectDate Then
                      bolExportFlag = True
                   Else
                      bolExportFlag = False
@@ -902,6 +980,7 @@ skiptables:
                End If
                                 
                If bolExportFlag = True Then
+                  Stop
                   If obj_type_label = "modules" Then
                     ucs2 = False
                   Else
@@ -936,6 +1015,9 @@ skiptables:
     obj_count = 0
     
     obj_path = source_path & "reports\"
+    Set colTimeStamps = ReadModList(obj_path)
+    
+    
     FileName = Dir$(obj_path & "*.pv")
     Do Until Len(FileName) = 0
 
@@ -946,7 +1028,10 @@ skiptables:
         
         bolExportFlag = True
         dtObjectDate = CurrentProject.AllReports(obj_name).DateModified
-         If FileDateTime(obj_path & FileName) > dtObjectDate Then
+         
+         
+         'If FileDateTime(obj_path & FileName) > dtObjectDate Then
+         If LastModFromList(colTimeStamps, obj_name) > dtObjectDate Then
             bolExportFlag = True
          Else
             bolExportFlag = False

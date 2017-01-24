@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-326191170
+Checksum =-1644963771
 Begin Form
     RecordSelectors = NotDefault
     MaxButton = NotDefault
@@ -249,7 +249,6 @@ Begin Form
         0x00000000000000000000
     End
     NoSaveCTIWhenDisabled =1
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -341,6 +340,7 @@ Begin Form
                         0xf17f489861eed74d85579fc6c5b8e529
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3360
                     LayoutCachedTop =660
                     LayoutCachedWidth =5280
@@ -385,6 +385,7 @@ Begin Form
                         0xf2d33d18603e654094d0bbbba202317e
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3360
                     LayoutCachedTop =1500
                     LayoutCachedWidth =5280
@@ -450,6 +451,7 @@ Begin Form
                         0x7deabb2943ee8c43999e87db66d74599
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =4320
                     LayoutCachedTop =2160
                     LayoutCachedWidth =5820
@@ -481,6 +483,7 @@ Begin Form
                         0xc706a8794f651441a286a2b335d0f868
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3360
                     LayoutCachedTop =1140
                     LayoutCachedWidth =4800
@@ -524,6 +527,7 @@ Begin Form
                         0x47eeeb9060b75344845b4f225f143dff
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =1080
                     LayoutCachedTop =2160
                     LayoutCachedWidth =2520

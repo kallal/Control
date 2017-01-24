@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =129340309
+Checksum =4931978
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -64,7 +64,6 @@ Begin Form
     ForeThemeColorIndex =0
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
-    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -237,6 +236,7 @@ Begin Form
                         0x2baf2b1f0b740d47a6a80cd136d10741
                     End
                     GridlineColor =10921638
+
                     LayoutCachedWidth =3960
                     LayoutCachedHeight =300
                 End
@@ -257,6 +257,7 @@ Begin Form
                         0xc6bd20fabdc4124cb6d6a2065796efec
                     End
                     GridlineColor =10921638
+
                     LayoutCachedLeft =3960
                     LayoutCachedWidth =7560
                     LayoutCachedHeight =300
@@ -284,6 +285,7 @@ Begin Form
                     ColumnWidths ="0;2880"
                     Tag ="L"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =7560
                     LayoutCachedWidth =10440
                     LayoutCachedHeight =300
@@ -313,6 +315,7 @@ Begin Form
                     ColumnWidths ="0;2880"
                     Tag ="L"
                     GridlineColor =10921638
+
                     LayoutCachedLeft =11880
                     LayoutCachedWidth =16560
                     LayoutCachedHeight =300
@@ -343,6 +346,7 @@ Begin Form
                     Tag ="L"
                     BaseInfo ="\"locCompanySizeList\";\"locCompanySizeList\";\"\";\"ID\";\"Size\";\"PrimaryKey\""
                     GridlineColor =10921638
+
                     LayoutCachedLeft =10440
                     LayoutCachedWidth =11880
                     LayoutCachedHeight =300
