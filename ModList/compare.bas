@@ -1032,7 +1032,7 @@ skiptables:
                End If
                                 
                If bolExportFlag = True Then
-Stop
+
                   If obj_type_label = "modules" Then
                     ucs2 = False
                   Else
