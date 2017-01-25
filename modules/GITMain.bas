@@ -18,6 +18,7 @@ Private Const INCLUDE_TABLES As String = ""
 ' This is used in ImportAllSource
 Private Const DebugOutput As Boolean = False
 'this is used in ExportAllSource
+'Causes the VCS_ code to be exported.   ...
 Private Const ArchiveMyself As Boolean = False
 
 
@@ -2613,6 +2614,7 @@ Public Sub Git()
    End If
    
    If FileChanged(acModule, "GITMain", source_path & "modules\", source_ModListPath, False) = True Then
+      ImportObject acModule, "GITMain", source_path & "modules\GITMain.bas", False
    End If
    
       
