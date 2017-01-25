@@ -2619,7 +2619,7 @@ Public Sub Git()
    source_path = SCCPath
    source_ModListPath = source_path & "ModList\"
    
-   If FileChanged(acForm, "frmGit", source_path & "forms\", source_ModListPath, True) Then
+   If FileChanged(acForm, "frmGit", source_path & "forms\", source_ModListPath, False) Then
       ' import the form
       ImportObject acForm, "frmGIT", source_path & "forms\frmGIT.bas", False
    End If
