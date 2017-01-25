@@ -699,6 +699,7 @@ Function ReadModList(strFilePath As String, strType As String) As Collection
    intF = FreeFile
    strF = strFilePath & strType & ".txt"
    
+   On Error Resume Next
    Open strF For Input As #intF
    Do While EOF(intF) = False
       Line Input #intF, sline
