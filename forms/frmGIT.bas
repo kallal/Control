@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1907034546
+Checksum =-989546637
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -16,8 +16,8 @@ Begin Form
     DatasheetFontHeight =11
     ItemSuffix =37
     Left =405
-    Right =11265
-    Bottom =7275
+    Right =14400
+    Bottom =9645
     DatasheetGridlinesColor =16446942
     RecSrcDt = Begin
         0x3d01d8d933e0e440
@@ -43,10 +43,10 @@ Begin Form
         0x010000006801000000000000a10700000100000001000000
     End
     PrtDevMode = Begin
-        0x0042ee00d806852f0c48ee003840ee001472b32fffffffff2ce0a92f25caaa73 ,
+        0x0046ee00703eee001472b32fffffffff2ce0a92f25caaa73e1c99da92c4dee00 ,
         0x010464009c004c0b035f810001000100ea0a6f08000001000f00580202000100 ,
-        0x0000030000004c657474657200d0aa73a842ee00000000003cd0aa73c9b79da9 ,
-        0x44f2b82ff44e0000000000000000000000000000000000000000000002000000 ,
+        0x0000030000004c6574746572000000003cd0aa7381c99da944f2b82f2c4dee00 ,
+        0x10f2b82f44460000000000000000000000000000000000000000000002000000 ,
         0x0000000000000000000000000000000000000000000000000000000001000000 ,
         0x3c003c00e803e803070000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -144,7 +144,7 @@ Begin Form
         0x080026003a000100000000000000000000000000000000000000000000000000 ,
         0x00000000000000000000000000000000000000000000000000004c5054313a00 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000
+        0x000000000000000000000000
     End
     FilterOnLoad =0
     ShowPageMargins =0
@@ -159,12 +159,12 @@ Begin Form
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
     PrtDevModeW = Begin
-        0x0000ef00855dd173000015016d5dd17333c5bbe60028df0010081b0100000000 ,
-        0x000000000000000080a1ef000b538e95a8abef0020d8d37333538e95feffffff ,
+        0x0000696e64657279000000003880a215dcb5d115510f105780c17a0a9090ef00 ,
+        0x74adef0018e81a570000a2153fe81a575431001548e81a5780c17a0a6ae81a57 ,
         0x01046400dc004c0b035f810001000100ea0a6f08000001000f00580202000100 ,
-        0x0000030000004c0065007400740065007200000027189b2f60e2952f3b4cac2f ,
-        0x20e3952f8f12b16ba4a5ef0000e8000100000000010000000800000038131c01 ,
-        0x84a4ef00a18b0000000000000000000000000000000000000000000002000000 ,
+        0x0000030000004c0065007400740065007200000018e81a570000a2153fe81a57 ,
+        0x5431001548e81a57d1df686bd7c84e57c0f87b0aa07fff007092ef0008000000 ,
+        0x09000000c0f80000000000000000000000000000000000000000000002000000 ,
         0x0000000000000000000000000000000000000000000000000000000001000000 ,
         0x3c003c00e803e803070000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -265,7 +265,7 @@ Begin Form
         0x0000000000000000000000004c005000540031003a0000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000
+        0x00000000000000000000000000000000
     End
     NoSaveCTIWhenDisabled =1
     Begin
@@ -937,7 +937,7 @@ Begin Form
                 Begin CheckBox
                     OverlapFlags =85
                     Left =3060
-                    Top =6266
+                    Top =6211
                     TabIndex =14
                     BorderColor =10921638
                     Name ="chkImportAll"
@@ -948,14 +948,14 @@ Begin Form
                     GridlineColor =10921638
 
                     LayoutCachedLeft =3060
-                    LayoutCachedTop =6266
+                    LayoutCachedTop =6211
                     LayoutCachedWidth =3320
-                    LayoutCachedHeight =6506
+                    LayoutCachedHeight =6451
                     Begin
                         Begin Label
                             OverlapFlags =247
                             Left =3283
-                            Top =6235
+                            Top =6180
                             Width =4920
                             Height =315
                             BorderColor =8355711
@@ -967,9 +967,9 @@ Begin Form
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =3283
-                            LayoutCachedTop =6235
+                            LayoutCachedTop =6180
                             LayoutCachedWidth =8203
-                            LayoutCachedHeight =6550
+                            LayoutCachedHeight =6495
                         End
                     End
                 End
@@ -1042,7 +1042,7 @@ Begin Form
                 Begin CheckBox
                     OverlapFlags =85
                     Left =3060
-                    Top =6701
+                    Top =6646
                     TabIndex =17
                     BorderColor =10921638
                     Name ="chkShowChanges"
@@ -1053,14 +1053,14 @@ Begin Form
                     GridlineColor =10921638
 
                     LayoutCachedLeft =3060
-                    LayoutCachedTop =6701
+                    LayoutCachedTop =6646
                     LayoutCachedWidth =3320
-                    LayoutCachedHeight =6941
+                    LayoutCachedHeight =6886
                     Begin
                         Begin Label
                             OverlapFlags =247
                             Left =3283
-                            Top =6670
+                            Top =6615
                             Width =4920
                             Height =315
                             BorderColor =8355711
@@ -1072,9 +1072,9 @@ Begin Form
                             End
                             GridlineColor =10921638
                             LayoutCachedLeft =3283
-                            LayoutCachedTop =6670
+                            LayoutCachedTop =6615
                             LayoutCachedWidth =8203
-                            LayoutCachedHeight =6985
+                            LayoutCachedHeight =6930
                         End
                     End
                 End
