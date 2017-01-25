@@ -2622,7 +2622,7 @@ Public Sub Git()
       ' import the form
       ImportObject acForm, "frmGIT", source_path & "forms\frmGIT.bas", True
    End If
-   
+' more
    If FileChanged(acModule, "GITMain", source_path & "modules\", source_ModListPath, False) = True Then
       ImportObject acModule, "GITMain", source_path & "modules\GITMain.bas", False
    End If
