@@ -725,7 +725,7 @@ End Function
 ' database's folder.
 
 Public Sub ImportAllSource(bolMsg As Boolean, _
-            bolOnlyNew As Boolean, bolTestRun As Boolean, ByVal strChanged As String, _
+            bolOnlyNew As Boolean, bolTestRun As Boolean, strChanged As String, _
             bolEQuery As Boolean, _
             bolEModule As Boolean, _
             bolEForms As Boolean, _
@@ -1039,7 +1039,6 @@ skiptables:
                End If
                                 
                If bolExportFlag = True Then
-
                   If obj_type_label = "modules" Then
                     ucs2 = False
                   Else
