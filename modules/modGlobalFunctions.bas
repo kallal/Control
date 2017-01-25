@@ -1179,7 +1179,7 @@ If fs.FileExists(PingFile) Then
     Dim FileNum As Integer
     FileNum = FreeFile
     Open PingFile For Input As #FileNum
-    Results = Input$(LOF(FileNum), FileNum)
+    Results = input$(LOF(FileNum), FileNum)
     'MsgBox LOF(FileNum)
     
     Close #FileNum

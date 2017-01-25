@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1080848892
+Checksum =-1542158698
 Begin Form
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
@@ -150,6 +150,7 @@ Begin Form
         0x0000000000000000000000000000000000000000000000000000000000006e00 ,
         0x75006c003a000000000000000000000000000000000000000000000000000000
     End
+    NoSaveCTIWhenDisabled =1
     NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
@@ -681,7 +682,6 @@ Begin Form
                         0x1f78fce4295bcf9ff3e29f97dbfacfc8e27e7e20eaed2ccf80db06ec003e8c7a ,
                         0x3bcb2b60cbfef7ff8eff1b00cffe37389e6f030b0000000049454e44ae426082
                     End
-
                     LayoutCachedLeft =300
                     LayoutCachedTop =60
                     LayoutCachedWidth =990
@@ -738,7 +738,6 @@ Begin Form
                         0x7f589f0de325f648a991839b5b957313
                     End
                     GridlineColor =10921638
-
                     LayoutCachedLeft =5442
                     LayoutCachedTop =170
                     LayoutCachedWidth =7143
@@ -799,7 +798,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =345
                     LayoutCachedTop =45
                     LayoutCachedWidth =1785
@@ -831,7 +829,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =1845
                     LayoutCachedTop =45
                     LayoutCachedWidth =4215
@@ -864,7 +861,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =4275
                     LayoutCachedTop =45
                     LayoutCachedWidth =5715
@@ -897,7 +893,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =5775
                     LayoutCachedTop =45
                     LayoutCachedWidth =6675
@@ -931,7 +926,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =6735
                     LayoutCachedTop =45
                     LayoutCachedWidth =8458
@@ -964,7 +958,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =8520
                     LayoutCachedTop =45
                     LayoutCachedWidth =9450
@@ -997,7 +990,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =9510
                     LayoutCachedTop =45
                     LayoutCachedWidth =10950
@@ -1030,7 +1022,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =11010
                     LayoutCachedTop =45
                     LayoutCachedWidth =12868
@@ -1063,7 +1054,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =12930
                     LayoutCachedTop =45
                     LayoutCachedWidth =14085
@@ -1096,7 +1086,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =14145
                     LayoutCachedTop =45
                     LayoutCachedWidth =15285
@@ -1129,7 +1118,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =15345
                     LayoutCachedTop =45
                     LayoutCachedWidth =16530
@@ -1162,7 +1150,6 @@ Begin Form
                     End
                     GroupTable =1
                     GridlineColor =10921638
-
                     LayoutCachedLeft =16590
                     LayoutCachedTop =45
                     LayoutCachedWidth =18088

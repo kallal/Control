@@ -1,6 +1,7 @@
 ﻿Version =20
 VersionRequired =20
-Checksum =187949114
+PublishOption =1
+Checksum =1329517079
 Begin Form
     PopUp = NotDefault
     Modal = NotDefault
@@ -34,7 +35,7 @@ Begin Form
         0x79126172be35e340
     End
     GUID = Begin
-        0x3f7888035bded748869d8a7dda2274f1
+        0xe1cf3998013ef94ab191b3c5a043ad18
     End
     NameMap = Begin
         0x0acc0e5500000000000000000000000000000000000000000c00000005000000 ,
@@ -48,10 +49,10 @@ Begin Form
         0x010000006801000000000000a10700000100000001000000
     End
     PrtDevMode = Begin
-        0x0004000034fdffffcc0200002400000040010000809a5a0f00000000f4531700 ,
+        0x0004000034fdffffcc020000440000004001000080cd7e180000000014ffb800 ,
         0x010400069c008c0553ef800101000100ea0a6f08640001000f00580202000100 ,
         0x5802030001004c65747465720000000000000000000000000000000000000000 ,
-        0x68f3db2f009b0000000000000000000000000000010000000000000002000000 ,
+        0x0000000027180000000000000000000000000000010000000000000002000000 ,
         0x0200000001000000ffffffff0000000000000000000000000000000044494e55 ,
         0x2200b001ec03a0019926132d0000000000000000000000000000000000000000 ,
         0x0000000000000000120000000100000000000000000000000000000000000000 ,
@@ -107,7 +108,7 @@ Begin Form
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x000000000000
+        0x00000000000000000000
     End
     OnTimer ="[Event Procedure]"
     AllowDatasheetView =0
@@ -123,12 +124,12 @@ Begin Form
     DatasheetGridlinesColor12 =15062992
     FitToScreen =1
     PrtDevModeW = Begin
-        0x0000000012000000030000000000000008000000a0670a15989018002edc6577 ,
-        0x0800000000000000989118006ae5393071585a5a000000008001e4009cce1800 ,
+        0x0000ba00a230c073a474ba003dfa1974c87bba00709dba130c000000c87bba00 ,
+        0xcc76ba0062fa1974c87bba00c87bba000000000090080000000000000c000000 ,
         0x01040006dc008c0553ef800101000100ea0a6f08640001000f00580202000100 ,
-        0x5802030001004c00650074007400650072000000500f221500000000b8156677 ,
-        0x8030029e3000000000002215280000002718363091bc26531302001100000000 ,
-        0x00000000302e0000000000000000000000000000010000000000000002000000 ,
+        0x5802030001004c00650074007400650072000000cc76ba00b530c073cc760000 ,
+        0x3371b329000023226b762777500f232200000000477427770c8bc39630000000 ,
+        0x0000232228000000000000000000000000000000010000000000000002000000 ,
         0x0200000001000000ffffffff0000000000000000000000000000000044494e55 ,
         0x2200b001ec03a0019926132d0000000000000000000000000000000000000000 ,
         0x0000000000000000120000000100000000000000000000000000000000000000 ,
@@ -191,7 +192,7 @@ Begin Form
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x00000000
+        0x000000000000000000000000
     End
     NoSaveCTIWhenDisabled =1
     Begin
@@ -241,7 +242,7 @@ Begin Form
             Height =0
             Name ="FormHeader"
             GUID = Begin
-                0x875873094b88cc4b96a98a052638ed64
+                0xccfc61a6d5eb82469bd600065cc4b524
             End
         End
         Begin Section
@@ -250,7 +251,7 @@ Begin Form
             BackColor =-2147483616
             Name ="Detail"
             GUID = Begin
-                0x57e69964d2a5fd4492570c07fb179f15
+                0x8ee0e6372b1b114086b3d6ae5704f921
             End
             Begin
                 Begin TextBox
@@ -271,7 +272,7 @@ Begin Form
                     Name ="txtMessage"
                     FontName ="Tahoma"
                     GUID = Begin
-                        0xa4f614924326f34d82abd554a604bfbd
+                        0xb2b2b459d3858c4cb8a28fc2cdc74290
                     End
                     TextFormat =1
 
@@ -291,7 +292,7 @@ Begin Form
                     Name ="imgQuestion"
                     Picture ="question.png"
                     GUID = Begin
-                        0xd57d89c44babd6438e4afa4e3665b0c5
+                        0x82b5b000483c624485062ef3a8deeee0
                     End
                     ImageData = Begin
                         0x89504e470d0a1a0a0000000d4948445200000040000000400806000000aa6971 ,
@@ -495,7 +496,7 @@ Begin Form
                     Name ="imgInformation"
                     Picture ="info1.png"
                     GUID = Begin
-                        0x60c87290ebed774b880c4e024b486ecb
+                        0xfc5343f416f51a44aecc3044bc1a55fb
                     End
                     ImageData = Begin
                         0x89504e470d0a1a0a0000000d4948445200000040000000400806000000aa6971 ,
@@ -701,7 +702,7 @@ Begin Form
                     Name ="imgCritical"
                     Picture ="stop.png"
                     GUID = Begin
-                        0xcddada6ad40905449fcb38f383688eca
+                        0x7cdbcf8d58cab048926d0159aee2a387
                     End
                     ImageData = Begin
                         0x89504e470d0a1a0a0000000d4948445200000040000000400806000000aa6971 ,
@@ -864,7 +865,7 @@ Begin Form
                     Name ="imgExclamation"
                     Picture ="warning.png"
                     GUID = Begin
-                        0x511d973116e12c4eab5bc2969683a405
+                        0x9a609cbbd248a64f98e83daae15667c6
                     End
                     ImageData = Begin
                         0x89504e470d0a1a0a0000000d4948445200000040000000400806000000aa6971 ,
@@ -1006,7 +1007,7 @@ Begin Form
                     Caption ="Command61"
                     ControlTipText ="Find Next"
                     GUID = Begin
-                        0x8183aa1940d4da4793fb7939af1d0ef1
+                        0x33e1316ceaa56e428a856867221f2f7a
                     End
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
@@ -1063,7 +1064,7 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     DefaultValue ="False"
                     GUID = Begin
-                        0xfc807d80998dda4f89b7f8fae25c76c9
+                        0xeccfcf9df3298142b96e27a9769047ad
                     End
                     GridlineColor =10921638
                     VerticalAnchor =1
@@ -1086,7 +1087,7 @@ Begin Form
                             Caption ="Do not display this message again."
                             FontName ="Tahoma"
                             GUID = Begin
-                                0x1d41ca62551cb140b54a1dd4f3693216
+                                0xe971b6d264a37e42ae2b0d6ec45ab8b1
                             End
                             VerticalAnchor =1
                             LayoutCachedLeft =1485
@@ -1106,7 +1107,7 @@ Begin Form
             BackColor =-2147483616
             Name ="FormFooter"
             GUID = Begin
-                0x7b21473759756347969bcbc9110a1ab2
+                0x13fc90f4654187418808cbcc19d9dfac
             End
             Begin
                 Begin CommandButton
@@ -1123,7 +1124,7 @@ Begin Form
                     FontName ="Segoe UI"
                     ControlTipText ="Click to Copy to Clipboard"
                     GUID = Begin
-                        0x6ebcc5deefb9cd43ad0094ddfe29235f
+                        0x38d00da079a16d45b79d9b236c83b948
                     End
                     VerticalAnchor =1
                     ImageData = Begin
@@ -1189,7 +1190,7 @@ Begin Form
                     FontName ="Segoe UI"
                     ControlTipText ="Click to save to file."
                     GUID = Begin
-                        0x70bfa7ed7f7e0f4293aa85af256a0c49
+                        0xa241017d74041945ab3e5e204a8dde81
                     End
                     VerticalAnchor =1
                     ImageData = Begin
@@ -1256,7 +1257,7 @@ Begin Form
                     FontName ="Segoe UI"
                     Tag ="1"
                     GUID = Begin
-                        0x280c03cd77df234abac7259704de885a
+                        0x6a2cff9ba73ecf4fa85cf41f42c0a2eb
                     End
                     HorizontalAnchor =1
                     VerticalAnchor =1
@@ -1285,7 +1286,7 @@ Begin Form
                     OnClick ="[Event Procedure]"
                     FontName ="Segoe UI"
                     GUID = Begin
-                        0xfef43588fe1bb04ba57cf054c66af79c
+                        0x9b35452957b87846b1b7c8d0e2fd280e
                     End
                     HorizontalAnchor =1
                     VerticalAnchor =1
@@ -1318,7 +1319,7 @@ Begin Form
                     OnClick ="[Event Procedure]"
                     FontName ="Segoe UI"
                     GUID = Begin
-                        0x6b8e6e2ef1d0bc449f0b2a4dc798a10b
+                        0x197ee408b4a6b84c990ce3fcff61bf1f
                     End
                     HorizontalAnchor =1
                     VerticalAnchor =1

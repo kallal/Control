@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-790974848
+Checksum =-1654198071
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -12,13 +12,12 @@ Begin Form
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridY =10
-    Width =9246
+    Width =10601
     DatasheetFontHeight =11
-    ItemSuffix =30
-    Left =270
-    Top =510
-    Right =9510
-    Bottom =8205
+    ItemSuffix =32
+    Left =405
+    Right =11265
+    Bottom =7020
     DatasheetGridlinesColor =16446942
     RecSrcDt = Begin
         0x3d01d8d933e0e440
@@ -27,12 +26,14 @@ Begin Form
         0xf9dde74c435a634ea6c342c5351f9fa3
     End
     NameMap = Begin
-        0x0acc0e55000000009a0a46b4eaa0c342b90db909d44172c700000000d8a0cded ,
-        0x33e0e4400000000000000000740062006c004700490054000000000000004242 ,
+        0x0acc0e55000000009a0a46b4eaa0c342b90db909d44172c700000000ddaac34a ,
+        0x0ee1e4400000000000000000740062006c004700490054000000000000004242 ,
         0x3d04fb585e40a1046a2d8a628866070000009a0a46b4eaa0c342b90db909d441 ,
         0x72c74c006100730074004500780070006f0072007400540069006d0065000000 ,
-        0x00000000000000000000000000000000000000000c0000000500000000000000 ,
-        0x00000000000000000000
+        0x000000002447fdbb5244cb49a3c40850d47c6cfb070000009a0a46b4eaa0c342 ,
+        0xb90db909d44172c74c0061007300740049006d0070006f007200740054006900 ,
+        0x6d006500000000000000000000000000000000000000000000000c0000000500 ,
+        0x00000000000000000000000000000000
     End
     RecordSource ="tblGIT"
     Caption ="Source Code Control"
@@ -42,10 +43,10 @@ Begin Form
         0x010000006801000000000000a10700000100000001000000
     End
     PrtDevMode = Begin
-        0x0053d200804bd20014720a30ffffffff2ce0003025caf773dcdbe140385ad200 ,
+        0x004e6e0060466e001472b32fffffffff2ce0a92f25caaa73c8e798b51c556e00 ,
         0x010464009c004c0b035f810001000100ea0a6f08000001000f00580202000100 ,
-        0x0000030000004c6574746572000000003cd0f773bcdbe14044f20f30385ad200 ,
-        0x10f20f3050530000000000000000000000000000000000000000000002000000 ,
+        0x0000030000004c6574746572000000003cd0aa7368e798b544f2b82f1c556e00 ,
+        0x10f2b82f344e0000000000000000000000000000000000000000000002000000 ,
         0x0000000000000000000000000000000000000000000000000000000001000000 ,
         0x3c003c00e803e803070000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -142,7 +143,7 @@ Begin Form
     PrtDevNames = Begin
         0x080026003a000100000000000000000000000000000000000000000000000000 ,
         0x00000000000000000000000000000000000000000000000000004c5054313a00 ,
-        0x000000000000000000000000
+        0x00000000000000000000000000000000000000000000000000000000
     End
     FilterOnLoad =0
     ShowPageMargins =0
@@ -157,12 +158,12 @@ Begin Form
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
     PrtDevModeW = Begin
-        0x0000000001000000110400009c9b071019e1f82fa452b6089c9b071001000000 ,
-        0x9052b60807000000e453b6089c9b0710ec88d30050750430e453b60820000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x01046400dc004c0b035f810001000100ea0a6f08000001000f00580202000100 ,
-        0x0000030000004c0065007400740065007200000000000000000000002c89d300 ,
-        0x97cab62f9c9b07105c9907105489d30052cbb62f5c9907108cccd30000000000 ,
-        0x4218000002010000000000000000000000000000000000000000000002000000 ,
+        0x0000030000004c00650074007400650072000000000000000000000000000000 ,
+        0x0000000000000000a08b6f000320a4d4c48b6f00a8f2d073ababababace62977 ,
+        0xeef2d07370060000000000000000000000000000000000000000000002000000 ,
         0x0000000000000000000000000000000000000000000000000000000001000000 ,
         0x3c003c00e803e803070000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -261,6 +262,7 @@ Begin Form
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000004c005000540031003a0000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x00000000000000000000000000000000
     End
     NoSaveCTIWhenDisabled =1
@@ -335,7 +337,7 @@ Begin Form
             GridlineShade =65.0
         End
         Begin Section
-            Height =7710
+            Height =7029
             Name ="Detail"
             GUID = Begin
                 0x8e114effec286142b8e72e2b6cff4f64
@@ -862,8 +864,8 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =340
-                    Top =5782
+                    Left =453
+                    Top =5725
                     Width =1641
                     Height =508
                     TabIndex =12
@@ -876,10 +878,10 @@ Begin Form
                     End
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =340
-                    LayoutCachedTop =5782
-                    LayoutCachedWidth =1981
-                    LayoutCachedHeight =6290
+                    LayoutCachedLeft =453
+                    LayoutCachedTop =5725
+                    LayoutCachedWidth =2094
+                    LayoutCachedHeight =6233
                     BackColor =14732154
                     BorderColor =14732154
                     HoverColor =15392166
@@ -932,8 +934,8 @@ Begin Form
                 End
                 Begin CheckBox
                     OverlapFlags =85
-                    Left =2267
-                    Top =5926
+                    Left =3060
+                    Top =6266
                     TabIndex =14
                     BorderColor =10921638
                     Name ="chkImportAll"
@@ -943,15 +945,15 @@ Begin Form
                     End
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =2267
-                    LayoutCachedTop =5926
-                    LayoutCachedWidth =2527
-                    LayoutCachedHeight =6166
+                    LayoutCachedLeft =3060
+                    LayoutCachedTop =6266
+                    LayoutCachedWidth =3320
+                    LayoutCachedHeight =6506
                     Begin
                         Begin Label
                             OverlapFlags =247
-                            Left =2490
-                            Top =5895
+                            Left =3283
+                            Top =6235
                             Width =4920
                             Height =315
                             BorderColor =8355711
@@ -962,10 +964,54 @@ Begin Form
                                 0x3727ff67f876fe46b0a863d210f7b7f7
                             End
                             GridlineColor =10921638
-                            LayoutCachedLeft =2490
-                            LayoutCachedTop =5895
-                            LayoutCachedWidth =7410
-                            LayoutCachedHeight =6210
+                            LayoutCachedLeft =3283
+                            LayoutCachedTop =6235
+                            LayoutCachedWidth =8203
+                            LayoutCachedHeight =6550
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =4574
+                    Top =5729
+                    Width =2241
+                    Height =285
+                    TabIndex =15
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="LastImportTime"
+                    ControlSource ="LastImportTime"
+                    Format ="General Date"
+                    GUID = Begin
+                        0xa6cb17fa4e8deb478efbbe59b8025979
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4574
+                    LayoutCachedTop =5729
+                    LayoutCachedWidth =6815
+                    LayoutCachedHeight =6014
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =3004
+                            Top =5725
+                            Width =1620
+                            Height =285
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Label31"
+                            Caption ="Last Import Time"
+                            GUID = Begin
+                                0xecd691563027e54ebfd2497a76bab5f6
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedLeft =3004
+                            LayoutCachedTop =5725
+                            LayoutCachedWidth =4624
+                            LayoutCachedHeight =6010
                         End
                     End
                 End
@@ -1028,9 +1074,8 @@ Private Sub cmdImport_Click()
         Me.chkTables, _
         Me.chkRelationships)
    
-   'Me.LastExportTime = Now()
-   'Me.Dirty = False
-   
+   Me.LastImportTime = Now()
+   Me.Dirty = False
 
 
 End Sub
