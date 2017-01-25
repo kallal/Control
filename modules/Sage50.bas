@@ -16,6 +16,7 @@ Public SageCustomer     As Object
 Public SageInvoice      As Object
 
 
+
 Sub TestSage()
 
      'Dim sage50      As New Sage50com.SageEmployee

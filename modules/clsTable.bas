@@ -12,3 +12,5 @@ Public IndexSQL            As String
 Public Description         As Variant
 Public strSchema           As String
 Public linkName            As String
+
+' table defs as object

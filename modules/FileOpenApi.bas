@@ -1,7 +1,6 @@
 Option Compare Database
 Option Explicit
 
-
 Type tagOPENFILENAME
     lStructSize As Long
     hwndOwner As Long
