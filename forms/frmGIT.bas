@@ -1,7 +1,7 @@
 ﻿Version =20
 VersionRequired =20
 PublishOption =1
-Checksum =-1654198071
+Checksum =-1907034546
 Begin Form
     RecordSelectors = NotDefault
     NavigationButtons = NotDefault
@@ -14,10 +14,10 @@ Begin Form
     GridY =10
     Width =10601
     DatasheetFontHeight =11
-    ItemSuffix =32
+    ItemSuffix =37
     Left =405
     Right =11265
-    Bottom =7020
+    Bottom =7275
     DatasheetGridlinesColor =16446942
     RecSrcDt = Begin
         0x3d01d8d933e0e440
@@ -43,10 +43,10 @@ Begin Form
         0x010000006801000000000000a10700000100000001000000
     End
     PrtDevMode = Begin
-        0x004e6e0060466e001472b32fffffffff2ce0a92f25caaa73c8e798b51c556e00 ,
+        0x0042ee00d806852f0c48ee003840ee001472b32fffffffff2ce0a92f25caaa73 ,
         0x010464009c004c0b035f810001000100ea0a6f08000001000f00580202000100 ,
-        0x0000030000004c6574746572000000003cd0aa7368e798b544f2b82f1c556e00 ,
-        0x10f2b82f344e0000000000000000000000000000000000000000000002000000 ,
+        0x0000030000004c657474657200d0aa73a842ee00000000003cd0aa73c9b79da9 ,
+        0x44f2b82ff44e0000000000000000000000000000000000000000000002000000 ,
         0x0000000000000000000000000000000000000000000000000000000001000000 ,
         0x3c003c00e803e803070000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -143,7 +143,8 @@ Begin Form
     PrtDevNames = Begin
         0x080026003a000100000000000000000000000000000000000000000000000000 ,
         0x00000000000000000000000000000000000000000000000000004c5054313a00 ,
-        0x00000000000000000000000000000000000000000000000000000000
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000
     End
     FilterOnLoad =0
     ShowPageMargins =0
@@ -158,12 +159,12 @@ Begin Form
     AlternateBackThemeColorIndex =1
     AlternateBackShade =95.0
     PrtDevModeW = Begin
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000ef00855dd173000015016d5dd17333c5bbe60028df0010081b0100000000 ,
+        0x000000000000000080a1ef000b538e95a8abef0020d8d37333538e95feffffff ,
         0x01046400dc004c0b035f810001000100ea0a6f08000001000f00580202000100 ,
-        0x0000030000004c00650074007400650072000000000000000000000000000000 ,
-        0x0000000000000000a08b6f000320a4d4c48b6f00a8f2d073ababababace62977 ,
-        0xeef2d07370060000000000000000000000000000000000000000000002000000 ,
+        0x0000030000004c0065007400740065007200000027189b2f60e2952f3b4cac2f ,
+        0x20e3952f8f12b16ba4a5ef0000e8000100000000010000000800000038131c01 ,
+        0x84a4ef00a18b0000000000000000000000000000000000000000000002000000 ,
         0x0000000000000000000000000000000000000000000000000000000001000000 ,
         0x3c003c00e803e803070000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -263,7 +264,8 @@ Begin Form
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000004c005000540031003a0000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x00000000000000000000000000000000
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000
     End
     NoSaveCTIWhenDisabled =1
     Begin
@@ -1015,6 +1017,67 @@ Begin Form
                         End
                     End
                 End
+                Begin TextBox
+                    ScrollBars =2
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2494
+                    Top =1474
+                    Width =6126
+                    Height =4020
+                    TabIndex =16
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="txtChanged"
+                    GUID = Begin
+                        0x7d7be73634dab84aa4ec2364083947c8
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2494
+                    LayoutCachedTop =1474
+                    LayoutCachedWidth =8620
+                    LayoutCachedHeight =5494
+                End
+                Begin CheckBox
+                    OverlapFlags =85
+                    Left =3060
+                    Top =6701
+                    TabIndex =17
+                    BorderColor =10921638
+                    Name ="chkShowChanges"
+                    DefaultValue ="True"
+                    GUID = Begin
+                        0x3f5a66a784716f4fbb1c95af6cd9553b
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =3060
+                    LayoutCachedTop =6701
+                    LayoutCachedWidth =3320
+                    LayoutCachedHeight =6941
+                    Begin
+                        Begin Label
+                            OverlapFlags =247
+                            Left =3283
+                            Top =6670
+                            Width =4920
+                            Height =315
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Label36"
+                            Caption ="Test import (Show changes before import)"
+                            GUID = Begin
+                                0x68742d17524ee64094703620c4ba0066
+                            End
+                            GridlineColor =10921638
+                            LayoutCachedLeft =3283
+                            LayoutCachedTop =6670
+                            LayoutCachedWidth =8203
+                            LayoutCachedHeight =6985
+                        End
+                    End
+                End
             End
         End
     End
@@ -1056,6 +1119,9 @@ End Sub
 
 Private Sub cmdImport_Click()
 
+
+   Dim strChanges    As String   ' text list of objects changed
+   
    If Me.Dirty = True Then
       Me.Dirty = False
    End If
@@ -1063,8 +1129,10 @@ Private Sub cmdImport_Click()
    If MsgBox("Import all from local archive folder?", vbYesNoCancel + vbQuestion, "IMPORT!!") <> vbYes Then
       Exit Sub
    End If
+   strChanges = ""
+   Me.txtChanged = ""
    
-   Call ImportAllSource(True, Me.chkImportAll, _
+   Call ImportAllSource(True, Me.chkImportAll, Me.chkShowChanges, strChanges, _
         Me.chkQuery, _
         Me.chkModules, _
         Me.chkForms, _
@@ -1074,8 +1142,13 @@ Private Sub cmdImport_Click()
         Me.chkTables, _
         Me.chkRelationships)
    
-   Me.LastImportTime = Now()
-   Me.Dirty = False
+   If Me.chkShowChanges = True Then
+      Me.txtChanged = strChanges
+   Else
+      Me.LastImportTime = Now()
+      Me.Dirty = False
+   End If
+   
 
 
 End Sub

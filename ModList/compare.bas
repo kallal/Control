@@ -726,7 +726,7 @@ End Function
 ' database's folder.
 
 Public Sub ImportAllSource(bolMsg As Boolean, _
-            bolOnlyNew As Boolean, _
+            bolOnlyNew As Boolean, bolTestRun As Boolean, ByVal strChanged As String, _
             bolEQuery As Boolean, _
             bolEModule As Boolean, _
             bolEForms As Boolean, _
@@ -735,7 +735,7 @@ Public Sub ImportAllSource(bolMsg As Boolean, _
             bolEVBArefs As Boolean, _
             bolETable As Boolean, _
             bolERelationShips As Boolean)
-
+ 
     Dim FSO             As Object
     Dim source_path     As String
     Dim source_pathModList As String
@@ -770,6 +770,9 @@ Public Sub ImportAllSource(bolMsg As Boolean, _
     CloseFormsReports
     
     'InitUsingUcs2
+    
+    strChanged = ""
+    
 
     strFolder = CurrentProject.name
     strFolder = Split(strFolder, ".")(0)     ' get rid of extension
@@ -844,9 +847,14 @@ Public Sub ImportAllSource(bolMsg As Boolean, _
             pBar.IncOne
             
             If bolImportFlag = True Then
-               ImportObject acQuery, obj_name, obj_path & FileName, UsingUcs2
-               ExportObject acQuery, obj_name, tempFilePath, UsingUcs2
-               ImportObject acQuery, obj_name, tempFilePath, UsingUcs2
+                        
+               If bolTestRun = False Then
+                  ImportObject acQuery, obj_name, obj_path & FileName, UsingUcs2
+                  ExportObject acQuery, obj_name, tempFilePath, UsingUcs2
+                  ImportObject acQuery, obj_name, tempFilePath, UsingUcs2
+               End If
+               
+               strChanged = strChanged & obj_name * vbCrLf
             End If
             
             obj_count = obj_count + 1
@@ -1039,7 +1047,10 @@ skiptables:
                     ucs2 = UsingUcs2
                   End If
                   If IsNotVCS(obj_name) Then
-                     ImportObject obj_type_num, obj_name, obj_path & FileName, ucs2
+                     If bolTestRun = False Then
+                        ImportObject obj_type_num, obj_name, obj_path & FileName, ucs2
+                     End If
+                     strChanged = strChanged & obj_name & vbCrLf
                      obj_count = obj_count + 1
                   Else
                     If ArchiveMyself Then
