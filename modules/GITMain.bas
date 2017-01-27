@@ -164,9 +164,9 @@ Public Sub ImportObject(ByVal obj_type_num As Integer, ByVal obj_name As String,
         ConvertUtf8Ucs2 file_path, tempFileName
         Application.LoadFromText obj_type_num, obj_name, tempFileName
         
-        Dim FSO As Object
-        Set FSO = CreateObject("Scripting.FileSystemObject")
-        FSO.DeleteFile tempFileName
+        Dim fso As Object
+        Set fso = CreateObject("Scripting.FileSystemObject")
+        fso.DeleteFile tempFileName
     Else
         Application.LoadFromText obj_type_num, obj_name, file_path
     End If
@@ -180,8 +180,8 @@ End Sub
 ' version control).
 Public Sub SanitizeTextFiles(ByVal Path As String, ByVal Ext As String)
 
-    Dim FSO As Object
-    Set FSO = CreateObject("Scripting.FileSystemObject")
+    Dim fso As Object
+    Set fso = CreateObject("Scripting.FileSystemObject")
     '
     '  Setup Block matching Regex.
     Dim rxBlock As Object
@@ -227,9 +227,9 @@ Public Sub SanitizeTextFiles(ByVal Path As String, ByVal Ext As String)
         obj_name = Mid$(FileName, 1, InStrRev(FileName, ".") - 1)
 
         Dim InFile As Object
-        Set InFile = FSO.OpenTextFile(Path & obj_name & "." & Ext, iomode:=ForReading, create:=False, Format:=TristateFalse)
+        Set InFile = fso.OpenTextFile(Path & obj_name & "." & Ext, iomode:=ForReading, create:=False, Format:=TristateFalse)
         Dim OutFile As Object
-        Set OutFile = FSO.CreateTextFile(Path & obj_name & ".sanitize", overwrite:=True, Unicode:=False)
+        Set OutFile = fso.CreateTextFile(Path & obj_name & ".sanitize", overwrite:=True, Unicode:=False)
     
         Dim getLine As Boolean
         getLine = True
@@ -294,10 +294,10 @@ Public Sub SanitizeTextFiles(ByVal Path As String, ByVal Ext As String)
         OutFile.Close
         InFile.Close
 
-        FSO.DeleteFile (Path & FileName)
+        fso.DeleteFile (Path & FileName)
 
         Dim thisFile As Object
-        Set thisFile = FSO.GetFile(Path & obj_name & ".sanitize")
+        Set thisFile = fso.GetFile(Path & obj_name & ".sanitize")
         thisFile.Move (Path & FileName)
         FileName = Dir$()
     Loop
@@ -735,7 +735,7 @@ Public Sub ImportAllSource(bolMsg As Boolean, _
             bolETable As Boolean, _
             bolERelationShips As Boolean)
  
-    Dim FSO             As Object
+    Dim fso             As Object
     Dim source_path     As String
     Dim source_pathModList As String
     
@@ -764,7 +764,7 @@ Public Sub ImportAllSource(bolMsg As Boolean, _
     
     Dim dtObjectDate       As Date
 
-    Set FSO = CreateObject("Scripting.FileSystemObject")
+    Set fso = CreateObject("Scripting.FileSystemObject")
 
     CloseFormsReports
     
@@ -783,7 +783,7 @@ Public Sub ImportAllSource(bolMsg As Boolean, _
     source_path = ProjectPath() & strFolder & "\"
     source_pathModList = ProjectPath() & strFolder & "ModList\"
     
-    If Not FSO.FolderExists(source_path) Then
+    If Not fso.FolderExists(source_path) Then
         MsgBox "No source found at:" & vbCrLf & source_path, vbExclamation, "Import failed"
         Exit Sub
     End If
@@ -1343,13 +1343,13 @@ End Sub
 
 ' Erase all *.`ext` files in `Path`.
 Public Sub ClearTextFilesFromDir(ByVal Path As String, ByVal Ext As String)
-    Dim FSO As Object
-    Set FSO = CreateObject("Scripting.FileSystemObject")
-    If Not FSO.FolderExists(Path) Then Exit Sub
+    Dim fso As Object
+    Set fso = CreateObject("Scripting.FileSystemObject")
+    If Not fso.FolderExists(Path) Then Exit Sub
 
     On Error GoTo ClearTextFilesFromDir_noop
     If Dir$(Path & "*." & Ext) <> vbNullString Then
-        FSO.DeleteFile Path & "*." & Ext
+        fso.DeleteFile Path & "*." & Ext
     End If
     
 ClearTextFilesFromDir_noop:
@@ -1373,7 +1373,7 @@ End Function
 
 ' Import References from a CSV, true=SUCCESS
 Public Function ImportReferences(ByVal obj_path As String) As Boolean
-    Dim FSO As Object
+    Dim fso As Object
     Dim InFile As Object
     Dim line As String
     Dim item() As String
@@ -1388,8 +1388,8 @@ Public Function ImportReferences(ByVal obj_path As String) As Boolean
         ImportReferences = False
         Exit Function
     End If
-    Set FSO = CreateObject("Scripting.FileSystemObject")
-    Set InFile = FSO.OpenTextFile(obj_path & FileName, iomode:=ForReading, create:=False, Format:=TristateFalse)
+    Set fso = CreateObject("Scripting.FileSystemObject")
+    Set InFile = fso.OpenTextFile(obj_path & FileName, iomode:=ForReading, create:=False, Format:=TristateFalse)
     
 On Error GoTo failed_guid
     Do Until InFile.AtEndOfStream
@@ -1409,7 +1409,7 @@ go_on:
 On Error GoTo 0
     InFile.Close
     Set InFile = Nothing
-    Set FSO = Nothing
+    Set fso = Nothing
     ImportReferences = True
     Exit Function
     
@@ -1427,13 +1427,13 @@ End Function
 
 ' Export References to a CSV
 Public Sub ExportReferences(ByVal obj_path As String)
-    Dim FSO As Object
+    Dim fso As Object
     Dim OutFile As Object
     Dim line As String
     Dim ref As Reference
 
-    Set FSO = CreateObject("Scripting.FileSystemObject")
-    Set OutFile = FSO.CreateTextFile(obj_path & "references.csv", overwrite:=True, Unicode:=False)
+    Set fso = CreateObject("Scripting.FileSystemObject")
+    Set OutFile = fso.CreateTextFile(obj_path & "references.csv", overwrite:=True, Unicode:=False)
     For Each ref In Application.References
         If ref.GUID <> vbNullString Then ' references of types mdb,accdb,mde etc don't have a GUID
             If Not ref.BuiltIn Then
@@ -1451,10 +1451,10 @@ End Sub
 
 
 Public Sub ExportRelation(ByVal rel As DAO.Relation, ByVal filePath As String)
-    Dim FSO As Object
+    Dim fso As Object
     Dim OutFile As Object
-    Set FSO = CreateObject("Scripting.FileSystemObject")
-    Set OutFile = FSO.CreateTextFile(filePath, overwrite:=True, Unicode:=False)
+    Set fso = CreateObject("Scripting.FileSystemObject")
+    Set OutFile = fso.CreateTextFile(filePath, overwrite:=True, Unicode:=False)
 
     OutFile.WriteLine rel.Attributes 'RelationAttributeEnum
     OutFile.WriteLine rel.name
@@ -1474,10 +1474,10 @@ Public Sub ExportRelation(ByVal rel As DAO.Relation, ByVal filePath As String)
 End Sub
 
 Public Sub ImportRelation(ByVal filePath As String)
-    Dim FSO As Object
+    Dim fso As Object
     Dim InFile As Object
-    Set FSO = CreateObject("Scripting.FileSystemObject")
-    Set InFile = FSO.OpenTextFile(filePath, iomode:=ForReading, create:=False, Format:=TristateFalse)
+    Set fso = CreateObject("Scripting.FileSystemObject")
+    Set InFile = fso.OpenTextFile(filePath, iomode:=ForReading, create:=False, Format:=TristateFalse)
     Dim rel As DAO.Relation
     Set rel = New DAO.Relation
     
@@ -1511,8 +1511,8 @@ End Sub
 'Exports print vars for reports
 Public Sub ExportPrintVars(ByVal obj_name As String, ByVal filePath As String)
   DoEvents
-  Dim FSO As Object
-  Set FSO = CreateObject("Scripting.FileSystemObject")
+  Dim fso As Object
+  Set fso = CreateObject("Scripting.FileSystemObject")
   
   Dim DevModeString As str_DEVMODE
   Dim DevModeExtra As String
@@ -1538,7 +1538,7 @@ Public Sub ExportPrintVars(ByVal obj_name As String, ByVal filePath As String)
   End If
   
   Dim OutFile As Object
-  Set OutFile = FSO.CreateTextFile(filePath, overwrite:=True, Unicode:=False)
+  Set OutFile = fso.CreateTextFile(filePath, overwrite:=True, Unicode:=False)
   
   'print out print var values
   OutFile.WriteLine DM.intOrientation
@@ -1555,8 +1555,8 @@ End Sub
 
 Public Sub ImportPrintVars(ByVal obj_name As String, ByVal filePath As String)
   
-  Dim FSO As Object
-  Set FSO = CreateObject("Scripting.FileSystemObject")
+  Dim fso As Object
+  Set fso = CreateObject("Scripting.FileSystemObject")
   
   Dim DevModeString As str_DEVMODE
   Dim DevModeExtra As String
@@ -1583,7 +1583,7 @@ Public Sub ImportPrintVars(ByVal obj_name As String, ByVal filePath As String)
   End If
   
   Dim InFile As Object
-  Set InFile = FSO.OpenTextFile(filePath, iomode:=ForReading, create:=False, Format:=TristateFalse)
+  Set InFile = fso.OpenTextFile(filePath, iomode:=ForReading, create:=False, Format:=TristateFalse)
   
   'print out print var values
   DM.intOrientation = InFile.ReadLine
@@ -1612,14 +1612,14 @@ Public Sub ExportLinkedTable(ByVal tbl_name As String, ByVal obj_path As String)
     
     tempFilePath = TempFile()
     
-    Dim FSO As Object
+    Dim fso As Object
     Dim OutFile As Object
 
-    Set FSO = CreateObject("Scripting.FileSystemObject")
+    Set fso = CreateObject("Scripting.FileSystemObject")
     ' open file for writing with Create=True, Unicode=True (USC-2 Little Endian format)
     MkDirIfNotExist obj_path
     
-    Set OutFile = FSO.CreateTextFile(tempFilePath, overwrite:=True, Unicode:=True)
+    Set OutFile = fso.CreateTextFile(tempFilePath, overwrite:=True, Unicode:=True)
     
     OutFile.Write CurrentDb.TableDefs(tbl_name).name
     OutFile.Write vbCrLf
@@ -1691,12 +1691,12 @@ Public Sub ExportTableDef(db As DAO.Database, td As DAO.TableDef, ByVal tableNam
     Dim fieldAttributeSql As String
     Dim idx As DAO.index
     Dim fi As DAO.Field
-    Dim FSO As Object
+    Dim fso As Object
     Dim OutFile As Object
     Dim ff As Object
     'Debug.Print tableName
-    Set FSO = CreateObject("Scripting.FileSystemObject")
-    Set OutFile = FSO.CreateTextFile(FileName, overwrite:=True, Unicode:=False)
+    Set fso = CreateObject("Scripting.FileSystemObject")
+    Set OutFile = fso.CreateTextFile(FileName, overwrite:=True, Unicode:=False)
     sql = "CREATE TABLE " & strName(tableName) & " (" & vbCrLf
     For Each fi In td.Fields
         sql = sql & "  " & strName(fi.name) & " "
@@ -1933,7 +1933,7 @@ End Function
 
 ' Export the lookup table `tblName` to `source\tables`.
 Public Sub ExportTableData(ByVal tbl_name As String, ByVal obj_path As String)
-    Dim FSO As Object
+    Dim fso As Object
     Dim OutFile As Object
     Dim rs As DAO.Recordset ' DAO.Recordset
     Dim fieldObj As Object ' DAO.Field
@@ -1952,13 +1952,13 @@ Public Sub ExportTableData(ByVal tbl_name As String, ByVal obj_path As String)
         Exit Sub
     End If
 
-    Set FSO = CreateObject("Scripting.FileSystemObject")
+    Set fso = CreateObject("Scripting.FileSystemObject")
     ' open file for writing with Create=True, Unicode=True (USC-2 Little Endian format)
     MkDirIfNotExist obj_path
     Dim tempFileName As String
     tempFileName = TempFile()
 
-    Set OutFile = FSO.CreateTextFile(tempFileName, overwrite:=True, Unicode:=True)
+    Set OutFile = fso.CreateTextFile(tempFileName, overwrite:=True, Unicode:=True)
 
     c = 0
     For Each fieldObj In rs.Fields
@@ -1994,7 +1994,7 @@ Public Sub ExportTableData(ByVal tbl_name As String, ByVal obj_path As String)
     OutFile.Close
 
     ConvertUcs2Utf8 tempFileName, obj_path & tbl_name & ".txt"
-    FSO.DeleteFile tempFileName
+    fso.DeleteFile tempFileName
 End Sub
 
 ' Kill Table if Exists
@@ -2006,18 +2006,18 @@ End Sub
 
 Public Sub ImportLinkedTable(ByVal tblName As String, ByRef obj_path As String)
     Dim db As DAO.Database
-    Dim FSO As Object
+    Dim fso As Object
     Dim InFile As Object
     
     Set db = CurrentDb
-    Set FSO = CreateObject("Scripting.FileSystemObject")
+    Set fso = CreateObject("Scripting.FileSystemObject")
     
     Dim tempFilePath As String
     tempFilePath = TempFile()
     
     ConvertUtf8Ucs2 obj_path & tblName & ".LNKD", tempFilePath
     ' open file for reading with Create=False, Unicode=True (USC-2 Little Endian format)
-    Set InFile = FSO.OpenTextFile(tempFilePath, iomode:=ForReading, create:=False, Format:=TristateTrue)
+    Set InFile = fso.OpenTextFile(tempFilePath, iomode:=ForReading, create:=False, Format:=TristateTrue)
     
     On Error GoTo err_notable:
     DoCmd.DeleteObject acTable, tblName
@@ -2081,7 +2081,7 @@ Public Sub ImportTableDef(ByVal tblName As String, ByVal directory As String)
     Dim filePath As String
     filePath = directory & tblName & ".sql"
     Dim db As Object ' DAO.Database
-    Dim FSO As Object
+    Dim fso As Object
     Dim InFile As Object
     Dim buf As String
     Dim p As Integer
@@ -2095,10 +2095,10 @@ Public Sub ImportTableDef(ByVal tblName As String, ByVal directory As String)
     tempFileName = TempFile()
 
     n = -1
-    Set FSO = CreateObject("Scripting.FileSystemObject")
+    Set fso = CreateObject("Scripting.FileSystemObject")
     ConvertUtf8Ucs2 filePath, tempFileName
     ' open file for reading with Create=False, Unicode=True (USC-2 Little Endian format)
-    Set InFile = FSO.OpenTextFile(tempFileName, iomode:=ForReading, create:=False, Format:=TristateTrue)
+    Set InFile = fso.OpenTextFile(tempFileName, iomode:=ForReading, create:=False, Format:=TristateTrue)
     Set db = CurrentDb
     KillTable tblName, db
     buf = InFile.ReadLine()
@@ -2161,17 +2161,17 @@ Public Sub ImportTableData(ByVal tblName As String, ByVal obj_path As String)
     Dim db As Object ' DAO.Database
     Dim rs As Object ' DAO.Recordset
     Dim fieldObj As Object ' DAO.Field
-    Dim FSO As Object
+    Dim fso As Object
     Dim InFile As Object
     Dim c As Long, buf As String, Values() As String, Value As Variant
 
-    Set FSO = CreateObject("Scripting.FileSystemObject")
+    Set fso = CreateObject("Scripting.FileSystemObject")
     
     Dim tempFileName As String
     tempFileName = TempFile()
     ConvertUtf8Ucs2 obj_path & tblName & ".txt", tempFileName
     ' open file for reading with Create=False, Unicode=True (USC-2 Little Endian format)
-    Set InFile = FSO.OpenTextFile(tempFileName, iomode:=ForReading, create:=False, Format:=TristateTrue)
+    Set InFile = fso.OpenTextFile(tempFileName, iomode:=ForReading, create:=False, Format:=TristateTrue)
     Set db = CurrentDb
 
     db.Execute "DELETE FROM [" & tblName & "]"
@@ -2202,7 +2202,7 @@ Public Sub ImportTableData(ByVal tblName As String, ByVal obj_path As String)
 
     rs.Close
     InFile.Close
-    FSO.DeleteFile tempFileName
+    fso.DeleteFile tempFileName
 End Sub
 
 
@@ -2497,9 +2497,9 @@ Public Function UsingUcs2() As Boolean
     End If
     Close FN
     
-    Dim FSO As Object
-    Set FSO = CreateObject("Scripting.FileSystemObject")
-    FSO.DeleteFile (tempFileName)
+    Dim fso As Object
+    Set fso = CreateObject("Scripting.FileSystemObject")
+    fso.DeleteFile (tempFileName)
 End Function
 
 ' Generate Random / Unique tempprary file name.

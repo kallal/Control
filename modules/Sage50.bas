@@ -4,8 +4,6 @@
 ' Date      : 6/17/2015
 ' Purpose   : Interface to Sage 50 accounting
 '---------------------------------------------------------------------------------------
-
-
 Option Compare Database
 Option Explicit
 
