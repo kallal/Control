@@ -5,6 +5,7 @@
 ' Purpose   : Interface to Sage 50 accounting
 '---------------------------------------------------------------------------------------
 
+
 Option Compare Database
 Option Explicit
 

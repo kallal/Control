@@ -2620,9 +2620,9 @@ Public Sub Git()
    
    If FileChanged(acForm, "frmGit", source_path & "forms\", source_ModListPath, True) Then
       ' import the form
-      ImportObject acForm, "frmGIT", source_path & "forms\frmGIT.bas", True
+      'ImportObject acForm, "frmGIT", source_path & "forms\frmGIT.bas", True
    End If
-' more
+   
    If FileChanged(acModule, "GITMain", source_path & "modules\", source_ModListPath, False) = True Then
       ImportObject acModule, "GITMain", source_path & "modules\GITMain.bas", False
    End If
@@ -2665,7 +2665,7 @@ Function FileChanged(obj_type_num As Integer, strObjName As String, strObjPath A
 End Function
 
 
-Function MyReadFile(strFile As String) As String
+Function MyReadFile(ByVal strFile As String) As String
 
    ' read in file - return as string
    
@@ -2676,7 +2676,9 @@ Function MyReadFile(strFile As String) As String
    intF = FreeFile
    On Error Resume Next
    Open strFile For Input As #intF
+   
    MyReadFile = input(LOF(intF), intF)
+   
    Close intF
    
 End Function
@@ -2695,7 +2697,7 @@ Sub GitSave()
    source_path = SCCPath
    source_pathList = source_path & "ModList\"
    
-   ExportObject acForm, "frmGIT", source_path & "forms\frmGIT.bas", False
+   ExportObject acForm, "frmGIT", source_path & "forms\frmGIT.bas", True
    
    ExportObject acModule, "GITMain", source_path & "modules\GITMain.bas", False
    
