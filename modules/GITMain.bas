@@ -1100,7 +1100,7 @@ skiptables:
          End If
         
         If bolExportFlag = True Then
-           Stop
+'          Stop
            ImportPrintVars obj_name, obj_path & FileName
         End If
         
